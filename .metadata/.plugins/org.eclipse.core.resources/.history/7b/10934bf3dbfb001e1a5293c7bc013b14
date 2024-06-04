@@ -1,0 +1,52 @@
+package uebung2_160424;
+
+import java.util.Random;
+
+public class Kartenspiel {
+
+	enum Farbe {KREUZ, PIK, HERZ, KARO};
+	enum Wert {SIEBEN(7), ACHT(8), NEUN(9), ZEHN(10), BUBE(10), DAME(10), KOENIG(10), ASS(11); 
+		private int wert; 
+		private Wert(int wert) {
+			this.wert = wert;
+		}
+	}
+
+public class Spielkarte extends Kartenspiel{
+	public Spielkarte() {
+		Random r = new Random();
+		int randomNr1 = r.nextInt(4);
+		int randomNr2 = r.nextInt(8);
+		
+		Farbe[] farbwerte = Farbe.values();
+		
+		for (int i = 0; i < Farbe.values().length; i++) {
+			String s ="";
+			if(randomNr1==i) {
+				s += Farbe.values()[i];
+			}
+			else {
+				System.out.println("Keine Farbe");
+			}
+			
+			for (int j = 0; j < Wert.values().length; j++) {
+				if (randomNr2 ==j) {
+					s+= Wert.values()[j];
+				}
+				else {
+					System.out.println("Kein Wert");
+				}
+			}
+		System.out.println(s);
+		}	
+	}
+	
+	public static void main(String[] args) {
+		Farbe[] f1;
+		
+		
+	}
+	
+}
+	
+}

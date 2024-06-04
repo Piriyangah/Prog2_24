@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Spielablauf.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Spielablauf.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">aufgabe_wuerfelspiel</span><span class="s2">;</span>
+ <span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Random</span><span class="s2">;</span>
+ <span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">Spielablauf </span><span class="s2">{</span>
+
+    <span class="s1">Spieler spieler</span><span class="s2">[];</span>
+
+    <span class="s0">public void </span><span class="s1">spielerAnzahl</span><span class="s2">(){</span>
+        <span class="s1">Scanner input </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">print</span><span class="s2">(</span><span class="s3">&quot;Bitte gib die Anzahl von Spielern ein: &quot;</span><span class="s2">);</span>
+        <span class="s0">int </span><span class="s1">anzahlSpieler </span><span class="s2">= </span><span class="s1">input</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">();</span>
+        <span class="s1">input</span><span class="s2">.</span><span class="s1">nextLine</span><span class="s2">(); </span><span class="s4">// Verbrauche den Zeilenumbruch</span>
+
+        <span class="s1">spieler </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Spieler</span><span class="s2">[</span><span class="s1">anzahlSpieler</span><span class="s2">];</span>
+        <span class="s0">for </span><span class="s2">(</span><span class="s0">int </span><span class="s1">index </span><span class="s2">= </span><span class="s5">0</span><span class="s2">; </span><span class="s1">index </span><span class="s2">&lt; </span><span class="s1">spieler</span><span class="s2">.</span><span class="s1">length</span><span class="s2">; </span><span class="s1">index</span><span class="s2">++) {</span>
+            <span class="s1">spieler</span><span class="s2">[</span><span class="s1">index</span><span class="s2">] = </span><span class="s0">new </span><span class="s1">Spieler</span><span class="s2">();</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public int </span><span class="s1">wuerfeln</span><span class="s2">(){</span>
+        <span class="s1">Random r </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Random</span><span class="s2">();</span>
+        <span class="s0">int </span><span class="s1">zufallsZahl </span><span class="s2">= </span><span class="s1">r</span><span class="s2">.</span><span class="s1">nextInt</span><span class="s2">(</span><span class="s5">6</span><span class="s2">)+</span><span class="s5">1</span><span class="s2">;</span>
+        <span class="s0">return </span><span class="s1">zufallsZahl</span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public int </span><span class="s1">versuch</span><span class="s2">(){</span>
+     <span class="s4">//   int merken = wuerfeln();</span>
+     <span class="s4">//   int[] versucheMerken = new int[0];</span>
+        <span class="s0">int </span><span class="s1">summe </span><span class="s2">= </span><span class="s5">0</span><span class="s2">;</span>
+        <span class="s0">boolean </span><span class="s1">weiterWuerfeln </span><span class="s2">= </span><span class="s0">true</span><span class="s2">;</span>
+        <span class="s1">Scanner scanner </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+    <span class="s4">//    boolean answer = scanner.nextBoolean();</span>
+   <span class="s4">//     boolean answerYes = true;</span>
+        <span class="s4">//     boolean answerNo = false;</span>
+<span class="s4">/* 
+        while (merken &lt; 6){ 
+            System.out.println(&quot;Es wurde &quot; + merken + &quot;gewürfelt. &quot; + 
+                    &quot;Wenn Sie weiter würfeln wollen, dann Schreiben Sie 'true' &quot; + 
+                    &quot;Wenn Sie abbrechen wollen, dann schreiben Sie 'false'&quot;); 
+            summe += merken; 
+            if(answer == answerYes) { 
+                merken = wuerfeln(); 
+            } 
+            if (answer == answerNo) { 
+                System.out.println(&quot;Du hast mit deinem Spiel abgebrochen!&quot;); 
+            } 
+        } 
+        return summe; 
+ 
+ */</span>
+        <span class="s0">while </span><span class="s2">(</span><span class="s1">weiterWuerfeln</span><span class="s2">){</span>
+            <span class="s0">int </span><span class="s1">wurf </span><span class="s2">= </span><span class="s1">wuerfeln</span><span class="s2">(); </span><span class="s4">// Würfeln</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Du hast eine &quot; </span><span class="s2">+ </span><span class="s1">wurf </span><span class="s2">+ </span><span class="s3">&quot; gewürfelt.&quot;</span><span class="s2">);</span>
+
+            <span class="s0">if </span><span class="s2">(</span><span class="s1">wurf </span><span class="s2">== </span><span class="s5">6</span><span class="s2">) {</span>
+                <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Du hast eine 6 gewürfelt. Dein Versuch endet hier.&quot;</span><span class="s2">);</span>
+                <span class="s0">break</span><span class="s2">; </span><span class="s4">// Versuch beenden, wenn eine 6 gewürfelt wurde</span>
+            <span class="s2">}</span>
+            <span class="s1">summe </span><span class="s2">+= </span><span class="s1">wurf</span><span class="s2">; </span><span class="s4">// Wurf zur Summe hinzufügen</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Möchtest du weiter würfeln? (ja/nein)&quot;</span><span class="s2">);</span>
+            <span class="s1">String antwort </span><span class="s2">= </span><span class="s1">scanner</span><span class="s2">.</span><span class="s1">nextLine</span><span class="s2">(); </span><span class="s4">// Eingabe des Spielers lesen</span>
+            <span class="s0">if </span><span class="s2">(</span><span class="s1">antwort</span><span class="s2">.</span><span class="s1">equalsIgnoreCase</span><span class="s2">(</span><span class="s3">&quot;nein&quot;</span><span class="s2">)) {</span>
+                <span class="s1">weiterWuerfeln </span><span class="s2">= </span><span class="s0">false</span><span class="s2">;</span>
+            <span class="s2">}</span>
+        <span class="s2">}</span>
+        <span class="s0">return </span><span class="s1">summe</span><span class="s2">;</span>
+<span class="s4">/* 
+        for(int index = 0; index &lt; ; index++) 
+        { 
+            if(zufallsZahl == 6) { 
+                System.out.println(&quot;Du hast eine &quot;+zufallsZahl+ &quot; gewürfelt.&quot;); 
+            } 
+        } 
+ */</span>
+
+    <span class="s2">}</span>
+    <span class="s0">public void </span><span class="s1">start</span><span class="s2">(){</span>
+        <span class="s1">spielerAnzahl</span><span class="s2">(); </span><span class="s4">// Spieleranzahl abfragen</span>
+        <span class="s0">int </span><span class="s1">punkte </span><span class="s2">= </span><span class="s1">versuch</span><span class="s2">(); </span><span class="s4">// Versuch des Spielers</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Du hast insgesamt &quot; </span><span class="s2">+ </span><span class="s1">punkte </span><span class="s2">+ </span><span class="s3">&quot; Punkte erreicht.&quot;</span><span class="s2">);</span>
+    <span class="s2">}</span>
+
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
