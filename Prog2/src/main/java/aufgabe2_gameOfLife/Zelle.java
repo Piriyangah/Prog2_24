@@ -11,7 +11,7 @@ public enum Zelle {
 
     public Zelle erstellenVonNaechsteGeneration(int anzahlNachbar){
         if(this == Zelle.LEBENDIG){    //Wenn die Zelle bereits LEBENDIG ist
-            // WARUM GEHT this.symbol NICHT???
+            // WARUM GEHT this.symbol NICHT??? --> eine bestimmt Objekt
             if (anzahlNachbar == 2 || anzahlNachbar == 3) {
                 return Zelle.LEBENDIG;
             }

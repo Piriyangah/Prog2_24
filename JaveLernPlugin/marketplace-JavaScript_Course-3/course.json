@@ -1,0 +1,1470 @@
+{
+  "course_version" : 3,
+  "summary" : "This course is a support for the back-end programming lecture in the second year of the ISC programme at HEIA-FR. \nThe course covers core JavaScript features and the most important features for programming Node.js applications. \n\nThis course offers exercises that will be done in part during class time. It is a complement to the course given in the classroom and not a replacement. \n\nThe exercises present theoretical concepts using examples, propose programming problems to be solved and answers to be given to questions (in the form of multiple choices).  \n\nThe prerequisites for this course are basic programming and JavaScript skills.",
+  "title" : "JavaScript Course",
+  "programming_language_id" : "JavaScript",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "vendor" : {
+    "name" : "Serge Ayer"
+  },
+  "items" : [
+    {
+      "id" : 172681038,
+      "title" : "Fundamentals",
+      "task_list" : [
+        {
+          "id" : 1095692713,
+          "name" : "Variables",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "GNMKBbMtWSAgIKHC8Tvi98jPCy24pzIl1HyR3RMlMGZ802vQpnVaEmmwWO/E9X+TBlX6t/gLhUVL253zO7nLGjv/0FpiIJskiNJ/fvIgxTQ8xaSoEStDLu3uCAMBVOS5HoMSRL0AMreSHO3q8nMKfikVEVU6Y0Qr25EMxxCbuSwBm8bVP92as4yJsKT65rrbs3meNg0AsLII/bA7w7UVlTM+AiicRAGOqb5jvsJxXaIKJ1TFqjoBn0cKbpFWIXgDqDWluIrk6vrrixyF3j1+n0pwcosHb6inUhOi+nbhshtQuupv2lMO0dZtbJB5ngAicMk740WHxXfiql2rR1kF0C2LNsIoQSlkjLBCaAB4vvrOdyeC8r56KTsM7mN61q+F7MKAkcZstXpF5NgCBUjs1+CLaU7nJ22JFMNVfdLnCt4=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Variables\n\nLike in almost any programming language, a program creates variables to store \nand process information. A _variable_ is a named storage for data that the \nprogram will use (create, modify, access).\n\nIn JavaScript, variables are of course named, but they are not typed by \nthe programmer. Variables are declared with either the `let, const` or the \n`var` keyword.\n\nThe major difference between variables declared with `let` and `const` vs. `var`\nis the scope of the variable. This difference will be explained in details \nin another task. \n\nWhen creating a new JavaScript program, you should rather use \nthe `let` or `const` keyword for creating variables. When defining a \nconstant variable, one should use the `const` keyword rather than `let`. \n`const` variables cannot be reassigned after they are declared.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1414058959,
+          "name" : "Basic types",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "n/xYITUfACBMOYQj1QqgJpcbhHjNrcJuL02OQRziIYNngSc70gUOG//WPIWEjUFoMiT7Mlo4gmqCXOrjrsTvSA1clpniNyM7Vw5Ev3/dFdq10lqZDWrOtCWQNXVnF87dwFuSIk4WwP+VllxwfcHAlw4qNzpzoO5ILkyoR9PxPismGM58JfAWp1B+hzIPho+t7Kk2n8AG421HRQw9/mMN6Jmh6Q6tWa7TJBpjEPGnFmAnKb24ERvO4NOCevnBQXZ5MD09TaPVoXkzZuXvmCx026wGo1MIGwxcMxvYjEoKAJk/4mwRu6UtNjoo98vnP3z6tshMpX6mRC0+/aYHkXComW8EbPnWN5yz5E+Awo0MZaA2He1Ld3kzVwgu1/pezkuiK/EmnnYBDJ/3BQ2ZnDxH04ajsf9ivkMyu6Wk+MyISiusZMAnBjFoDMwiwFz3pYYQlCQ81lYrBTSAEdRYi1A3tspPknWI5bHDO+A1SI8jHJox83F7yGYCYcqOF6s6BtPoGO6EhCVqdkpUtg08TXn0HIyeMbil2HVxjRPs9p9i32yEo68dHRY2vmzLc169weyVX9bXAI0RbY2Tj49BbRA36m+cvpEkhzHBx/yF5FWobiIXm8HS383+4rQNaq2bEpjMB1EjtBa2T3Yysxa6Ej7c5uSSHnzASX1JJLfZe+/9xAbmV9LIUYAhApcL2zS8fKAIyu8HM0xSAYpuiLPyrMdorFwfLBsFtCxMWDuWi8OT2C0oz3TvJhsj9X6Qg6SB3KyHKOL7cctHBq32Va93a3+fesVxSsEtz8u6T5ECnlrnczU7xZLTZfDRbG/eyVh+yXPNCxm2QAcBm46pTYfdqKYY6LCQoHte0kXkJzPsvyL/N74jkuLLyvVeJymkwBe3EuqlOhlJRTo0iqYizmbq6mDZRrA2GN2JxkeX2N6xVXLE2tk1HroT/ha3N9TcEnjUDfL/qXa5Bw2HZ4Q0jvYu7vnJSyoa39vF651pQIQGr5AV4/DGPDKWBdoJwpXMGlsX41aAKYPjrxv0ycUEfeseP8XUXEFQ42gx/JqES3hDSgKxwtywZxZURtmREy3fRwLv2YFCp8B0Xn3X/tJgdyopINppGtJLUv78A8SMg6jGrue6ITVxDWFnSprI9/yGMOv5wBLOgZMVkvsfjo9T/fb8sjQYtVj/VDa0/uU48BFdGMdWxn90lEr3QbDmSoK41uy7kba/GFMCBT+coDJvydEXMAwsrdPC473QtRGpPGjTy7+RlRD3bM+98E4Bu3S3l5jUng7Sp3ec9s/c52WBfzyqsQGSzVUUXw/X++BkEO6yeVRWba1vKI1+aIJQUac0pq3KCiYI/R8+jkv6MMDwSAf6is7QMadT+yKa2U1aN9+pVQdSxJKfdlCtuDxri99I5Xl2MNLEYTQ9BGJXEKej0/hxTfcPjEKrjv4c1Y5YrH2Y0K3Kny7z0zf96k+d0gm4Rf1KjKQpSNVN9QZs7pY6a8P5WbfJNA==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Data types in JavaScript\n\nThere exist eight data types in JavaScript:\n\n* **Number**: the number data type represents both integer and floating point\n  numbers. The operators for numbers are the\n  same as in Java and there exist also special values for `Infinity`\n  , `-Infinity` and `NaN`. Unlike Java where some\n  operations may generate arithmetic exceptions, all operations with numbers are\n  safe in JavaScript. This means that\n  your program will never stop and that at worst you will get a `NaN` result.\n* **BigInt**: the BigInt data type is used for representing integer values that\n  are larger than `2^53 - 1` or smaller\n  than `-(2^53 - 1).` BigInt value can be created by adding `n` to the end of an\n  integer literal value.\n* **String:** as in Java, literal values in JavaScript are surrounded by quotes,\n  for example `\"Hello\"`. In JavaScript,\n  there are 3 types of quotes, namely double quotes (`\"Hello\"`), single\n  quotes (`‘Hello'`) and\n  backsticks (``Hello``). While double and single quotes are almost identical in\n  their use, backsticks offer extended\n  functionalities as demonstrated in one of the next tasks.\n* **Boolean:** like in Java, the boolean type has only two possible\n  values: `true` and `false`. Boolean values can be\n  initialized to one of these values or can be the result of comparisons.\n* \"**null**\": variables can have the special `null` value, that does not\n  correspond to any of the types above. Unlike in\n  Java, in JavaScript, `null` does not represent a null reference to an object\n  of a given type. It is just a special\n  value for representing an unknown value. When the `null` value is assigned to\n  a variable, the type of this variable\n  becomes `Object`.\n* **\"undefined\":** `undefined` is another special value that represents a\n  variable that has no value assigned. If a\n  variable is declared but is not assigned, then its value is `undefined`\n  . `null` should be used for an unknown value to\n  a variable, while `undefined` means the default initialized value for\n  unassigned variables. When the `undefined` value\n  is assigned to a variable, the type of this variable\n  becomes `undefined`.\n* **Object:** everything that is not primitive is an object in JavaScript.\n  Objects are used for representing complex\n  collections of data. Objects are central to JavaScript and they will deserve a\n  lot of attention in the following\n  sections.\n* **Symbol**: the symbol data type is used to create unique identifiers for\n  objects.\n\nImportant remarks:\n\n* JavaScript, unlike Java, does not provide a type for characters. A character\n  is a `string` with a single character.\n* For checking the type of a variable, JavaScript also provides the `typeof`\n  operator, like Java. However, the\n  `typeof` operator in JavaScript has two forms: as an operator `typeof x` or as\n  a function `typeof(x).` In both cases,\n  it returns a string with the type name (and not a `boolean` value).\n\nFor a better understanding of the different data types, run the code example and\nunderstand the console output\ncarefully.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2022506526,
+          "name" : "Dynamic typing",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "pGJc71XUxxPZYhJJ4oo+YZawbvtB9fGevqPoTWTiigAbYOBMyYbOgwCCyZOWLg6qkCJ9t20W6vRsn5aCvauJ2Vn6UOvMNmGVbtwMA0Wrpc5jnHTqMtW/kBuK/Szfz/txSW8Yz2VSqAYY5Q+ry1KABKOFG06Vd1DJgZhn4WNFgSw=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Dynamic data typing\n\nJavaScript is a so-called **dynamically typed**\nprogramming language. In such a language, variables have a\ndata type but are not bound to one specific type.\nFor example, a variable can at one moment be a number\nand then a string.\n\nFor observing this, run the code and **observe** the output \non the console. You should see `i` \nbeing first a `number` and then a `string`.\n\nIn the next task, you will need to tell what the type of `j` is\nat the end of this program. Make sure to be ready to answer.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "choiceOptions" : [
+            {
+              "text" : "number",
+              "status" : "CORRECT"
+            },
+            {
+              "text" : "string",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "undefined",
+              "status" : "INCORRECT"
+            },
+            {
+              "text" : "unknown",
+              "status" : "INCORRECT"
+            }
+          ],
+          "isMultipleChoice" : false,
+          "name" : "Type of j",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "pGJc71XUxxPZYhJJ4oo+YZawbvtB9fGevqPoTWTiigAbYOBMyYbOgwCCyZOWLg6qkCJ9t20W6vRsn5aCvauJ2Vn6UOvMNmGVbtwMA0Wrpc5jnHTqMtW/kBuK/Szfz/txSW8Yz2VSqAYY5Q+ry1KABKOFG06Vd1DJgZhn4WNFgSw=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Understand dynamic type with an example\r\n\r\nWhat is the type of `j` at the end of the program?\r\n",
+          "description_format" : "MD",
+          "task_type" : "choice",
+          "id" : 1992460632
+        },
+        {
+          "id" : 1876723673,
+          "name" : "Type conversions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "7DYryuRmaekUPBBTSzuFWipdfaRQ0iaFlReMKqoXLc6JrJBgb4ocf1tYMZ9b39Kz1t3qNY9jlv9FlcNfg99IgyD15W3wVf7v1T9U1I/iOrQRQWV4uTRwSstE6xdUTVIaCVOmWtP7kQ6Ey+wMuNc0C+Uhw0AsPVCo28xk2D+tcoaKruIq0nrmYhDC7RHxSZPUsFpgKlBVU0SIn+hVOb2TV5sTBisFvt5WthWV3lpTkhpK0RzjZ8cyDRZpjWahjzFCXyy5ZLNlt1CiwoWCT7oSN/nfh4XSoPvxzujYFyRt0IQpjii60GpDE/dMeC/z9lgPSJHpb4wIhkgVKXe6qDQbebfvlgqZe6Eh1fG3Qw3CVAyIyB0dJ1C/k4z0pCXUswgV0xzhUnJqFN3/9+3RmtLLQROUlKzxvylGvluxZpwLxB9iP7qyvmNzNxhvyT/c+5am5klf4PjJFCglEcYU+c75k1hxvoaIK/OEXgI8/kapCxMgUK76EkVZ7ux5qudi3k+Mwu4bLJQ6+A1Fz+lETiLP/Xmy0rPTxOSjzTLo3vij+q2fCS960x3lqkwCKCV82T5UYgfib6rv0Hb/giur2yXuofiVaQFVo2Mq3YETsnHEWOTD4vG89gKDJAJ6Ca0DOzDmAPAGufZo0f025I705TmcwuMDmYe2W677NsLVEEktoAYKmZ2PAccqWWU70zbxFXTf9VTC1nUJvWPjitZacVVsU7dwS6LZXpC6S9k2in9pZXmxYxsxq2p7ToCSFiMRGeELuK1x2sl8QWUBuKijpv5wlloFi75lzdukeOR86/tZZei5X7VNEtrlDouPpr9ze3lN7aPbp4GFLbZE/ICL6IfHC6nFFPlIEVvDabN474MSE//UBXMZ12Rp10JyDyjyVY0v3wjkAMSQXn4+9/PFP14mRFewlMsXfoGQxVowdl/Qu4XEENrK82G2Cj+mlS3duyrPM6nyh5DQjGkjzOcywW6S/HKA2O2+MELKGJ/hczLStWZmYEC4Mk28Rz9L9wTw+rzlEdz56L+I1KzHRkYhO2JOSIIRazt8fChsTsGCKo7GwYYXfuAHusH+Seh2A2ufLVF7Y3xgpXhRVMyj41Uku3GbfTsj3ZfY21f+MWmRNAb1uquVbxt/Lwdlm0TWsi1yEH8DQiWT/4LpfFdNlzaMNW2ytRlhXsoCvm/PCFLJ9hkRG3scSKmc2lQozibyT4qH11aKE/iYlS53xFoQY2ovEERF3DPZYYa+ES/NBGuTkocMzthnDCcw7TTxjPnr9lmjenirLqqgKEFFBKIjoWAG2QQlJ1FWKP9vYdNcp5wrM0aVMil8MdMDBUWTnhHCU/DvM96YqxhoZ5kNFyteLZkIMWXb+yt2A3vsHS9lHxfuzkxVXskPAs44zA5YT3URCS2DL1jy",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Type conversions \n\nSince JavaScript is a dynamically typed language, type conversions play an\nimportant role and must be understood by any\nJavaScript developer. Most of the time, operators and functions automatically\nconvert the variables given to them to the\nexpected type. In few cases, variables must be explicitly converted to the\nexpected type.\n\nEverytime JavaScript tries to operate on a data type that is not supported for a\ngiven operation, it will try to convert\nthe value to a data type that is supported. The result is not always what one\nwould expect. Run the example program and observe carefully the results and the\ncomments.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 90191181,
+          "name" : "String conversions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "XJib9KNMEU9es0IsGZD2j1MJODcDTVG3KIw+iPICXhIvXZ7DvXV0PLcZPHMdqpqh+ROyIRjaS7vqX/A7YBt0NwEhilOzakFHxh8ApC3WBJCbQILRn7Cbxeq5UeMDLgpnB70cSMsNrUEcgCP1uyQNljYEAN4Ewc5dqTxcYg1YtQP/cM9YjJsymyLCHXe8hexaCUGM9Sx07qfYBC2SimVI19pYOHEfhsrWcOthRoIaAHCZcNWlKV8wirVzte5Yh+OeN/oSm4A9I67WjOPE9SGJTh+hssifqzKU41vsFOuDBU8=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Converting a variable to a String\n\n**String conversions** happen when an operation needs a string value. In this\ncase, the variable passed to the function is implicitly converted to a string\nvalue by calling the `toString()` method of the given data type. It is \nuseful to note the following : \n\n- An explicit conversion to a string value is also possible with `String\n  (value)`.\n- When a string is converted to a Number, space characters are trimmed off \n  the string start and end. For example the string `\"  123   \"` is converted \n  to the number `123`. \n- When converted to a Number, an empty string `\"\"` is converted to `0`.\n\nObserve the output of the example program.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1604524215,
+          "name" : "Numeric conversions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "yJ9xQCrNb4jxrWtpTjGliSx82wW7Au0Wek+BgRfGevX2222hX8/B1Jy+3v6FTNAJ/ym2ndj0dVf5vSY856vcmB6ebDyKMo3aCljI0h6Ixmei9E4YHfZJpyXvwmsjgnjYuKAqeXqrsYlvNeZebi8sml1Jz3qkqUbft/ia7lDr+I0LGEzPr6VZJ5cR45XygtSv48duVWQQo+KJLuiPWvWNvdgqBQ3h1I5dRL4w98QrkOgnGXaauxgSEjejbqQLEI4WABujtU+KNmTFKhiE1JyxQCpPBIgbv3zvWI90x+JW5BqRwC9SPByDYDxJy9Bu7DClph26XbXNgyiVO2rYzTShN4M49fo75nYXV3NrZzB8/3jfXtONpOQ4JkhFxlstX/CW",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Converting a variable to a Number\n\n**Numeric conversions** happen automatically when using expressions or functions\nthat require numbers. One needs to consider the following cases:\n\n- When converting a variable with undefined value, the number becomes `NaN`. \n- When converting a variable with the null value, the number becomes `0`. \n- When converting a Boolean variable with a `true` or `false` value, the number\n  becomes `1` or `0`. \n- When converting a String variable, the leading and trailing spaces are first\n  removed. If the resulting string is empty, then the number becomes `0`.\n  Otherwise, the number is built from the String value if feasible. If it is not\n  feasible, then the number becomes `NaN`.\n\nObserve the output of the example program.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1349254983,
+          "name" : "Boolean conversions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "AjRlm9KHFr6B9HaVoC2VUsdAO/X8oqMezvtUmJOEHLbFhQAtPny3qAi67YJXuTg7zJ5fWdEcozErDQKLe+ipkS2zGDaYp5HTZAf3h4jEEwerX3YngiEzpgkn5/ugXcf6q4hXk0nySxPpnJhi1uJEkMrgJwxA73hoOA7lEgI6T7QDxV1zK2iJ5JVMmU5HYDCUsTXNKu4d7JzaGsoDy8sLaxsYiCEi+cQxPPfuKMCr/pgDzBRN7KEoQL5gwSpAolbstN//h3MUbRDSwpa37o8RDVVo3jcdZf9CiykM0bkm4Ylu2LOS6oEUW203W00J/pK3T9ykrKiHuuSfmvwTKzdBf3CUqJWuXXZI+meIcrnCUZG18Kno8CR24Fnf5n8IWxZm",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Converting a variable to a Boolean\n\n**Boolean conversion** follows the following rule: every value that is \nintuitively\nempty, like `0` for a Number, an empty String `\"\"`, `null`, `undefined` or `NaN`\nbecomes `false`. Otherwise, it becomes `true`.\n\nObserve the output of the example program.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1535264988,
+          "name" : "Operators",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "wLtzQWubLSLaXzkKpqQfCxh1iT26U80wJFDyE/61f9Wt44S0s/TsRq+jFU9dE7/FGhwAK7dkWo0zqKRSytNYCkjyb/zZfnO2jGYBDkPTn0Jos9QNefpVAwG/JMv3dOtYZuQ0Lo+xKlg5OZEFLk9cN6V4MdmqUaTtqdhXjN+W0xMZraGVuQElqOsNNDSNDH+TaOku+E9yKQ+8c2MVqQY9Y0rOl6yCZ+mCGgf8ME+tKEHVmbARoMl8GDi16Uaoi+iZMQ898bS+ztbO613n0ih8y4ceXYPzUw1WLQv1gq8TNuNmxOJc5v924hUPuIPCyjM9tI3Luvqtb6kWOdJZKBqGgvicmC6zVyiXze1l8/JirjeJrnmDFDAnNWeRkiBgOl9wU6XO9hkh/BG5ShtRs8vVAoaUcQT3WOlabg621lMwIxFCZ/VghMjLE+NVK1c4ImZWW8+mV/NoQQ9mm0GNDn71QiBf7wNfWl0Dd8XoV2sLBIs0WIioDZlVy1KK+vOXnuN4HozYuHp+FrRGRabPkOYy+Na6d54xJvThvXvdK9G54dmJPa+D3iUX+Jj5FyXA1l0zUPRqx7b4tgZNr84o/PDze033GDK64cHrh2uI0PQdASizykFrmVJiwvQDesF2VUDuhlG3nueO5zQuF7awZ7gh3k9q+B92yNWxpqy/r2PRqN81pLHpCH16Wvco/qu0ZR6KaWs3tUUjniYme6gKi/Iri26kGLXiB/qyL9hGkpcfcZtTaLGz9vvxcuUAhtKN/cGIQNgZANd4D4LHkoYUbN1DryR1ykzZOuhpWTKSHqijkpzwjCrzW4ubTdojfpG3afr7iV/68uxNaoH4oH+izJ6FLAYu4TLsu97sHWah58xXCqbZz/nVhMgwkk4XMbmTApucfyUmj81P5dt0Mu5OBTMkiQ==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Operators\n\n**Operators** in JavaScript are very similar to operators in Java or c \nlanguages. They can be unary, binary or tertiary (using the conditional \noperator `?`). The following points are worth mentioning:\n\n- In JavaScript, it is possible to compare values of different types. In this\n  case, JavaScript converts the values to numbers.\n- For comparing two values and preventing any conversion, JavaScript has\n  introduced the strict equality operator `===`. When using this operator, no\n  conversion happens. The same applies for the `!==` operator.\n- The `null` and `undefined` values are considered as equal with the `==`\n  operator, while they are not equal with the `===` operator.\n- In general, any comparison with the `null` or `undefined` values should be\n  avoided or using the `===` operator. One should not use `>=`, `>`, `<` or `<=`\n  comparison operators with the `null` or `undefined` values.\n\n### The `??` operator\n\nIn recent years, JavaScript has introduced the nullish coalescing\noperator `??`. `??` returns the first argument if it's not `null` or `undefined`\n. For example, the result of `a ?? b` is `a` if `a` is defined, `b` otherwise`.`\nThe common use case for the `??` operator is to provide a default value for a\npotentially undefined variable.\n\n### The `??` operator vs. the `||` operator\n\nThe `??` operator was added recently to the JavaScript language, while the \n`||` operator exists since the beginning of JavaScript. Since both operators \nare similar, why was `??` added to the language ?\n\nThe reasons for this is that both operators differentiate themselves as \nfollows :\n\n- `||` returns the first _truthy_ value and does not distinguish between \n  `false`, `0`, `\"\"`, `null` or `undefined` which are all _falsy_ values.\n    ?? returns the first _defined_ value, and it allows to differentiate \n  between `null` or `undefined` and other values - when the value is really \n  unknown or not set. \n\nExamples of comparison operators are given in the example program.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1598866620,
+          "name" : "Expressions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 202,
+                  "length" : 46,
+                  "possible_answer" : "/gxBgZ9DkPurQeAhOZGqYg==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 324,
+                  "length" : 46,
+                  "possible_answer" : "oa+nVSRiKi7L3SNrfCrSCA==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 441,
+                  "length" : 46,
+                  "possible_answer" : "1jv4oI924ZkXwBNnWzUX/A==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 560,
+                  "length" : 46,
+                  "possible_answer" : "Qu7shsF+m/+OKkpPMAYcHQ==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 682,
+                  "length" : 46,
+                  "possible_answer" : "n/14/Rjb07m3Io2J2L2bQA==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 803,
+                  "length" : 46,
+                  "possible_answer" : "hbquGubkLAZDknknZE9Jfw==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 919,
+                  "length" : 46,
+                  "possible_answer" : "1jv4oI924ZkXwBNnWzUX/A==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1038,
+                  "length" : 46,
+                  "possible_answer" : "TApFM4pZr4W3x14ceqY0Bg==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1160,
+                  "length" : 46,
+                  "possible_answer" : "0N7vWGiJZ3AS86sHakOMlw==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1282,
+                  "length" : 46,
+                  "possible_answer" : "VG7fqEGkhk0y6eqTieB3fw==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1400,
+                  "length" : 46,
+                  "possible_answer" : "5LsmQiryY/EQFMPF9HQitw==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1523,
+                  "length" : 46,
+                  "possible_answer" : "i00eevpDCkgtdx3mqEhkJA==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1645,
+                  "length" : 46,
+                  "possible_answer" : "/VNIM9lPTardcA9xaJ54Qg==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1761,
+                  "length" : 46,
+                  "possible_answer" : "O+LaGtnUN2iHx3riSrMFAQ==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1881,
+                  "length" : 46,
+                  "possible_answer" : "kARzkaXqk1BNZVKs1fiXhw==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 1999,
+                  "length" : 46,
+                  "possible_answer" : "A3QGFZNAq8JIg7e+3CoBww==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 2118,
+                  "length" : 46,
+                  "possible_answer" : "x89QuglckNQczDD7qbVrTw==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 2236,
+                  "length" : 46,
+                  "possible_answer" : "LwNO7dOWeFErQQIIHUBk3g==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                },
+                {
+                  "offset" : 2356,
+                  "length" : 46,
+                  "possible_answer" : "OtDVKcT17IR/dNCCWWVjig==",
+                  "placeholder_text" : "/* Add the literal value for the expression */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "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",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QfLvjEQvDSaKh88XCk33JWqw54I7xswZf56q0mpnrq5MG1VPI5TfX7SypZcr8KI2mjaxOVGu6pAGZgXUedQO+Hxfk4m5z3yKS56AO/RYXJIDOHPF2rrlNHLaMvovkU2aIoslPhXik/AsW3zweb1NAAhDLeOnrQeeD2VOaUSnb/nc9Z6LOuW+4UBvAM8adRQVtNiRkMkpUekEERmZCghLZLrFKyhQcWUJGw8/WdcnKUXPrxmmZQjyQ/S5kyevoFAv4Q+gBH+WmW079b7uKFhjA9efIiaancFO/payjAhOl3FKafzCdsu26cC56+LrUZbZ3d4uIgGQABllwRo3hkp3DuWEt0bb+IWUkvomENlJUnitYoV8ZhOF85LdLfQCjX/bTwi6qQAjNcS7XP9K5NncgEFZDyiAWFa9Q4GU6BBWulFmNiOpJeFPM6Ji14zYF2lC0sxdsIWLG+OKlqgce1+uM2KdIpXCIOseyfjqJjDsnPcMVSvzlx4qScbFY+CPqu/3z+L841zNvHW9StvG46M1nXNtSxXrOJVZBc18BsBabjDGpoHmF8LVbHUlBsmlbKOZIWgglMqNKNgLY+Zz0e6y5URzHzDCf98OKQBlo42npa2ck6S4o8mo8fBCDjBqchBI9IQQBn6Es8jS3JaTWpb30BC/xArYgsvzILXSqFghvaDFTyuo8ifbD8+CkrnQvPMiTJC30uDpFjQh9bJeyC6dc73I374NWxtQ4EZ4wuKDoM1X0Fmack8beI5KvB1OQwOnFxKuPqDLuJWon/n6TrxsmPNwuXt+KMwYaU9kom8QZgAv5LaCuiKFGPo2Z6JtnUhauGUqBhokDz4s+l6H89FEbb8pJWT8gN1bG+Dj+FB8JNyFzGRFIdJix4UUtu4tPVKpYPMF7OAzisENOl/wsRiYu/bsxUvfHZRrJHg3xtpdRliK5ySbMFa1a0jXl86eFdvgB23+zAIABhwNrPAy/nrfhGJCNqT0fnXsPdLSFQLhzTz46vZXHNq56MeqjVt3E5XhdmNDmmAgevOYHVO45JCfombLZFzhnUd+m2dJkbevn26ct3328q0nc4qklUohmM7JArGZO8ggOrCBc7fSQ9U8GEtgObmqI3yUuTd7i4t8Yq8r0GFtFiDJhHU8i6YVCyVJBHUynxso2dHRVT4t9lgoaUR3or8IHh5aEibKMJHrTMNdo3XxYBZLklQL/go0qOAl41bY3q/PKwVX8owLO4ovr50=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Wrapup with an exercice\n\nBased on the explanations and examples given in the previous tasks, you \nshould be able to evaluate the following expressions. Recall that only the \noperator `+` can be applied on Numbers and Strings, while other operators \napply only to Numbers. Recall also the precedence and associativity rules.\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 409803074,
+          "name" : "JavaScript strict mode",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "9XptTKsk4qZ4vY8DTNEKgwWDa91lxV5n+efAXvoULNmnzU3H/+1BekXYQAS+RJq/BUbLWz59YIdbMPpSajrnbW7wu3airs3Bz9QfxpUGwjSiFoZPLtdum+Qgtzze9AH2pdUmy5i3wkzlUmLMZ+vZuNgGTS7VSgx3JoOxZKiGvOYGpgbjesnlaUZ2+4/R60m0taZd8tUDR60KV3isz8rkC4dUXz9jqwETzYCYOAzjRT/XGBLB4X8oIXWU6QRFqnXVKRffrNVZaSBgZuGif11igCcNObsaVs4AfqpgK3YCc4oXkgHMpckhTm+rCZM4rSQGCcMT30slQ4hrTb9X6VTqFT/8akYxPjfQez8SmqARkHQ5ar5O1C7AcA6cGCM7488c8NFuXxdeCoEdTpe4mk9U3QXrX1ybHHU+I0/FRdCQOcY=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Strict mode\n\nJavaScript's **strict mode** was introduced in ECMAScript 5, as a way to use a\nrestricted variant of JavaScript. Today, most major browsers implement strict\nmode and Node.js also.\n\nStrict mode introduces several changes to non strict JavaScript semantics:\n\n* It does transform some JavaScript silent errors to fatal throw errors.\n* It does fix mistakes that make optimizations by JavaScript engines difficult.\n* It does prohibit some syntax likely to be defined in future versions of\n  ECMAScript.\n\nTransforming an existing code written without strict mode into strict mode\nrequires careful transitioning as documented\non  [Transitioning to strict mode - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode)\n. If you start a new application, you should rather choose to use strict mode.\nStrict mode can be applied to entire scripts or to individual functions, by\nadding the `'use strict';` statement before any other statements in your \nscript or in your function's body.\n\nOne important change is that the use of strict mode changes some previously \nmistakes into errors. Mistakes won't stop the JavaScript program execution, \nwhile errors will. The reason for this is that JavaScript engines accepts \nsome errors for an immediate problem fix, which may be a bad idea in the \nlong term. The most common error turned into a mistake is the accidental \ncreation of global variables, for instance by mistyping. An example is given \nin the program. Try to run the program with and without the `'use strict';` \nstatement. \n\nGoing into a more detailed description of differences between strict and \nnon-strict modes is beyond the scope of this exercise. Further details are given\non  [Strict mode - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)\n. Simply recall to use strict mode when writing new JavaScript code and you will\nlearn the differences !\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 393436367,
+          "name" : "Objects",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "E+ZkOuFgo1J/kZ4el0egHCKHOXE8u7W9TPdHwW+fed/hebtOO8S1cDM9zdBRdJQU1y8QCDbHnW5krhmSVrmBnXUVB+XIJ0/bgjDbHDgNpL180dXzd8O0jjXCFIM8ajLOV+tmuSlTWeiuwk7vieuOWOCZfSxsUVuFB1l89tuZws/uhb7bFucb/1p9yFGXmbN2LUMS4Mv4wd9o34EfP7TDpGXNak+/dsCbyFaMOAJALMjnptnkDIM46IBKjIBKMAyoPm8enIXC+Qqt03LIGloM+t2YeYumEnHipWVFl51tbVB3ivtDFU+C+eSTujWLXhoE0yNLwiiW5Liaa8wMW3ALGiJY+CcrmlX8UCyHmzh2n1TN3cSMlGlKYbGMgaBcVBQvlWnREJqZkOcjK88937bZK7OxpqZmSNZtBk/AWouVQwo7xlHnUmnM0pMXUqzeu3Z1ceFJj0ZrIEh4bOMMCm2bvGsx21BRhclwI9I8IHPigrR2vV2pCRKZWisRIwBP6OUXaRQAgwe3KHKFTc57ieRlaZiqVBJuQQXgSpIH+GAIIihFE8PtsYLMvtRI5GM0CERrGGhXcd/Jgdv1DBhkm/gpEmcLPH5rNfFKrWxRSSK5ErHB3n8JcK8vObmoThEHhSQOfbeguL5ieQr3KmUhlisaOSPZZgKvGI9CKu1i5Y8gEJEsvJmXWtT3Cl8PbetYJL+nzeq+OY+UR4EHiuihj70Jvz+feHoUJC8dAL/0lu9+LkhmhWTuYCJYY+cFzaVxMc5vnzv+aT2FTlfVo6dx6VHatqHhiOr3EJqnokTq/zIRSTCh4/h1xvRf04MK7sdYKWJO+HJWvyZJFldpmMzppPMr9CdaYI9Pex2ESGuKO57Q2daySX2l+bgoLbNsrdLjLSGINFhbR/2BeWKITEqv3iFiUbcvFtjH7JlEUi+uMc4ZA1V8dE+rZbPSsVQPU/YB2Nqq+/uhEPSH+76eZtWNoOiXn2p3tIAIA7a2Njd5ANbVHy1kmEUWowZK9MLk29oYKkDUSReOPPGc+OKjNClDHPTAkf75yW4FKgsfizQJwawiS0f5l+BMZ0h1A1cfUKBorqbsG6JzLORS4q6Q93kcnXmaB6z5fOL6s4e4Hlux9iN1sJwSO8WqUD8ENDqky5dkxA/75kF578WkHBX+iVRW6sVYh6uvO9ME3VexkVEsFjWofbmVMAPidIIAwiK0BN4EGir9NaHMfGUE2jr0IQS7Jzqh+WDnNrZHoI1424uK48NXJ93zb5yNQJ7uYzFt1sv+DKwFCI7WEkJWBk4Etf/H2/l74AU7k17LtOcldIJPRAlfiZmg2JAMhZfrxNv60pyfdnWa",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Objects in JavaScript\n\nRecall that everything that is not primitive is an object in JavaScript.\n**Objects** are used for representing complex collections of data. To the \ncontrary of primitive data types, objects can store more than a \"single\" \nthing. Objects are central to the JavaScript language.\n\nObjects in JavaScript are collection of key/value pairs. An object can be \ncreated with the use of brackets `{...}`, with an optional list of \n_properties_. A _property_ is a key/value pair with the `key: value` form, \nwhere `key` is a string (the property name) and `value` can be anything.\n\nThere are many kinds of objects in JavaScript. Among those, it is worth \nmentioning:\n\n- `Array`: used to store ordered data collections\n- `Date`: used to store information about date and time\n- \n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1626772526,
+          "name" : "Functions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "W5hi4YUTnCOce9EtLNxUtYyPg8Ja1KcRajjnI0a19Z8mSP8gU97FXlB2808sfc85hHX/6Ggr8yobE/T7Hm+PDhDsVStmvkJUKaZkIRo/62EBKwS7nivbg/gwIOWPIaM4du/HHfxHLA6jwmzNo+cjGIymD7C7T6Zk9bJIQ2Pe+jp9leLeIFSMrgE9id3tv32eiQp+99XKeKLh6uqf0JK1Y7fzKaSE/NyzuPlP7FNDuGK25J+Cb1kS0oMQv7daiHkjKALLCLvMm+JFMW2K1bfwoa0hOue861i2z/zoVytWPHLnaO6F0QFT7uyPIn+B1giDY9OV5FCTICNjnUwAA9rhGgE6ix5zdsAUf2HhYOELsbTdFovv72BiLz1MHoFIPkd6NotS7W7iJ/LkLdup0k3DI7GtAAXyTKB+oQPP8cOz2CILapaVPz4T54V9092qbL+2bQi2IfZmZazY00KCos7eU+s0qarX6lvZbkwn0gkglpGUgwUOdQl7gMOTkgKVy4ViISfCPPLL7eb203/ne3HnsF1lRJ2fBKC/6+3H0sDE9klxFmfSdfLA2UuMLKOaN+wCchs1J9FfiaVnMiDyrQQksmeH6jwKHuwRUK2BVi03ntY=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Functions\n\n**Functions** are essential in JavaScript, as classes are central to Java. \nThey are the building blocks of any program.\n\nFunctions in JavaScript are objects, and as a consequence they can, for example,\nbe assigned to variables, passed to other functions, you can assign values to\ntheir properties and call their methods. \n\n### **Function declaration**\n\nThe first way of defining a function is through a function declaration, which\ncomprises:\n\n* The `function` keyword\n* An optional name - when the name is omitted, the function is said to be\n  anonymous.\n* A comma-separated list of parameter names enclosed in parentheses.\n* The function body, as a series of JavaScript statements enclosed in braces.\n\nAn example of function declaration is given in the companion program.\n\nAn important point about function is that a variable declared inside a \nfunction is only visible inside that function. Also, inside a function, \nJavaScript statements can access or modify an outer variable, as shown in \nthe `logMessage2` function with the use of the `tag` variable.\n\n>\n> **Note:** In this example, the variable `tag` is a global variable. Global\n> variables are visible from any function, over the entire program. In \n> JavaScript, it is a good practice to minimize their use, like in other \n> programming languages. Since ECMAScript 6, classes can be defined in \n> JavaScript and it is also a way for preventing the use of global variables.\n\n### **Function expression**\n\nFunctions can also be created using function expressions as illustrated in \nthe program with the `functionExpression` function.\n\nFunctions defined using function declarations and function expressions are\ndifferent in their scope: a function defined using a function expression can\nonly be used after the statement defining it is executed, whereas a function\ndefined using a function declaration can be invoked prior to its definition. For\ninstance, a function defined in the global scope using a function declaration\ncan be used anywhere in the whole JavaScript program. Note however that, in\nstrict mode, a function declaration made within a code block is only visible\ninside that block and not outside it.\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1149629919,
+          "name" : "Function invocation",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "IRDKuRY7eHC8qNwx44WP57Kr3ITKdzhiSVBTLxBx1cb8MQXQQ0fw17saPE3LHZDwR1eC/72M5NkIAOV9AV/7IbHOWIemPBAJQfKp5MlvACi3wL43N+6guuEy3ixFi1Dn17sS1+406ZUAq4FP9LrU0/4Lq85j3jccFJ3Xl3hxXiBdEXKKJQA6k90dUmBBc/E+H840CPclUtdkfz9ceNEX3IRhh3k3soAcw7NrJg5P46Za/K3IFMuAblKFwf8ptvohmuep/RwlQ0OeydTz0kieq9AzjnChntPqidI9wuBIPwb9JUzU+dKkbQk8N0uc41DnO3bc+kF68VzBsHlE7zq0habg97Dh0XOxddpg4c3JiciCN2fKcz5iyGl9CX4P91Kcoa3Y10HOUIyDmCxDkSbNwZ1ZsHxZBGc/Pfg6EDwAoo+TeVJs1KH2th3PxQk2WeSPxzN+Qa63pInSyfXTNo1MMqfJ1JtBzvx2zKOXo60W0y7TZdPk3E+cQ0dQT/BeDryF4/wHTskXgcbPudMBd153ZebVEJq/H1bQVkxSZgRyd5WsNtA7A3w1LCdfcF03BxVem0YPUovSdIDhe/OS8c7Lfp3n5h/YxzqVPKABFh7wVaxJqyKYfz6u0vikSNFsxJrBlzQRmTzh3Zqx6PCWxL1bFjCefDLZhujERHNfMppxfvI7fomxJ7lPO1o4Cbp4wreYsWOMdSGC9Lak+S507widVe42CIn4QzDb1+YhPO5Km4fPCX+ffI/MmvWBtDpTaXK+tRh7Hf9Fo7FZweOcmZhMy9DZvAtCJsjpxd3BXlzhQ9NX/CWYJar7fDGPYU4ktOlYnwyRagPQWjgXfCqCuAaY6YDhZdcYw0qdyEGiqQRlkh/sbYiJWDHdAxZI6nlsM+afmpiFhNlmSbY43wQP2wAagVXXa3DAbWXa5S2W2w93iu+4WQcFWuYskZQT8A1djXIx0mjkKyy2SOBP9whrdD0hhTf/h/C6WDLEikYYztLO1fShRWYZzytO8aP0Ncr6d6U4",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Function invocation\n\nA function can be **invoked** in four different ways: \n\n- as a function,\n- as a method, \n- as a constructor or\n- using apply() or call() methods.\n\nWhenever a function is invoked, the JavaScript engine create a new execution\ncontext, for evaluating the code within the function. This means that every\nfunction is executed with it own execution context. The main difference between\nthe different ways of invoking a function is the\ncontext that is created is different. This creates important differences in\nthe meaning of the `this` keyword that can be used within functions:\n\n- As a function: `this` refers to the global context (note that in this case, \n`this` gets the value `undefined` when `use strict` is used).\n- As a method: `this` refers to the object (as in OO programming).\n- As a constructor: a new object is created and passed to the constructor as \n  `this` parameter.\n- Using `apply()` or `call()`: the context is specified at invocation. \n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2076033905,
+          "name" : "Recursive function",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 25,
+                  "length" : 27,
+                  "possible_answer" : "l/9M/Va4z0pO9717Y9fPh1fmKPaanwUSghJSmq/GaaW4+QuIHx1XhSo7hqpKLf/6dLGcXFpohBbvO/ZIEYjT9YKavYx2n4gVHEVl3g9sBMBxIUNyEybtDa/kh0pmPgkE+7hQGUCdKkTy1M7EGz4AmnGT8u+e7Noyaynr1ayoULbzZiorzzihCdHwWhA85ElHxQBeSJxWuL2A3YdR1dfPFPzb0NO2sAu07F5JX8T/aDURzmBHHgR2+BI2hvo8d055",
+                  "placeholder_text" : "/* Add the function body */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "t/gy0j9LAkrNFyQHK95MV5A3zwMCrQmedzLVoME2iVHpRX/8fJ3BBAvC/JoXqNusPA1Pa4aPWj2KAg47/q3mjA==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5Qa+6rLwov/Cwf4SmLyon//goDT/nFECKG7UYdku8z8ofKHkiR8iWftfh5Y1yEHriwx4gQJ5GYkGmPqkYYua/u8vykU3Vbfu5txEZ2wEjexiiFINxg6l5u2xlbrfuBCYLezzbT3fzaQyMHtPlaz0b4DOKznFqdAQSDXy+VyKN27cf6dYC+GHXtlpDTyp2vVbG8OuI6RirFC6+kMADR3KGU3DQWXshrTatNPJ8taT23ebIz6aLxuDC8PLtB/t1fz+LPJXGNLdbZ+R+yz4xiY+Qa9Mf1m9EWZD5DKSByK8j+QqUrO2gyjGKtN+KJCofSOelXlc9LvAaubFOsPr2N8BeDGiTTmuW9DsLry5ZxOer7ib+a2VQEbmjQR+j+3p2nXcTTP+T72pa1CDzkMfetqdUhVLiaYH3te6Oj2RCJcYANVpu",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Recursive function\n\nIn JavaScript, it is of course possible to define recursive function as in \n_Java_ or other programming languages.\n\nIn this exercise, you must define a function called _isEven_ that takes a \nnumber as argument and check whether this argument is even based on the \nfollowing behavior:\n- `0` is even\n- `1` is odd\n- any negative number `n` has the same paritiy as its positive counterpart `-n`.\n- any number `n` has the same parity as the number `n-2`\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 972423711,
+          "name" : "Function arguments",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 392,
+                  "length" : 65,
+                  "possible_answer" : "7qCzYtItjwZKYx2sVvMO6qwkY7FlUlr3nJ3o2DiIqQ8rUjCaCXO9vzTFLx0Ux0QWbFOuh8qMt4poOpjjy/7kDS7Yx66Jog9UDp0cnEo2wR6f8nxjRgFkFOoGYpVhoJVnwypbC5btQtVwdtBBr03zrx64PsAXljJ6PUc47OZlHoRAUHzKJWUXQHhdKT8GB2UvuJsbewtxL2sxyRASxVLKBeg82ue/Ug+ygAUJjIFhqFk=",
+                  "placeholder_text" : "/* Add the function body (it should not take more than 4 lines */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "+S94hywRjT7+wI3OQV6DLo3pI+6JLl4jxgFfRq0Eepf5qyB7KY6dDJVzoYUEKECNETv6baJOD4bverQqa9ekXE5jLuUpDbtr8IT5ZkhEwiuSsDebsf9r9EYVK/ZLL2DT4Jrv+UeATyKV4WrpYBr6vR5/jj9SbeIk4AUPtU64yk1pCbueHyTPVmGZhykAz0uU9LONQZfbn127K/CmcenJqK88+7/2PvdTprZIlf+xHULGs2GYRekasGTw1PUSmExnZ987YVrxTMYJs9UJNpbZQyxi0S4BVGlU9R6U4JKoAScu1rWnhO/FaVSGonYbgf/g3k+GqO2RB5V6QMZnJoQh+DH2iHE++MkF4ATJTB/Vre02si8WeemEm6lQmx2trzw7IUAmIHMhr9LyPZSIJE6/6s0wUVPi0XNN1M27ls4PpyhMsThLPDCMm5srt3Ky//1GWduSo2XzemesXBsk3T65gaAEn7/4NnvuwGB1XDnHyEDb5hyMKc+Fml1WQqQwvPk7WmzypxbH5tH/mLaWrYA+K5liCxF1nDt0haVFIniauddqrecQk1+/dmKwlG/3z7abG6heN/x1vSCVGfebhqsU5ZpZnzF7mYwAAbA52Uov14g=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QQ2jDYVJ0RsU+K+c8N4lDGO7iwd9IHli8nu0BwFLcsnb5XTbpn8Vj/3Q04b1fxLhyzb6zYi4f3rVRpgXLaEQytt9qmHyU00C720fNv7nnvV3EOt26f0p7LFhumYXuRKNHKuZ3A3czOipQtog8KPDvaNroi/WM9UOp0hKlBYoamNi2fzol2tU5ySqKnA0PV0uSwxjTi7Gb7txShJ3GKttMolOxJXLJRtuCkl6t1EhVgGVFII4MyTfYp2xpme5onV60VwFJ6nEWDOhvasVJHa8TWyKqwX4dHGGj3s28y+yH4RMpzm5O8CBThP77Aplobjj5IAhAE3wPIQB2/FXWB+XfWU=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "In JavaScript, a function can be invoked with a number of arguments that is not\nthe same as the number of arguments in the function declaration. In this case,\nit is important to understand that:\n\n- If more arguments are supplied than the ones in the function declaration, the\n  excess arguments are simply discarded and there will be no execution error.\n- If less arguments are supplied than the ones in the function declaration, the\n  parameters that have no corresponding argument are set to `undefined`.\n\nAlso, it is important to mention that the argument `arguments` is passed \nimplicitly whenever a function is invoked: `arguments` contains the \ncollection of all the arguments passed to the function.\n\nSolve the programming exercise for applying this concept.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1024871826,
+          "name" : "Function as argument to function",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 232,
+                  "length" : 27,
+                  "possible_answer" : "UGuE/GQtK/tcRQgklIdoPSQjo3Msxekuns6DmN0xURbbmqVrWfBwsFs5X5uQpShKxrjSRRZoQo8FC5GsWK7uTw==",
+                  "placeholder_text" : "/* Add the function body */"
+                },
+                {
+                  "offset" : 295,
+                  "length" : 27,
+                  "possible_answer" : "UGuE/GQtK/tcRQgklIdoPWEu6+w9FLMn4LpGqGVfj25wwr631xsO2dzQ6LOEjrYqZC0738hgw6ESbVwKJXT0I+uoS7wT32YfDhaw6RCuwK0F3NdjKQmdMixWFOrcnw/b",
+                  "placeholder_text" : "/* Add the function body */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "qTGKpjZPr0WIycdf//P8aUTufj6u1/dF0zZGepACs5y4m7dRmCf9u/qFllSUh1xpD3jk41Wh3TVF1BY5+N7jrXIMEgNHHOjxATZt8fF/lregCjQyLwd+DJ2QonBe1MBTeRE5U0ItMmMq7/lWm+7iFZJH1UCiKa4yvc+Vk6zcvV/6mKgnTIagZtTq5ifh2BMVUtrSAUOM7ie0tXH2qb47Vtjc/ANM1Z3UB2cxMid50scpmnv+7Q2/ogtTALdkO338c7q70XtoE4EaAvEgDfvpM8eH/l1KAbwQaN01w3hglKN7GehOvqpvLrC2NuUFTjd/1kuVNqfuT399QSSAz/v+J29r+HpNeyvTqJy82ScrrOHQGlXr3McNE3OcqDS2jj6w/ZvzOg4OyCU8PskbEegfVE+SIEKgn4K13ZhDqD2AZj35uohebA6s4y+60a1uBpCf",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QUDDu3SeCVZ52EoiXPKBxEVz+LVy6qhp8RZgS0ko569RjHLYNEkdb/VFpQKfbHJxGbXmYwvAs2wj/fRuQps8B7tC0fMykpXbywUQeyLEjKv7uA2aaTSnfj4sP7DWWHkb3BOeD+BR+0QfvNDTkPMg53WzZpcYfyXjhq3VeYszcOKK2XoJfI77xZLSndPY8LGxgcPay/9mAtpih4uZ1QW+vI+Oc8eZm3K//HHZnaIbixY5fsbVea6Hf6MH/svOz9/Wu6sSYRRiC91ZlHqURdmwitoI1qAQThSvRuFYDf+CavzC5nUWQdeFvjpIapGN3SVmSHH3l6EtAyKWS3uKSs6W2eqc3G3Xq9LijUdAa6M4pSj6q/OxpS7oSKUklxjlijP7skdUQOr8+Lv1xbBN8XCk/qWxqdwSAtM8UdCSJmLargZfCMh4RQzhJqqTJOGP5HdZgZTDvhqphzrITQTdEYYI4DRIVHupW790WavSceWmqvCJ",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Function passed as argument to another function\n\nIn JavaScript, it is very common to pass a function as argument to another \nfunction. This mechanism is used for different purposes, for instance for \ndefining a _callback_ function that must be called when a particular event \noccurs.\n\nIn this exercise, we use this mechanism for customizing the behavior of \nanother functions, similarly to the use of _interface_ in _Java_.\n\nThe function `filter` allows to filter the elements of an array based on a \n`test` function passed as parameter. The `test` function receives an element \nof the array and it returns `true` if the element must be kept when \nfiltering the array, `false` otherwise.\n\nYou must implement two functions that use the `filter` function:\n- the function `filter_positive` that filters an array (or another iterable \n  object) containing numbers for keeping only positive numbers.\n- the function `filter_a` that filters an array containing strings for \n  keeping only strings starting with `a`.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 2017990938,
+          "name" : "Arrow functions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 307,
+                  "length" : 52,
+                  "possible_answer" : "5vSiYGF9v8yy353CNRMklw==",
+                  "placeholder_text" : "/* Add function definition using the arrow syntax */"
+                },
+                {
+                  "offset" : 414,
+                  "length" : 52,
+                  "possible_answer" : "Y4otP8YQDILRA9JBqTZmHfK4CxHmtNXHC92BGWWTkWc=",
+                  "placeholder_text" : "/* Add function definition using the arrow syntax */"
+                },
+                {
+                  "offset" : 553,
+                  "length" : 52,
+                  "possible_answer" : "wyyhvh0uIbOBaoa2lXj8G/AZ/lA5HyhJ4AvKh45d8dg=",
+                  "placeholder_text" : "/* Add function definition using the arrow syntax */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "Jww0lCBqNomMCrprHjug8CsSTBciyhhLlfG3IujZV/wCKFOT9J131OW6dn7Ukpe+nGLofWFShH18CMtGX00QyQ5z07uC/VFCj4sKi0k0N8iCjHpHlfa28vCumho+pB0Rs3RJqywRB3bBTbot0gAspcErqx98hatfURdZSY4Ie4gVMuj1rM3QQPbLeCeRTwwbTsa6u70IfePy7WXctKM6s5gdIRBsV/FfTXBdbBXkByllbo5U+hER0KnFjMyEcju6zp0V+pczrqAiVZOWB743YonHtbsF0trTHpCGRIXHHXXe8roQLGiE/fmrHDLwo+KiGRPWRqqsYAi3JoajONeOpNacajZD7n7JR/RxljRw90aePq6eBaLAhdQ14frKFS60SHmnUHBv8+0CqJBwmubUUBIf43G9m0TNeuIEaNH2/73fkinMjAzWxiloRoKAczvrKtKJg5YgQn2kRR4AlXLwxSPCjFDeqkii79U81qt6AXkZQrwfIn0avj2zC2R+z0RPkMn2SSngos0Cz0MgNLQheuSNfd8MOHCIujz8b9zDD5pzou6XEJ6nyuAtTL3zRBE25yKL95DfSVO7ttibg7V0YFThgWR165jjbm25ImiO01I5NFR+T7pNZtJf9+q4y4YkJdL6FZkTgHbc8DaJhs0G4YFkFw05ltFqyqrfukNymScZu+jisKiVvIf/kjnempCkqHlMu8vJwhmVWnU2CjB3kWCMDln9K9gwmNzz+slTDCAhU8ptdTRz0aTpu8exkIX5+wnNOQcaPgm8spGjwT9nNzGboBjoWP8VDJudQpT9bns=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sdso5Xxl2KKuHMIitHXflI1J/JO5AM9Au7Hgl4MbGbW2ZcNQTmLF8rlyzs75Rjo9HB2TS4ekGDDqtzkbMF59WXT7ycCwtUtEIcO2fMHgQtQkbCgExAGSDnUPmfj+v2pm6u5tJq/F/JEG2pmxZLQoEjWKezL2XmflQbiR2oF+7uw9rE6NilyUeBlg/aIJm5PSMCLqGi1AGnwx36peGftqiar90/kEZg8bo/ARVMJo52EknTw6h4MmPXehZqqcX44nmUHF39BIfM8+ScA9pl8/nVmTs7UDKtAd/Z/HHYhzOlghNXLAWAOSECsSzgER0H7G2lsexwbE3ygT5ilGRT36qLC8+FzdboW5rMM+JmewME2L2BkvS66/EOU0zwcSp3TjT1fXXQw25vW2iBJyc4WoldtKCerKWvi19nagbzQeR4JE423kDEHkyiiekmzBjXCvB",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Arrow functions\nIn JavaScript, there is a way for creating functions with a simpler and more\nconcise syntax. This is called **_arrow_ functions**. Arrow functions are \nsomehow\nsimilar to the use of lambda expressions for implementing interfaces in Java.\n\nConsider the following function declaration:\n```\nlet func = function(arg1, arg2) {\n  return expression;\n};\n```\n\nIt is possible to define the same function using the arrow function syntax:\n\n```\nlet func = (arg1, arg2) => expression;\n```\n\nFor transforming the standard function declaration to an arrow function, we\nremoved everything that can be inferred automatically, similarly to what is done\nfor lambda expressions in Java.\n\nThis way of expressing functions is very useful when defining callback\nfunctions. So given the function `ask`: \n```\nfunction ask(question, yes, no) {\n  if (confirm(question)) {\n    yes();\n  }\n  else {\n    no();\n  }\n}\n```\nrather than writing\n```\nask(\n  \"Do you agree?\",\n  function() { alert(\"You agreed.\"); },\n  function() { alert(\"You canceled the execution.\"); }\n);\n```\none can write \n```\nask(\"Do you agree?\", \n    () => alert(\"You agreed.)\", \n    () => alert(\"You canceled the execution.\"));\n```\n\n## Exercice\n\nIn the exercice, you must define a few functions using the arrow function \nmechanism.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 193006719,
+          "name" : "Functions and closures",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "Pm5FJ8uiSqwDhgKSL6gdTVfEnG1DqhQJs8bzDGKbzjxF1Z6Pr3LGGw4WFHYdGl+iPytLifKLKSPwEBay6eSRvYNKM1wXeaZ7ik781U5260hse1iyb2OjP9VROssQt3vkLrLXRHDlo0ajmMqbeI6To/BsRLDjWA1L5nJDKVOrKjh3tLKYlMH8N/F7WMo1nMsdtaB3mtZ/3ucy5RQ79FYqj+b+xMYa5oSGBIvSe0HfWldoyy6yXBObYXbkoXLlkarO4PT94rHWQgGNcBa9B4+QiPhbkHlltqEfsOuJzhKSzY7bPzcZmN/AjRUghxBXCO3oQhTFpBDjx7ZJjlAjTgPiUnlj9rhRwo851jsZIud1qoZMcqM1ww5bI6SDSgCZ+O7mCfjh0v3H2nFdWS+XpLn7ou+v7kOvk3SlJHx7uNx+71egUrJIP3l6Ic2qTgtj5z47ctbx+C/hNqKY2Idar2Mg5LRMotVRr8NwZ/d0Bdr8eaZ7wTldKH79OxBxmZmY1uMm2NAXImnzKzH+q3OeNh1ZKNVDToFO8ROrPxIicnIuOEXtSzVp51Wq5Q+u1trgJb/odKBl1jSy7VaEVUgrh4jkk4yXpuFsc6GqM8a4xjFWevsZGWfB6p3R1gB/8gQ82OEybn1EBj92aKbQ8FbL/b1tnmm27Ffx2P5AyWiVVPiB/f2Z8VIUbDEHtKdEFQi7jr/J4N2mYgX/X/s1r5WKIeBUFwWNFzrIdEynz21dN3GJiFe4s2a3CLRSC0ioU43iNWOEaMr4P+7IaZmhc+LRfY/G28rAbzVmhxdTTESMxkLVTYKe/tHzpDB2Q9cK/gIu9RYivkRNdXen3NywT7r6Sy2S9V8I/hGW28Xk52lBOIwbHlYwVxbhn8+05yTR+L4C3SGFVU6Xwm0xulaanYNw6P8m2q/OH3r5+PfUoqSkYlkqAUildzbPH035ykRnK+kZGj016YbB2QdTs2rId7ORFWxynzGZYV4Zn61zCP4T1i/9U9KV7rd7HniGXpvy4eB+TF7IxGfys6E24RWxM8O6fkhBkf0yrDyGZGUIUYxucHU3aduQkDmOFi8lqfzOdFqLuUNYuA0AX5WiGcXFIB6yba8QDcHzKv5ygvR8puNSF4bJ0YQ=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Access to \"outer\" variables\n\nIn JavaScript, each function can access variables that declared outside it. \nA function declared in the global scope can thus access all variables \ndeclared in the global scope. This is demonstrated with the `incCounter()` \nfunction that uses the `counter` variable declared in the global scope.\n\n# Nested functions\n\nIn JavaScript, functions can be nested, which means that a function can be \ndeclared in another function. This is demonstrated in the `greetings()` \nfunction. In this function, two inner functions `sayHello()` and \n`sayGoodbye` are defined. Both make use of the outer variable `lastName`, of \nthe parameter `firstName` and of the local variable `separator`. `separator` \nis also an outer variable for the two `sayHello()` and `sayGoodbye()` \nfunctions. \n\n## How does the JavaScript access variables\n\nEach time a function is called, a new scope is created. This means for \ninstance that when the function `greetings` is called, a new scope is \ncreated. The variable `separator` is created in this new scope. When the \nfunction `sayHello()` is called, another new scope is created. When this \nfunctions wants to access any variable, the engine first looks for this \nvariable in the inner most scope. If it finds it, it then uses this one. If \nit does not find it, it then look in the next outer scope. The engine will \nthus search for the variable until it reaches the global scope. If it does \nnot find it in the global scope, then an error is generated. \n\nIn our particular example, `firstName` and `separator` are found in the \nclosest outer scope, while `lastName` is found in the global scope. You may \nexperience this by debugging the program and observe the different variable \nscopes in the debugger.\n\n# Closure\nIn the example above, the inner `sayHello()` and `sayGoodbye()` are created \nfor convenience. Such uses are common in JavaScript.\n\nAnother use of nested functions in JavaScript is the one of a nested \nfunction returned by the outer function. The function returned can thus be \nused somewhere else. In this case, the question is of course: how does the \nfunction access the variables when it is called at another time? The answer \nis: a so-called _closure_ is created by the JavaScript engine. A closure is \na combination of a function with references to its outer state. A closure \nthus gives access to all outer variables from an inner function and it is \ncreated every time a function is created - at function creation time.\n\nThe closure principle is illustrated with the `makeGreetings` function. You \nmay again better understanding the program and observe the different scopes ",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1570286557,
+          "name" : "Multiplier function",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 75,
+                  "length" : 43,
+                  "possible_answer" : "SDeNLLu+yAOe17H0yiQB0CQrNjAvR6J0psCefQAByhyhEZxEH64PiJDofYMGDk5dgEuYdlLbUvYoakyiI0lv7g==",
+                  "placeholder_text" : "/* Implement the makeMultiplier function */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "Z1n4BOFShpvkJkMnKMTM0Hp2L3eZCm0hzOy1AHkKtO3mMakojYPl1K9yvFQ0QMMFXdR5U6eWtCAIdpx1q+bNn4WD+xapN+HhBf6GZv4XbXf64185qTyEctQqqOLmDfkO+eovPIlSxblgVfbvCGDmXaQwdbZMeBzJN2GvDYbsoIpR2mubZBKvkIag79nzgZsiVx3mA2Ex+HmMR4gWHCdjN6PO0XMUw7o7ICaYlGlun14YHA76mJfln05bdPC0V+3HiMKJGxfUzVai2nynFRGAlVYQMNSw9UzHPzhNfNjSLFvXfx74ZOMWJasKjL6r4Sp9gxs4DW2mDchY+u9+iOZL6JHgyBHVNCDLYo++hP9lxcH6XK8t0zW54/OoQCs5+pF8",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStd+LOWH9FBDlE8Foku2KZC+/6sUl95H3yS5ndO+Qmp4vEmNz6CUFwW+YqKt27Q7O4dcokPXprm5ESJlvfXyQlvnmGxFHGSrYPkKo0rA7Nr31h10rafg8a/RmvoqsDxD4/JuXNOucVndOk0TFTWB67qEQ5d07NRTHyhdCYDISzqDcnwPF3GePW5NX/4cEzK5A/jjgydkwKlVo6ajebYyVxnrvbIBW5XxvDvQUAHsiNoqZ3tHVvj1QnvI6wk6hz3+hmZJ85BsecUaYtokwxa2BEgJ/GKlYyAgiIUa4Gqm2dcKaip1GngGIEf/+Dah6xe09poC7CeHS/fef1oBb02Qpq8xK9sp5kulY1FzmWvlIQwzCigqjzLoP9D7ul0HKa6Xi4ravRaZlBw705PXds01foQL4laoi+/6KbkMda9Z7d0bGU/BDWpEyKFcJtHFUEuejCQ==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Create a multiplier function using closures\n\nDefine a `makeMultiplier()` function that takes one argument `x` and returns \na function that takes another argument `y`. The function returned by \n`makeMultiplier()` must return the product of `x` and `y`",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 923223158,
+          "name" : "Bank account",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 156,
+                  "length" : 51,
+                  "possible_answer" : "19B7Yy2JOzE1Ywkb9tMuNaKnpZxlOJ0CRu2+OkrRBGKe7bRYw6nOMUIMxqv5k+NDlFnC9iNgxoMXetbZoRnoaFdXU0R1RpktIjXr/Yko2rScEtv2PQhYmb0XB4IW8+qmjNxThnDiS7BJ5hQ7p4kyI91NEGqUDl5oMVIONarO+9/irGkE1jphSSaENR+yA2JreWOwbsh5CAozlCbK0/FiXuuoF0ImexCuSZSZPmHmkJSoXwyM7UhIjCv7vVgDKsJysJlxhoVDaX8iL7CosfYgCjCDkxhZmI2ocWMPX8wXjbuBVaHldQNLH1+eykJ3OoXEIpo+aUNOWQTLzscnXKFuhcUYZ9hF7y4jMzyeEa4xR+gk1/c50mU44qCk+PUZN042wavgWTuZOi5Tdgl1QpipKH0h5LW41/j8KnXMTyFRlvjYYF9/uA3PhfhmFDVc3pMA+jcgnC2WvCsEwMYkK+dVbcUeADidvRUPStPLWJDBL3qNj8PzTqOl81WoGDyLLHULqaeLtBSqK7jAAYzjwPo6ATwTaIG5Xv5ZECBfu995akrNjmwa1mzTAqHoYRl73S/d",
+                  "placeholder_text" : "/* Add the bankAccount() function implementation */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "070vpyKyyudRW7T4CUWlCqgm4YcbLk40L5LfUhjwAdiy++4NQ72i35ZuuNCXXrsjcFHXxgzp0deJWLS/dyW2bCCfjxceyO7sj5e4R/WswOOASR1qxJtjNuWxsg0bEiSFFhOg5C6rCHBS+aA50JBKN5eneyKry6dKpcYnRR+uAGlLqxRzMfEj1MElzCvYWn1gbmFchc6uHr67hR0o9G6Y6NyG983cGyRefuwrAXFjAm3VSLmAjvVjKFz/dyHFpiwaIDvQWvRPrl2T8nYWSyIlYixWUOTKzBEdidVCnnSFKA/YdVRRU0ig2rv8nRMJ1EYi6UN03rhr5tXwD5yID4YrETXYhOS1TcBHihGztLS6okY5T3MvILs3kWo0Jhp75iFfa3s6xhTnDV6RE+KeDTcsnet8r+FZflhHMszYg+/IPZ4anHmGwD7FqSfXyeSQt95oq9Uk0Ng/DlajySLHrZjBRkm5OX15TeK+SqyqeWZh2cbI/mAv0slSXjYMrP3lsBc0dUUH9JVY3Vt1z7fhQVaZgrLkTE7Gp11pK35d6bsD9x9xsHFGEgnhNnd67fSA6dA432b9nTMcfx0lDAv7MErBZ8MO32BbB127NVDC0tEA3qjOimZ8h27RUjZqBNlEvpnp6iKn3CgMsait88ynf0fU5A==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStai5q471GX7JfF7UOGfeDCPLbFe4EFNOqqi4XnOlZSC/AgnFholZVES0N5mKCD0YZDA5O5STUHd+l/9w5nsL+/z4kK1BwZLgeynNfKdM2tdC13paEikiaolEnA5uxmpdRAj4S873NgXlqaIysgFizHXSPOx9UZhWldwyJyLlIc+CW7P+CFqQsXtiOZVBabT8V1qfAdaDFPrmkHsNXj5h9TFrepS02kTu0K26zg2nVRCqHJA9uml//f5PMln66FoyVaFRlTV3/8Lj7NwwGXyY2PpHf6xFYXHM4sRuysu5z0iRGlIkT0fp9j+ZhD5O44dj+2RkTg1d9W7O5bpMjgJZ7htY5C/Y00ekV7MDvcdpytO4lgpKw8TQhijzuQJKFdazz7caK7YqlENQ00D1juSPWXEN2shm/VtuBh3rcOWE1SwvnS6eu2HaX25Zlay2e7RmSg==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Implement a bank account using closure\n\nIn JavaScript, closures can also be used to implement object-oriented \nmechanisms, for encapsulating private data and providing methods.\n\nIn this task, you must implement a bank account based on the provided code \nskeleton. Your `bankAccount` implementation must define a function that takes \nthe initial balance as argument. The `bankAccount()` function must return three \nfunctions named `balance`, `withdraw` and `deposit`. All functions return \nthe balance after the operation. \n\nFor implementing access to specific methods, one possible construction is \nthe following\n```\nconst myClass = function(value) {\n   const value = initialValue;\n   return {\n     getValue: function() {\n       return value;\n     },\n     setValue: function(newValue) {\n       value = newValue;\n     }\n   };\n}\n```\nOne can then create an instance and use it as:\n```\nconst instance = myClass(10);\ninstance.getValue();\n```\n\nArrow functions can also be used for implementing this behavior.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 270526328,
+          "name" : "Currying",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "w3skR0SL22MFnIi/qkjS8HDb242xul/phE2D0eT1wTBZldjQGZoXJn+aTXVxswr5WmbQM7795x/HLEMtUQDe8R/sUeFHyVP3ES0TJGGZmffChRVPdaLZE+TnYQDgeB+rlA2kxDWl5ogjKzosJ0rjfbtFfNglode/p0uDJS1bsOmvJNPy80+t73fdTBJ4WEJGgnc1uh+2h2KVhB8MMoGiroGLfsZncha0lcGVxVYzwBAUy4/zCd6ZBTIHKQfAj1jGs85F9vMlih3Vb8jnRCjGi936NyjinNaEpRd6VEe1iA0DnPkPu1ZE6Kpp+A6U4R61HTWgiRvFCNYAVSjOHRJ1G4SdrqMEfODUUE/1Q6vgnbyev3+tCji3LCszHZGOEkEEhm+SwipM+CJiILxi9iNqiEMVIk0cWd5xFTq/ZbiH4VF+MfmDOqZ/9bP4AhYFb8QCR+9HYFbxuJv6To1uaXPWq461P43klM9fha/uhTrfkrj8HFfOFi4NDX1EGk0jeTYfSqGjxioQNXau6nLZjiKzead52qiRMfXx7nvxUPyeP2EWgoZhFPlG3cr/hOu1Bj/bQwWk7xXqceSYirmhQA6ifYxBb4XGIxn19cPJ8JI5Vz1P5ILRxq0ln0p5whCugzduqDzkN6LWra5I5hVIb4WkzYGu658BAXcGYY7ZTBkOUqxz77W+0FXdfAkighlcQyisMLQ9CeBK+G/sGFGymSzBG6f6rmGeFtrlIX9J6Cqb79K3emzOWqA9T0NqGthmAQOpFQm8uajGEk59gc0zbdz6QkGpux6n4P3v4rPUgWcTw3X2//d5TweIVDOGlqyMuuiuk52AmafTh8OyO8TFY8L4SXhpQ6lYwsY3kGShGxLJEt6vNCvBTlkiZOjc5+b1f7qq7NZMtToJMP3cuiesVfgJVw==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QceIfg1qhp5mycfUwCaSmbD0O2qoZ+m4AjiO4I4vHR3ah3Z14F4zimdRjaaaxPU2gJHQanaTUVu/iR6HUGWqCfTzeXJ6XEhX9fKUPInvNL+NdyI1xybisA53FT2Mf/cIl3xXZya7utyA2yOGxKXLpLz4ohxkrlm3fvIdieCIG/JNhqCwihsnjHg7CyLrUyHNk4fwjBl6ofpFsO6WFAdAWfkWKrQu/uL8dm5pX/5e/LIcOwWwZXxg/SVRDn/nrcfn2jGhVeU86AFiCkZASedb2eT7ed/kOpuz9AjaGoPvIHW1RBafMMqn7m5mgj4WaMGIf2q8M9j+idgRj6rZXr/MAaeNtft0xak+Yw1BJohlMZFr37rO2nvtEzQ+vm51/CGTzENS+CAYKYKJcq63x/FbVe6pbCts+Y6EZoCHHuUjRzdz",
+              "is_binary" : false
+            },
+            "log.js" : {
+              "name" : "log.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "w3skR0SL22MFnIi/qkjS8OXQtp2AlxHwwre8xfbEBqAQRks/ZnDENJg7bhY7LyGEX1AbStCAgvCrgn/hsCrvxCzPz3+hnrMIAuSE5d0dYavHdcVoTCzBklOuUeNVP/4e8awKnOt4wz+BojzX+WsHNG/mMUM6LTQ+e4fR/ngwmV5tiylbvtAdgOJZDwmeW50Wtvqzs3ImJ/stsP0vW9YyL4v4yiCs9sBOsYnXnaI9iTUhte+CbGzhE0didgyRTetV4LpYXCmz2lCML+b2eN2+c6KQskZuXHO3nuM+Tbu10zoGxQmi2VA23biiQp1cN/sN6icZ3HAprwhF0n+d8nOoqvPo85+lFiMnePdaiFJjbYFaKy/l/iNKxx8TbHnQNpaAXlKLrccDSWDcXSlouqbCzY0oR2deBK4Fu/EOq9cZOacdijQzuWp/auujGcDOI4dSR05LcFAR1gpHCMHXkeKroPcc4d3QKXV+atFpMrFEQAnyAqmTuV4d49U8ynvz2bbdGR8fYhGfqLq1hKe6FgIJQkJwzAaHEkOMp5MaJGFb+mxkil0oLBzGE68loTrmyjoInavZmBX3/9GALLW0+2zjDU/BkZPe1tIHxDPXrgxfz30jm1kOxFirYkdaec1sDeQK2ZAGWzQ+do+2t6mAAvlva8LRSH3OUNzy35B19X/A6Qy6kzZXX/hn7WjjFRbCA0hleoe9FI0wBykuBPYDuPyLEHJnuSABKOLZAbRTW/hg6HCrbNpv9weM+GydmMd/dm74qeIETcvjLqMjIfkROB8nplyeW+4sChxlUwjDnAKWFIr9lqJDccwunsDkTJSVD2sfm1NiiwPGwU8e7KHmxv+JsCCFX73YlPfflW3KUWBEcTf4G3L3aZRgd5yIA3e6UPQxAIfd/JTYIhOh4eJio6a8bkvxVux0RU3zxpM8aRTHq28yP0jgKPekQqvvURc6yeyyoujUCHJYp+6XGtr2H4uM21ilrSBhvdhyceNjg0KFP5uvhusAkVFZDbrbYO8wNZu+KbQY6VH2mNq54Pl622r3BJlvm5EHfojka2Ffso1XkwV4sI41WFVJSlFVj2ltbtnRBLuc066EGMNRU0XDEcNr+i0NjNNFUmiLkRav7IL4t+ORq+yb2FH+DZHzCHWnEZ3avLSZ52+BRlqZSR2dsSxidYaus3rThj0uIG77ruTy5iSvgX9mFX9sdSngucTeLtddf3ConTMFqKKWpay0ZKqn5JryaW0HH8YNJq1/MSkUfWhJ10EI/1Gd1UdG/B2h2kstdvHElY2gF3fYkEGkBbmHd44jQLtIGgD6j2rhAbdn6/cqc0uBz0n0W6PFRo1PkMIw44xQ6NMpEjeR2t9Ih6Rl3DiarE0UPbsuNp6rr5hY8vgFWh5GA76ZNdLfmGNivjla/LtbhjBcchCkxDhZBIy6+aahNgBW3alqzQH8v0evUk/ojKdl+Yh2o522A416/fHg",
+              "is_binary" : false
+            },
+            "substring.js" : {
+              "name" : "substring.js",
+              "placeholders" : [
+                {
+                  "offset" : 700,
+                  "length" : 65,
+                  "possible_answer" : "+vY55YlYsZv5sEPvCQCK6QRAJlcXza2rIr0D2Al6xWrl/SooqiWHvNiKb+0LJmrP98PNab2tKfhb6bFe5WNMtScADz7mz8bq5IHJgwVR3wc=",
+                  "placeholder_text" : "/* implement the getFirstCharacters function as a var variable */"
+                },
+                {
+                  "offset" : 895,
+                  "length" : 64,
+                  "possible_answer" : "+vY55YlYsZv5sEPvCQCK6VRlOmwkRKCtmcZhwoymcNPHpnQSDGxEU9CPBiVVsqxRlvP9NGOkh7oC7p6rqHATvQ==",
+                  "placeholder_text" : "/* implement the getFirstCharacter function as a var variable */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "UtOJAOp+ERAG7YqhrYPRWfc1Fsk4laqCSLAJYS8shnzHBO4lbDUfyMOii4Jk0rPHYpZ1GOXU4bhavgJZPW56IfcfkHnMu7GarNOIb3UQDVWITWUF3kWAfSgMy+cf7lc2bQOQRhzauvsBI0f0Z1s53YVArAEyvVw0fURGV9y2PS/wRis/ySXeU0CMNVTuGwunWvWRIcLCnpUN7jgG4hjFgo08NDq4wxaHISFcxGBBHD0vGw89KaAfUK3U4rwF4hDJbb6aSYB45lVuArSJq0nZPo8jEp4z3pDTmO1vWOLboQlKMRRakOJyDqYqcSg7y1I3kZHaNVbfu+vBv/6Ykm4Q2pRHThVOJ26j/jNOHaw5PK+jkVVrCgmJObjtiw6C4rnsLe+eB6IScxrqMHJovbSCQQup7gwZ2hDV61baSQXy3bvwLkW4vEOQfjygPy70nYs2GSE1CUNLWnkn5al7OgfApMaAS5jM7P601INneECWHz0le98LoZ/65MNAxTdD09R1rb9n4nN1gBkB1wyEDdPWq/7Oq4+5iubKiGPKdpAbkZarlZ/nxRvEHfKK3kQnOVdDW/EtKKutCe+TSdr3i+qWahgVD+inhb+YE/yOlS+Bqh+fd5CYCYvxllq+tNqdXsg3lRAlJG2aV4QyANZ4C6D05zOWyHsKX0CfKZZzcYO6PubNz+6mruiJoLo3gne7b6FYoZ0rcRf8mNIQWOu+p0+2Eb/Mc3uqWaHo5RPZ64pjDK6yYPQ69N0JTqbUT4Tnf8bZj9BNvA9u4YrN965azTOSdANhyNMFjTpHmtH5R+7i2hs5LV5LZXcXyNxtbv0J9KusU214QgFBr7qpeCn6Pp3zCczRK5rq9ePo59mbR1lq8WO7QjFG8wgWE9KpBGq/7UzEW41lakQzWWCA1fcx1FJLQtzrFoiPpshUiZxqhaeKi5LXSQoXVbd3oG5jnCqXYEB8eq+qdYtFd7hOMuxccpTdokCBb2LJmHZ+3ZLz0BpmfGkTqIIvIQuSBn5ddHXsMVQqif/C5Vtf5VDFK0ME9ErpwDAyJbR5erChX89yZ/khkLYvUgNQLCNWZF0rqbGtFi1jwd+1GDYk4LISNBp/yDB1bxeomeqHNSdlK6yms6/BV7EbO74HFRbtf5b/IqlyUjx8ZvPN1qtXmgOQOk/AOVU96hD9HrnNEeoA1AuJMH80LF+24ilDMB9foCYr31SDzvelHGuiTVRZ6/OtHLw5a8BkuoZwXhAfXD14jB3qZIBTKsf2p05P0x31l13nyZufECJm",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Currying\nCurrying is a transformation of functions that translates a function from \nbeing callable as `f(a, b, c)` into being callable as `f(a)(b)(c)`.\n\nIn the example program, we demonstrate the principle with a helper function \n`curry(f)` that performs currying for a two-argument function `f`. In other \nwords, `curry(f)` for a two-argument function `f(a, b)` translates it into a \nfunction that can be called as `f(a)(b)`. The `curry` function thus does not \ninvoke `f`, but rather transform it.\n\nThe curry mechanism can also be implemented with arrow functions, as \ndemonstrated in the \"task.js\" program.\n\n## Benefits\nThe benefit of the currying mechanism is the one of partially applied \nfunctions. With this mechanism, we can define a function that is partially \napplied and assign it to a variable so that it can be reused. \n\nThis is demonstrated with a real-life example, such as logging, in the \"log.\njs\" program.\n\n## Exercice\nIn summary, currying is the process of taking a function with multiple \narguments and turning it into a sequence of functions each with only a \nsingle argument. \n\nIn the exercise to be realized in the \"substring.js\" file, you must use the \nprinciple of partially executed functions for defining different versions of \nthe `getSubstring()` function.\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 529890556,
+          "name" : "Error handling",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6C1dHUQqmj/i3+JN0xerUPcaaiRAYHG2zx8RADO2a9DkCz3sKGJZlxeF6XwU4YFMwbdozq6s65mIb03sbKVb2U5DVsHkk3L+0AHl1ep/JrooJnytRSTTcW2A4JfQxLhI1GvN1PjgTrj2r8SEc9x9Le6YNWNL68rp76OXJ0H/w60PBdoo5trxQs1ZrD36qkGc82c13UWTZPYRu+EfiwliLeVDWI6XPkCNwrfq68iT5zbafADemwNt1EArJTtHyRrCAw==",
+              "is_binary" : false
+            },
+            "input.txt" : {
+              "name" : "input.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "99B9Z5Di+SQtu3jazcB/sjcBHh+g1kA8JrZ15XXGkoQEPCjE3bDKje84HWyIk2tLjkT5tD4M+IG2pzbdOxxFi/XzFXrIRnR1JvbP7JXTWtMM6LEblhLrdNI6wW6Smx/i",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Error handling\n\nJavaScript programs are like any other programs, they contain or produce errors.\nThe errors may occur because of mistakes in programming, but also because of\nunexpected user inputs or server responses, or for many other reasons.\n\nHandling errors in JavaScript can also be implemented with the `try...catch`\nconstruct similarly to Java. By using this construct, the programmer can handle\nerrors and do something reasonable in case of a specific error, thus preventing\nthe script from dying. The `try...catch` syntax is demonstrated below. Its\nbehavior is similar to Java's one:\n\n1. The code within the `try` block is executed.\n2. If there was no error, then the `catch` block is ignored and the execution\n   continues with the statement following the `catch` block.\n3. If an error occurs, then the execution in the `try` block is stopped and the\n   execution continues with the `catch` block.\n\n```\ntry {\n  // code...\n} catch (err) {\n  // error handling\n}\n```\n\nThe example in the task program illustrates how error handling \nshould be implemented for synchronous I/O calls in a _Node.js_ application. In \nthis example, the first call to `fs.readFileSync()` is successful because \nthe \"input.txt\" file exists. The second call to `fs.readFileSync()` fails \nbecause the file does not exist.\n\n## Syntax errors are detected at **runtime**\n\nIt is important to note that since JavaScript is interpreted, syntax errors are\ndetected at run time. If your code is not runnable because it is not a valid \nJavaScript code, the `try...catch` construct won't handle this error. If \nthe JavaScript engine cannot understand the code, it will stop. The `try...\ncatch` construct can only detect errors that occur in runtime in valid code. \nAn example of invalid code is shown below: \n\n```\ntry {\n  {{{ // this is invalid code\n} catch (err) {\n  // no err will be caught here and the engine will stop running\n}\n```\n\nError handling for asynchronous calls will be explained in the _Asynchronous \nProgramming_ section. ",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1301473916,
+      "title" : "JSON",
+      "task_list" : [
+        {
+          "id" : 1940372380,
+          "name" : "Syntax",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "LF6jgC+bRHKgPjfG2fhb7PUcwRYGKvIM9oTVzhKVKwA=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# The JSON syntax\n\n## The reference document\nThe JSON syntax is specified in \n[JSON\nspecifications](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/)\n\n## Basics\n**JSON** stands for JavaScript Object Notation and it is a \ndata-interchange format that humans can easily read and that computers can \neasily parse. For programmers, the JSON format can be easily handled, \nespecially when using the JavaScript programming language - although it is \nfully language independent.\n\nJSON is built on two universal data structures:\n* A collection of name/value pairs, called an **Object**. An object begins\n  with `{` and ends with `}`. Each name is followed by `:` and the\n  name/value pairs are separated by `,`.\n* An ordered list of values, called an **Array**. An array is an ordered\n  collection of values that starts `[` and ends with `]`. Values are\n  separated by `,`.\n\nValues in an object or in an array can be another object or array, but it can\nalso be an instance of a primitive type (i.e. a string, a number, a boolean\n(true or false), or the value null).\n\nIn the [JSON specifications](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/), \nthe syntax definition of the different JSON components are given in \ngraphical form, which helps in the understanding of the syntax of each \nsingle component.\n\n## Use of JSON\nJSON objects exist as strings, which is very useful when transmitting data \nacross a network. Since JavaScript provides tools for converting from and to \nJSON objects representations, it is thus used very often when a JavaScript \nobject needs to be transmitted or stored.\n\n## A simple example\nIn the first example, we demonstrate how one can represent students in JSON. \nEach student has a name and an email, so each student is an **Object** with \ntwo name/value pairs. The entire set of students is represented with a \nname/value pair, where the name is \"students\" and the value is an array of \nobjects representing each student in the set.\n\n```JSON\n{\n  \"students\": [\n    {\n      \"name\": \"Bob\",\n      \"email\": \"Bob.Marley@edu.hefr.ch\"\n    },\n    {\n      \"name\": \"John\",\n      \"email\": \"John.Lennon@edu.hefr.ch\"\n    },\n    {\n      \"name\": \"Steve\",\n      \"email\": \"Steve.McQueen@edu.hefr.ch\"\n    }\n  ]\n}\n```  \n\nNote that the set of students can also be represented directly as an array \nas in \n```JSON\n[\n  {\n    \"name\": \"Bob\",\n    \"email\": \"Bob.Marley@edu.hefr.ch\"\n  },\n  {\n    \"name\": \"John\",\n    \"email\": \"John.Lennon@edu.hefr.ch\"\n  },\n  {\n    \"name\": \"Steve\",\n    \"email\": \"Steve.McQueen@edu.hefr.ch\"\n  }\n]\n```  \n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 2106560593,
+          "name" : "Fix the syntax",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "9n8fp/+HhfEurz/JyvPTWCGCMb0UbVCCC2MKz7/4TdbOMCkZg+6NYkgiRHR/Z0Vl38QtxL1DXqywA9o7vqPJCnV4HhPAja8UZp7sZENSiv0=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "jZSy2yWPUfOSaTjuIofsrt41HuLFDKq3tf5uIOgU50MuFQwwF+95u4NYwZ8MeDo1KyiYgFMvms3x+5R4HRT7eqQ9AWW4SrNDTsiugrqZleQEv52TIgZYFEe+CPeHJyrVAuFbpbQDB9ecSi6p/rYFspYbiCHEwX66P2nbHV5DSz5WQkyPv32MHC7MRvwf5AZ0SJlkhfjqex6wiUZVRtjl5CDHAynPw6vRl+6oRBaKHYiSKjq7Q7EIgotVDQJbg82NeMFBgukq+uvdVgT1W79Nk8VbhIpMxvV+Ar6y+ntVArA4OUTF+IQtrBcMU74YbPmB5BT4mi6Gk5eTwEYTpOoXgS0hQooB0mB9li88ArcZMNa43CVSFMvJMYkgLkeTPVvIf74/F/3RCpc4BJba0OsRK+hZqs6tmMxYpQ6DhkZQybo6yi1BtIg4LsIYMBAn/zoDFr0MnnLZ+vRQUZBHCru3OQq1jnU8pzS9TGiKDa8EwiJ48iVmoaP1MoTi+vuSECaT",
+              "is_binary" : false
+            },
+            "question.json" : {
+              "name" : "question.json",
+              "placeholders" : [
+                {
+                  "offset" : 2,
+                  "length" : 262,
+                  "possible_answer" : "ni6XlGQ0/xWoXFcHfx/Y5oQ1xv6k8rzs6OAK8sNfMWix/mEsHnus8nDpAHyNDz0suzetV20FkFOxc2HyraPL3gvspLCzMac9E4QJkOw84Tyfm01PWsf2S0lRXNUTnM1LMfWermxC7cMI8YJIQm0Kb+Lg+DBKUmpu9AxunRypQQe+EuBfjGMWyc7dSzPAAHSPE9l+eiF28jDDaHaVDs13bUWW+StCJnl2ZT7DorS54mJpdwkxFGIE4eXCJH2uUVu5swo0Ee0A2xv8qdw4lVPhs++kQgljeO4CVxNrk0FCf07FzjvqFa3JchyVpHfd1+clC+syLX6NxWfagJHCtqgmh5JpHPJdC6jt8zn9hqw9FdU=",
+                  "placeholder_text" : "\"question\": 180111,\n  \"title\": \"What does \\'E pluribus unum\\' mean?\",\n  \"date\": 2007 / 01 / 10 19: 48: 38,\n  \"body\": \"I am not sure what the meaning of this voto is. I know that it appears on the US Great Seal...\",\n  \"from\": \"112221\",\n  \"username\": \"joe.dalton\","
+                }
+              ],
+              "is_visible" : true,
+              "text" : "RRD5ypSw8iVD+HTUhb12a389ywR/IwLUuf3+Os2rv1xVW99j667CrWmJoq7OPZRU0eoEWO5+2h12nyjZCwbE703Ca1p6yp9gnx+nSq6FwSpa3z1wOtFgkygIENtNRtWrQ/uLNnu6+0wN9odzjgYLW8QQUR63kgb2dmox0reUfVwzLK38q+R2nRpRqOrMV4UuQ4ml9ILoGykJJ0WKLTydzc6Nyyc1G0flq4KiW4QlAvsHRXzPOg2Q+CK1+99DAXPCGfbAbeTMvNIvlqNEns5KBEz6VxsOUdQLzPoxWR/foPOog5wDJ+FcSKTswlc9e5dmePLsXS2TBNn24zKgHfX31W7HgwZ4iTNuG/Y7USyxneM=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Use a JSON linter for validating a correct JSON syntax\n\nOne can validate that a given representation is using a correct JSON syntax by \nusing a JSON linter such as [JSON linter](https://jsonlinter.net/). \n\nIn the \"question.json\" file, we propose a JSON representation of a question \nthat contains syntax errors. By using the suggested JSON linter, fix the \nsyntax and check that your new representation is syntactically correct.\n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 975200697,
+          "name" : "From JSON to JavaScript",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 163,
+                  "length" : 42,
+                  "possible_answer" : "J8Bvkjagnyo4uo2adKXD265GRnefg1PA4v57vjQo8W+xn6oU5HQXC90QYOGg8Tvmww8SA85DYfSJeQPMm57GrEymONwqaNimDr8LF+CmJwCWmXUKE/Rx08If+GBJ7Icj5e7w2BwzG6CTfNn91UWLke52TVWY1IBd2Lc6VyMoKbztUlm4+kvCl7TW45oDehP0nbacQCwOa4sM6uriuNKUsYN5G4Y300zA3K+0Roz+T8QfYPMsvlNBQs60Lx6JrcVB",
+                  "placeholder_text" : "/* Implement the function as documented */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "VUVgVldm4cAJvY7nMqtDgzowU8uejc7PG7URXvZ2qaa2KBw0W2rPK9dhtzRtAj5IXVc30+O33RvMgjG0WEk6mqeHbrqVyvBr5xwgjyr0TkCsSp6rfv2uAzXg4+lMbmrPbdMUS2WE1VxmfPEno4GV2tbrbCbH2den+8s+pDAtcOau6JXc740iNIL9mJVGrSMsomy348DEpEVLg5+DS4lCd1s8aFxXUbqutUbBxa07mi8apQ+X5g/7mt8FJoxejPS4ZDN+GhKYjBQeqrdrEw06zw==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QUlY8e+6XNZqm1NLPNghudv+3mSkZ5tfDGjd4Mg2FoZapfjCPaLt/R4Km5fbPgXHGrljPS45SLAQrSQCFUdzFSDLCgNBjPFwNbr8NZG2K2X1yMihOB4qwNY6CzjMGEidlGN3bmhLuGoSdrO6SJnPfGnH50SKIdUV2Euj/9cCIvTG2aMPEwT9t1l4Y3V+0i1Q7Ulgzm0CI4fLv3JoIwTezVW2WPYe70wQ6jmrGW4AfOrMV6xkwR/YIjJgVqm840z4O6/31c6D1qCGKyg7iwhkVh6TmQRB9AhjT6emzoPPGQr+FkagvSEEMvshLAKivmj5d+ceQvpRezeM05Cj85D/tyx3+Ak3z1Km3AlShVgt7nSYnzRYdBbGQfmAUzfj2FgWv/MNxV+kRqolURL6lUVMwCoEojA8MdwAizAxxRV65r4fWChkjEXN1tJm2PtT04vZKc6w/htIRCCjNs8hHq9pLhpXN6nXTwjuzQOOWgB5gNBZCc/VLMhzkG0b+DfHxatPe4t+nWKAG7Ifz0HptG2AUb+WzzzPzEAgLm/BGD3E4J0qa8AQ+vjkalitjJEA8czaqKC+G6WXlZD8c4iBRbyRQ7mewsRpOGP4BGeIIQ4uMPtIoG9Jc/bSWVws0OVKByTUWYbTR/mShvfDKEw4tSZBiy7EMvDiMnDy6adcBAK8IMyvJk/Kas8BoHl3VbkseQr/FSPAh2McjmKyvrZu3RCWhAoIWWY0+jqUDfW9sivqAOixePvpS0q97ja+7BuRfNE8cBBPFgsAcfeBG8Cq1HQ6Izu0QQBNip/sn14FsGlcu+x7Otlzpu8BUqy/CUWSEcWelUtrqkHRggTXJ5sD5YGFE6rMI6In/XrqBF4QQ1teofeo9CYdoMfObd8Lx76hUtInCix9Y0b8QFBm5PFcrwWDGseeCHxSyMw/0KGkbmh4L3gwj4D1PMWUSENRRsqwyzl3fQ==",
+              "is_binary" : false
+            },
+            "users.json" : {
+              "name" : "users.json",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "ULunr+PzdUSfi7ZQ/wKSxcX7drICjHcjBDfVn9AtrQwLKOLACShGmOvA3d5NjXYIPrvJCEAr62s7cQe8tltG5fHfyzBot0mLFZUUDqXfw4AXnvNd6nUIG66jU0Bo+cbaLwNEqMsFizOd2xdgHrFGnZ9Lz6Vupqi1LaTkd0j/oC6fpm8lGgdaL0hjgHiT0xciARvNaZtqu8e6csKimf1bGLq2LPJM05z4HGXoGo4mmOE=",
+              "is_binary" : false
+            },
+            "users_faulty.json" : {
+              "name" : "users_faulty.json",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "ULunr+PzdUSfi7ZQ/wKSxcX7drICjHcjBDfVn9AtrQwLKOLACShGmOvA3d5NjXYIPrvJCEAr62s7cQe8tltG5fHfyzBot0mLFZUUDqXfw4AXnvNd6nUIG66jU0Bo+cbaLwNEqMsFizOd2xdgHrFGnRBX86bXVM3JwrEoYRBdyl0DQG5hLJLZF5ta+3HXKKHM+F6tTssyfGs8o+BJ//4XE8k/UWBrjaRSxEaudtRv+Jc=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Parsing JSON in JavaScript programs\n\nA common use of JSON is for exchanging, storing and retrieving data. It is \nfor instance very common to exchange data to/from a web server in JSON \nformat (e.g. JSON being the format of the payload).\n\nWhen reading from a file or receiving data from a web server, the received \ndata is always a string and this data must be transformed to a JavaScript \nobject in your JavaScript program. This can be easily implemented using the \n`JSON.parse()` function.\n\n## Exercise\nIn the task program, you must implement the `read_users() ` function that:\n * reads the data from the file path passed as argument (in JSON format).\n * transform the JSON string data to a JavaScript object. \n * handles faulty data properly, by catching the error and throwing it again. \n\nFor instance, when the `read_users()` function is called with \n\"users.json\" as argument, it returns the correct JavaScript object. When it \nis called with \"users_faulty.json\" as argument, an error is generated by the \n`JSON.parse()` function. This error must be handled and the function must \nthrow the error caught.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 976272171,
+      "title" : "Asynchronous Programming",
+      "task_list" : [
+        {
+          "id" : 530052383,
+          "name" : "Introduction",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Why Asynchronous Programming?\n\nNormally, programming languages are synchronous, in the sense that they are\nwaiting for a task to be completed before executing the next task. JavaScript is\nalso synchronous from this perspective. However, since JavaScript in the browser\nor in Node.js is single threaded, waiting for a long running task to complete\nbefore executing the next one is not possible. For instance, while reading data\nfrom a file or a network, waiting for the response from the file system or the\nnetwork would halt the application for long periods of time. \n\nIn the browser, it is an issue because an application running inside it wants to\nrespond to user actions smoothly, which is not possible with synchronous calls\nthat may wait for network responses for instance. For Node.js applications,\nthe problem is similar: it is not possible to serve multiple simultaneous \nrequests smoothly with synchronous calls to I/O. This is the reason why \nNode.js introduced a **non-blocking asynchronous** I/0 environment.\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 797120991,
+          "name" : "Callback functions",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6IOUsz8KpKjOEEXH3DYEx0g/Yw8/5z5aZxVtbfsZqmQSs6VUcQQOHd2XlH7Ma9JT6jGAgrIZG8FY6Ud1YjjjrOko4mnKslda0jQoI149/XZ1FdIAw52l87/kB0zZHzNm70aPSg9B+g1Sf23WhI63oBJZF5gmPr9byZnCQpe0+qbSzZR/3w/0ZnUOJT1J6yWTCLMQ7peUk08sC1Us1ZRg3Pc=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Callback functions\n\nJavaScript asynchronous programming makes a heavy use of **callback functions**.\nCallback functions allow to the scheduling of asynchronous actions. Those\nactions are initiated at the time they are called, but they finish later - \nafter returning from the call.\n\nA common JavaScript example for callback function is the `setTimeout` \nJavaScript function, that takes a callback function as parameter. An example \nof the use of `setTimeOut` is given in the task program. If you run the \nprogram, you will observe the difference between the immediate console log \nand the console log occurring after the timeout is reached.\n\nThe syntax of the `setTimeout` function is `setTimeout(function,\nmilliseconds)`. In this expression, `function` is a callback function, that\nwill be executed after the timeout expressed in milliseconds.\n\nThe use of callback functions in JavaScript is very common and every\nJavaScript programmer should be very familiar with this concept.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1284438131,
+          "name" : "Synchronous programming",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "dYOvQlvvSaL0XN9RXTYGvhW0o2GkgIXrasqzwsck9SiDOwQBA8/6XNmS0cYXW65WVVrxnwvorEkABU0pLf6DxNuEL9Senxm9CBQcMUlitTZuV9969HpIz1gEJGw0lciyF6qtAEQ3yAnpf4B2Y7SG/EF0U4rNoxev81RF9x6DOPeO4IVNUUloNXnMc49NvrzQBr0pD5PVzMIpUEifmWtn7hpN8mr988vHsyNRa4ynygFnG2uEufOVDdIx0OWs1Lfk7H/tUQXYzTxvMbluPm0fVtqgfRa2xlcqdL8KLvJFKRGMSV2KhPNILO14KZmHk7VDt/4vXS02YPHiBVE3jg4mqhWnF2XcairrDiWerIFMjBCeI4A3ejujws9oq53Js5WLrCcLej/7DBJq7gTI6iK6TAQhjD47pJzFEBjcgpU9EqNtxcYRoLUaJsoFLXyT8OwHoCf9Rd9CTyrQeMEg2QfhEA==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Synchronous programming\n\nFor a better understanding of what synchronous and asynchronous programming \nmeans, we may illustrate the difference with a simple example. \n\nSay that we simply want to execute `taskA` and wait for a given amount of \ntime before accomplishing `taskB`. Implementing the wait can be done in \neither **_synchronous_** or **_asynchronous_** mode. The synchronous mode is \nillustrated in the task program. \n\n## This way of doing is bad\n\nEssentially, what this code does is a busy wait between the execution of the two\ntasks. The wait is implemented by constantly checking the system time and\nexiting the `while()` loop as soon as the required time has elapsed. Waiting \nmay not hurt in this particular case, but of course the wait is preventing \nother tasks from being executed. \n\nDoing such blocking calls has a strong impact on the overall performance of \nNode.js applications, and it is a very bad practice in such cases.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1813107696,
+          "name" : "Asynchronous programming",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "dYOvQlvvSaL0XN9RXTYGvhW0o2GkgIXrasqzwsck9SiDOwQBA8/6XNmS0cYXW65WVVrxnwvorEkABU0pLf6DxNuEL9Senxm9CBQcMUlitTZuV9969HpIz1gEJGw0lciyF6qtAEQ3yAnpf4B2Y7SG/EF0U4rNoxev81RF9x6DOPeO4IVNUUloNXnMc49NvrzQBr0pD5PVzMIpUEifmWtn7hpN8mr988vHsyNRa4ynygGUevspvZVmFCSX5iLcVK+cujDpiz2tPPvuxLCkQrANIBD+PtT80G1YmgAZFI6lYsB5e6hswYdou/fT7aRn3SPVWetbCFdJQhXERKSh2eoGQg==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Asynchronous programming\n\nThe solution to the problem illustrated in the previous task is to introduce \n**asynchronism** into your program. This can be done as illustrated in the task \nprogram.\n\nThis example makes use of the 'setTimeout' JavaScript function for\nscheduling the execution of `taskB`. This mechanism is possible thanks to\nthe event loop mechanism of the JavaScript engine. The event loop will be\nexplained in more details in a codelab and during the lesson. ",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 79860276,
+          "name" : "Call a function repeatedly",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 160,
+                  "length" : 39,
+                  "possible_answer" : "3UFrocZTcb8OFlAc5qfkl++YaHcMTtguvUUUJNcADUREt5HosufjL4OZIRxrl7o2",
+                  "placeholder_text" : "/* Implement the call to setInterval */"
+                },
+                {
+                  "offset" : 251,
+                  "length" : 88,
+                  "possible_answer" : "6qK3WzAAxMnLdM0vaZrsFmiV3QYRvWzefdd54YyT7+r+2oBUnrC/mU2nUNt2raNBx/O+C3xpylvcKdIodmzcVw==",
+                  "placeholder_text" : "/* return a function that allows to stop the repeated execution (using clearInterval) */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "zg7o5u+GisiXxzTNn0W/Fm7uSCEXtMjhyVOjkbTrMAFbvUfj5uHJObz+pA40GTXNuZ6v5Y5bF5OXPCD/VYX8+n0gRUBq5DIOekZ97pQgDvkm8ijYUzvskQ5RqA6Hq3VZUTc7gSrSlIAYM9ysX7CPfHhXJbBq1XBLqp8YC9TdhuzSvt2tIWiQfQYs1f8kF4kS7X9cy3GDO1oKSR4ZaoWkzlhD4F4PlUYJ2feF4a4Sh01hf7CDINybFoQVgE6CWmjMdQx94VY1dsFZ0LcGXwQSPkh/5Id1+DChDsncCQUtMQ1hny/YXvFC6u78VcViU3Pc6lVown1JUplYan1hVTCJzmVqTKrCUB/yCU7wgodJxZ7+cq5D3d3Rb6InNrYdee+OliZSXDQYCX4NeY95Q31MrHBbdzY1BKW62yapMiEgQaz/iWtwnDyCROn/C5P47C7Djn8u1UGtOsKth1ZfNhhns5zJpKUK4IwSwGeF3rHMq2CjdyM3yTOwT76jtySjz0zMWkXuDoIP5lUHWnqolmI5K+Juwkoa4Qt60Qcy18nUIZKN8ZCYLv3rS/0mksdsimpaDjhatqpUOyAMDfnSZWuW6Z2JuijjA1IrwshT6EEXxPViTJHmCRvmiUH5sLoQt3CSUbPa5S7R1LuNWKrgw82Yl2ViIxcRfDB8UDtKYR/MAyT51mU1sondX3Ewc3uzd69VjmEIQX+NjxiN4RZxSvPt5gdwJ3keWRxta6OhFa5lS61MojhxfvarkbMQSfsiXarVmmzILnFRNchoN4ulISGyv4w/qsBmlrDPLiqL/TKN+9+6dyEsbOCAVVPtYKXC0ej0LXvuqDpA0aHjyi51A1RqNJZVFI4aFHbR152EFzpifh3WXl0q3Np4BU5DcNuZzclu2OJNk1SXmTBr0FqNEkUCLbEVpZn8fpxEKqC8Wyy9Tm4qZ+L0aq/vT7OGcxs9x6CH8noKP3vcI0y2vInODFuHSpvOupdQvn+WOhANLLpeyQCUWBt1T2ckojiw3J+irnk7W2QbJOLPXcN+/aBKrLGEP9WKonFr4VxAIstJERNqxud+ZSHUusWkSVA0F5NoxzhNuzLoF71u49O/Oa3lKWjFAz+H4i97BVrOaYke0akW/ycC9BTmBU/1mAv5jFDStpaFGS4RaKo/EKjsHxP9awxh8z5PyGJ+xn48xEq81fGPmEo=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QVQ5LaCXktm5dkWnWbmQMPREvQ1FPMgu0cgHj2x5+MQ081VVtL8KI24LRk+PZ2e7pzVMbiUjD3SygM/8rJ9gc3iFcNMhYXC3z0F4N8QvkcpC7LTSkBUGr2fav5gMeu2OUpbKjePsp6w28WHlk+QY30b2e+8he24NS9wihWOFSJdJWp03KVPnVjPWJCo+0ha311E4GvpneyYQWTUU15064N0RdoVt4GVnKq83jGe9Rcoy2TKxFbqgYGwDKv0NByO/8gbOE/HpnTxvYemJJEw+M14Ksi1HNw6ALowJG0IZNNX+TzzQi+a6xgnmNHq5w0P0Bb2h4fQUOgaFSftq/JE0/j/1sinWB3SnICl+CA+kRFBigDTg8dJaHpVqqffzZV9T7xvBuXdhb8EE/2YAyYxnLb9N2N3qtnOrPhrM96STfuVAkfHt+Z9y5yLyz8NZd7L9NFBTnQ36JCJRdTwgu96kYu4xoiVhI1ueyIvy3uNeNBfxPvvUJt9CD1q4BidGanxdvEQV1HDvNYljkUbeUMba/THrjv1HIw4uFGxluDBSOAuFsS0mNwpHxbseEsJZqUo+JFtMX6kfEhZ4Rdtz78HEoaLV19n5pbC9wh8SrTMbKBSLC0glG8kMCPp1EqUOimozbA==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Call a function repeatedly\n\nIn this exercise, you must implement the `repeat_function` function, that \nexecutes a function passed as argument repeatedly at a fixed interval. The \nfunction must use the JavaScript `setInterval` function.\n\nThe `repeat_function` returns a function that can be called for stopping the \nrepeated execution, as demonstrated in the task program.\n\nWith a successful implementation, the function passed as argument must be \ncalled the expected number of times during a period time of time. For \ninstance, with a fixed interval of `1000`ms and a period of `5000`ms, the \nfunction must be called `6` times (e.g. it is called immediately at time `0`)\n. You may test your implementation by running the \"task.js\" program and then \nby checking its correct implementation using the \"Check\" button. \n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1611914008,
+          "name" : "Asynchronous error handling",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 120,
+                  "length" : 50,
+                  "possible_answer" : "CljLE36fH30CPJvyVvAz2hh9hCVP6HBR9caSQk/sW/755TZ4SzunMrW/bttHaVt1VeRSTRJmGwwqnRwvlEJSimqwN5gwLKMYK01fguG3sv9c+2tcR3YzvfFU8DFVTk4glOwzXkEgTBcR1/t8kBn01jBqvYX6iGet8Dv2zG4ZYeG5mTwy4xQbK6fwEEW4HsrS2pWpTVN0yxyy/xeyFagxjRUh6lkbv3vOkN6KA7I+tnxbDipTLC/BxeTgcyUBdFSCssToT4ArZ5JHHG3ToTS5dQ==",
+                  "placeholder_text" : "/* Add your code here for proper error handling */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "mUYtF+erGMn6VqqmruRNr6nq6ignZpKFDKZ5u1xZtzK6JBRfUjAQ37CbupHVpjNI23LOml1Co5WCBNP4V2RcH8y6Qa7RCT9ZwGVGBlaQ4JZaU4nmae5Tezi1Vb507pjUiOCbXmTnpxD1UnQdgfgslLdCfH4O4YlZEjICL1pMxFT9q6ZlvoOFg3MFsqCbThSMn2XdBuBidMgzDO4e4Jv36ZtG0hBF4vBhA0jrqN0C036ZvdUM0ttrF9xe1VnIgzMIwYPpm0PP1KFsLtXU2kLJdJEotQ9lymNgpD/fFq2paCQ=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sdso5Xxl2KKuHMIitHXflI1J/JO5AM9Au7Hgl4MbGbW2ZcNQTmLF8rlyzs75Rjo9HB2TS4ekGDDqtzkbMF59WXT7ycCwtUtEIcO2fMHgQtQkbCgExAGSDnUPmfj+v2pm6u5tJq/F/JEG2pmxZLQoEjWKezL2XmflQbiR2oF+7uw9rE6NilyUeBlg/aIJm5PSMQo3hqQaa4Y/L2LtRvr+WxWiQ87zahq2ikdKB57XHJlhRTdN2IIjIuEQ+Hq7EY6g+ahtq6E1g9F5uaX4zFTaPgrsHoyiugafhrZawzQrTUlWQNuITcKj1m/wpgiLZ2jeIjSLmgdfIhKn4wIAcEnEwZpwf4ua9xIEHWihZR3XQ0WPrz5GT+oqR+lKOgcXw/sVJaBLlWUnM0F/ICn93K/yMIyyMVBv3C1rsB14OqaYrltof2Kn4yC024FJdiZkJDtcaZ2PbT+6qt0uI/5gPKmghON2QytY+w8VwT/nYWBPOCueLPVCVTF3h4Jtl0SH5bBBDiqsCyXSjj2U5dUPQqLdO85+56NR8poxnC2lsPtsVGDaLLs9yt09XUNfj7zpFqu6oRr+40k/9wx7U8J3tYNUJglufcVAekz7Zhrgys+9tFZq+L+tmt5Ad1FvvLE9ypKqzR/JYTfJZ4lBhCZ/EyVzmjDkx/k9H50Wni2NClZa9fnk4zIv8k4sBtCpps9PruBh3LfcZprVW7YFJBN+vlaK65k/Oc7ZVirqxMYiu20APUddkOhA6ze2OpuctF1DfZyqeh1LLFLlp3ePaitXPPxS2F5DWVBD8QYP5u1WkOqU3aSA=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Asynchronous error handling\n\nThe `try...catch` construct works only synchronously. If the error occurs in\nasynchronous code, then the error won't be caught with a synchronous `try...\ncatch` The reason is that the function is executed later, when the engine \nhas already left the `try...catch` construct. For a proper error handling, \nthe `try...catch` construct must be placed inside the function called \nasynchronously.\n\n## Exercise: Correct Asynchronous Error Handling\n\nGiven the incorrect code below\n\n```\ntry {\n  setTimeout(function() {\n    noSuchVariable; // an error is generated here \n  }, 0);\n} catch (err) {\n  // the error will not be caught here because it happens later\n  return err;\n}\n```\nmodify it in the task program for proper error handling. With a correct \nimplementation, when the `asynchronousErrorHandling()` function is called, \nboth the `onDone` and `onError` callback functions must be called.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1542156876,
+          "name" : "Node.js programming style",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6C1dHUQqmj/i3+JN0xerUPciXi2LpV0+HBcCh0PknR1ESflYIGNzQrMCHKV0B21ON/98STG+bw6KCrTmRcWFE5AR7pU2bnO4qWkfOXhgPdgzWRWit7AKCmOmVfmQcIt7bGD0DhFapQCi5HS/MLlcpmUJ9hgVP3V/sVILQ0cAN2RJztQKcRidkDNu9P6ZvTiBa/J6c/1HzACNW2hvkMMOscaHPwoyUcrZDz6oKLUGw0CEknwvzGpB/Ms47mDwvfQ22xVxLYXErZ6FQjaVBIX/oGAMPlCKElS7pMAhVupACL274aBmh9mjXtwId4J5fLyboJw2/ab0wWnjpWQvNOIBq/oyZMfvay4quDOXxMaizgSOOkZRt/OX/MSsZhArPnqm+mIbGK038YMwPl2q1x2aHBL9fHNLWFmx1Nf7gLtUHj5orQwgmUggH+9IkbDw3xoTRJG98TE1PmRdpC9p8xRz0jm9SCaSRXJq394aMvaigV5t7j42sVWGSuROD5dgbMAbbbqtY/g3p1QhRsRT+tYchpioTVqdMZsAHdYHDDaIGmX0auqbeOnHtFLcVFRwkXX0/l3kY1/5PwHI2tpszpWeowjZrca62eLkjB+MLj/ab5SLmynBmDhFI9VHRn4EbqrujVuNIxZHhWArqxDEog/HuVwRZsWZBj1HfvuvLMs9PJEwKHFObyd+YZXYgMS1WpxKaN/QnZVa9OQcGPlrDzJD6kdbIoNq6m943tuk9TqXLRk9raRMHu4z9bIzhe99n72fyVOKG11YKBXLrBg2nOSoIRDcM7ya8hJWBKKujaIefF5aBuxgd7Mjv7WmP8WdyNemJe+1fGmhl1jV/unB6t00J/W7Uqcf2L/G6TgZVur7eAuR+LRO1bR9B2PI07M7skemzvhU7EPGCCzLldNhzJnyA1I85vybNaxhy/JSBsYgMyYybUYgrOcRZj4n0XQ9OiRboar9kDuEH6OCvD5r7BiBk+ug1iV3D34iGpNMnEepFkfMaPvUOgW4UmZX5hyHd9KluBxsltnOvzgxMuwyLZ6A94Q=",
+              "is_binary" : false
+            },
+            "input.txt" : {
+              "name" : "input.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "99B9Z5Di+SQtu3jazcB/sjcBHh+g1kA8JrZ15XXGkoQEPCjE3bDKje84HWyIk2tLjkT5tD4M+IG2pzbdOxxFi7Ibm6xlZnImIOTr45SlY8rNYLzmd+f/Yqce4oI4n5gh",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Node.js programming style\n\nIn the previous tasks, we illustrated how a blocking operation can influence\nthe overall execution of a program with a simple wait. Usually, blocking\noperations in Node.js are not about waiting for other JavaScript operations to\nfinish, but rather about waiting on non-JavaScript operations, such as I/O or\nnetwork, to finish. I/O operations are very common for Node.js applications \nand this is why asynchronous programming is at the heart of Node.js.\n\n## Asynchronous I/O operations\n\nA good illustration of the asynchronous. vs synchronous programming styles\nis the use of I/O functions. Say that your program needs to read data from\nan input file. This operation can be accomplished in both a synchronous and\nasynchronous way. The task program demonstrate both cases.\n\nThe synchronous call is self-explanatory. In the asynchronous case, we need to\npass a callback function as an argument to the `readFile()` function. The\ncallback function takes two arguments, an error object and the data that is the\ncontent of the file. \n\nNote also that the way errors are handled is not the same for the \nsynchronous and asynchronous calls.\n\nIf you modify the file path, you may experiment that errors are handled \nproperly in both cases.\n\nAgain, the reason why asynchronous programming is required for Node.js\napplications is that the Node.js JavaScript engine is single threaded and \nuses an event loop mechanism, like the JavaScript engine of any browser. Any \nsynchronous call will block the Node.js thread and prevent it to serve other \nrequests.\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1666392290,
+          "name" : "The callback hell",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 518,
+                  "length" : 65,
+                  "possible_answer" : "PkYVgDzsQK6fE4bBT/7c7OCVRRwz4GtzD+oQfwA/aBEYfqUDcQoNSdLYzMRKz8Dj3TEdgAyW+6cIz22JhBMK6FOJrE3feSJ1Yjdx9xt48vJFRdsFkZGStrxlgqrCtcIOa5CWh6QsCZPbFpxi4/0A+Dk9ht5uI441/e6ZBpz3wgz5HovD8uUpBSH5DgusPZyDZOG8KnR+McA1WWCQBEoOE9epyIDP8qfXo5QOSO1/rXToJXlCiPihY3ej5wEesDQKtZ4XXOlDHq5H50O+5Jnk2/usbq/Dn6XMOQoANvGEOuT3klDcF7gHO8zhWu7f+FbH",
+                  "placeholder_text" : "/* Add code for reading filePath2 (handling success and error) */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "F5CjDtE2Otx28f6NQ8wWiwP6kaRDCBRNYrTQTmc7pHKMXc0gvmZp1hogf0IccMLYSQ3QxjAg0eNBKyxnhwu4wyS7V/uoKpB6YKzMB/vA21vh3IhfURsIUj/BzhZPOBWkQpqG4uS/u7OPu5S9XxyS1iG055Ns5FDKXpVSyQJthmjOds/Ja56EWvrB+D3r0+rpECamEWgCFVnClSDa1WLGJMSZf75yMdrIzeVRAuAtIUNfYkxb3exxXvBEDK4WgBiGWIQQHkRff6sYW0Z4s+rv5qlT5IIfcguYo4+FtSrslmhxieXDPugbGAWWdsjtOCnasFnNosQBbh9fUHV1D5di1/g0UYGGEYUhigrkfHtsb7D57VeSiUKBKgMKZxS/cUi8WQkWeR9ysrUIx5LQifBwrB5HXKtSp78mxJXHeMQEq9IBKrgxvcNopXg5b+RgE212ZSZEFCGQcYcVrHPJvpf/dHltNdRx4XFAsjNnYVu4awzRUQ6TP4NLMQGOFA/1Qb77EK9hx+fqP+/X2tGOnG9af01AyQjEeeHsc+6tBlpgrBrckQcyNibjc455y4s8pG7PwWjvxP8xhhG2K3EoxPVX6+OmCDf94/FXmnvru+oAGFLiUNeQWQuGDsgIWnkwiYdjlTFt/RIoIWzTcd7K9XW68mi4AmVxUR7YgSOej+8et/pCFnjgXXSxYrJp0rtVLytT3Sw6g3jpgK22dFDXHci1jGZxDSMaoI/10cDx9yMVO1t9g4/uq73uuEEYJhOsPpRZI1zg2ZuGtVK8q4wBhPQCIcTWb2Rfa/H//uuJir+h2AI=",
+              "is_binary" : false
+            },
+            "test/input1.txt" : {
+              "name" : "test/input1.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "lbwgN+Bp2TwO0z7y3pVtow==",
+              "is_binary" : false
+            },
+            "test/input2.txt" : {
+              "name" : "test/input2.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "PoDrRuLMFQZBptbCQBOnnQ==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sdso5Xxl2KKuHMIitHXflI1J/JO5AM9Au7Hgl4MbGbW2ZcNQTmLF8rlyzs75Rjo9HB2TS4ekGDDqtzkbMF59WXT7ycCwtUtEIcO2fMHgQtQkbCgExAGSDnUPmfj+v2pm6u5tJq/F/JEG2pmxZLQoEjWKezL2XmflQbiR2oF+7uw9rE6NilyUeBlg/aIJm5PSMQo3hqQaa4Y/L2LtRvr+WxWiQ87zahq2ikdKB57XHJlhRTdN2IIjIuEQ+Hq7EY6g+ahtq6E1g9F5uaX4zFTaPgqIhhJjxXetPtSmVRiI1eI1mYcdCzEeoGIKlpC3gr80Zr45CzTFnTygulRARVDkp+JuRuVTNovP/P7rYZCYPuqiej6TYAKaNzr8rrunJydnE1plRrXW1JGK8FLLkY1x8AxiQ1W8XNIgj70iuWHEYuuY2EXBcRXG7pte4/Cg7faVAeRfc1FNooyGDjEbPLgyPhHOi4TxU17OM8UNnOrXZitgpoKSUjPCBHhLXVgg5zjScofy8g5Wc/7OG/YQuIv43OjNQMWjxHGobDgv4IkwLGlZsp7BDqZiw5KkDPhtG7nDRBg1Rlt1uqcGWn3qyHPNL6qe+lYuiqHHiZsoFE51uXZ6NznF59g1Db7w/kMKKLinQiYv6cZbjaEbiMJqiBJcwTYz9MKpOtj6nP7kfHwt68GTkaev0YUWbts1DN620gzdz4gzR9F3J59yF2ShItXgDKRrk9DSmxWzM60GNPzTZvThrETY3/KJsjv9vaY/I6AhfJo5ZHM961hC9Iyw+eLrnCU1uddKvbuC66deTirHSdhSsnlxhg6f5JmIiINhac/22DIEn7ZY/k9977nZS6TGEEYPVCU1AZFNhUxmtyWqlOcnEs5zZifSovncjvsuwzGV8xwEEx+ORT97pyx75TA7RDFyvEXvps+cMGMFQ3pnJl4VwzqZyYsuTTWneJYPRpe/xOGuU2imEarx7aylKWGmkTR4s0LLVE5xlKKk4vX5S1/0=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# The callback hell\n\nAt this point, it should be clear that Node.js applications are by nature \nasynchronous and that any I/O operation in a Node.js application should be \nasynchronous. This means that callback functions need to be provided for any \ncall to an asynchronous I/O function.\n\n## A simple example: reading files in cascade \n\nFrom the previous example, say that we want to read a file \"input1.txt\" and, \nwhen successfully done, load another file \"input2.txt\". Say also that if the \nfirst file \"input1.txt\" cannot be read, then the second file should not be \nloaded. \n\nYou must add code in the task program for reading \"input2.txt\" upon \nsuccessful reading of \"input1.txt\". Modify the file paths for testing how \nerrors are handled.\n\n## Cascading calls make the code difficult to read\nAs you can observe, nesting calls using callback functions gets us very soon to \nunreadable code that is very difficult to manage.\n\nThis is the pyramid of doom... or callback hell.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1487212955,
+          "name" : "Promises",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Promises\n\nThe problem with callback functions is that they are great for simple cases but\nget very complicated when levels of nesting are added. This is the reason \nwhy the **`Promise`** and **`async/await`** mechanisms were introduced in \nJavaScript. `Promise` and `async/await` are also widely used for Node.js \napplications.\n\n## The Promise principle\n\nThe principle behind `Promise` in JavaScript is based on:\n\n- a producing code: does something that takes time, asynchronously.\n- a consuming code: wants the result of the producing code, waiting for the\n  result.\n- a `Promise` object that links the producing and the consuming code.\n\nThe syntax for a promise object in JavaScript is:\n\n```\nlet simple_promise = new Promise(function(resolve, reject) {\n  // executor (the producing code)\n  alert(`Cool, the executor of promise1 runs`);\n});\n```\n\nPlease note the following:\n\n- The function passed to the Promise is the producing code.\n- When a new promise is created, the executor runs automatically and\n  immediately.\n- The `resolve` and `reject` callbacks are provided by JavaScript itself.\n- The `resolve` callback is called upon successful completion of the executor\n  code.\n- The `reject` callback is called upon error in the executor code.\n\n## Why is it useful?\n\nGiven the simple `Promise` definition above, how should we use this `Promise`\nobject then ?\n\nThe answer is rather simple. One must:\n\n1. first create the promise object with its executor\n2. then consume the result (resolve or reject) using then, catch, finally.\n\nThis is illustrated with two examples in the task program, one example that \nalways succeeds and one that always fails.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 768217858,
+          "name" : "Asynchronous task with Promise",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 76,
+                  "length" : 57,
+                  "possible_answer" : "RDhY5TU+BpeQW8senpRKKtUONwfV5i0rrSYKa+Bow7cgQJTZYje1PkHoUy+W7kwVrAcuG99LgGQK0SpSz+jEk29n/OYVaWh2cGj/oAB9FSOIdpY5t4fJJ3Lye1eq+Vj/XKBSsRC4rdzB/PrHG14BhHBsdBfT4NIBOTrZbTOzrE2cqAzC0ltiROfU+Rkhg8iyJRcW6hTV3h3F0g1ZK1Yq9v0yW/MDAj7xEBaIfVX243k/yTnDOJIft1+2wk2dYM/HNntI+ImDhEyGCjCun3lvsdF/aaJRyPPPCOxOVPlvZdt8AgzRDbZKEvAq7wJa//v63EDAbEkiDx8ltRn6V3AA5w==",
+                  "placeholder_text" : "/* Implement the executor with the documented behavior */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "mY7b2oZVj+tXa+nkmPLlX3B8JFI+mIlvwdR9vmF4oWZ0rKnKU2NOcUWZexL5Czu+bokJI4WoOdNmj++FdrScnbu+3qh2NDqtuoZQXveyfXk0U0ByaJAJ7PiwN2YHLV2lu2aw281t9xjW7T/Maa8BBrDBxYdapimsy+2VNc2abrB9nxGAE6lfzrKzWrNMa++uXXvZ0dikJBA9ey6uXcxLBcjmdDjQrmacYzGZpx/jxs4TB0UYtCoCwCiACT+6ohwDNfXN6kgAVl8XNKPj21nPsg==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QXguIsWGX3eJoiBEKoJp6i4abblndltDa6d7caXkv6L+plXz4KxtwcS0UpuiLq++nnaXoUg0ACdVmPM0Y5j4JH2CE28MN8930yZaiumq6IqIN614J7r8gPE2g4qcwPf+wymHdY+0WPoNiBVgeCzPwQCFJ7Wk49hgcLZE3N56oy1wQNd9nvg5HxNTHUD1NMwcrI+UtVjmzkqdFN+iHNNJ+rf2z7/echJmLtYzrwUFqujCkpA9G7YVdvcbaO8Zz8XBJ5h59PDd6dCcadRZ9Qwsvv3DzPiVlBvjnopNTfiCW6LQprwx9Du8d/4nQX8BZgTHzeSwv6fu4PsodYqsyYeyWuGrDiqxHZHQm0ruAFfFNayDJhSMlHXM7L3HsQAUmjlN4iyOEgrUMsj5Baa/gqyZrpT4VrUz8N5+zAEIhKfE+/UZc6FMk3DwaQUaFDz5+ZvWD1G8kdMszBNmeE0zhFVsyed2g+N4g2Ej0g0wrJlw7npv8IxYx8slf9r5OrYNa/DTovj0kMIbi/+cAsjzFY+v1DYKvrW2omzwFsepvKTltADlGa4kcxErLwzJBZX8bA5SJG1nXDEBZpsWmio+lmkhncKh6svom9Za3bW82m/1QaQFoGEQ4wWX4y2a/QDHRg6vocCs3U8vSg0M/FYW/owo1qLpljqEvMxZP4QzXop0X5VDoHYe+klfT3t1xYbc6+ItkN/gmfzJqPT1v8tS+mwErHG7+jKNxKC+qe/8TNPRVo/29ev43zBTQYcLgKSWtSG1i7ehbCkZZVJCYdPewMFq/pnRMT6NLU8AaDIF1IcK2R3R3hKcFyRPxLcctrYeTqxpWp90zu3t22Ydk3VvUfb9s3o=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Practice Promise\n\nIn this exercise, you must implement an asynchronous task using the \n`Promise` mechanism.\n\nYou must modify the `job` function based on the following rules:\n- The `job` function always returns a `Promise`\n- If `data` is not a number, then the function returns a `Promise` object \n  that is instantly **rejected** with the data `\"error\"` (string).\n- If `data` is an odd number, then the function returns a `Promise` object \n  that is **resolved** after 1 second with the data `\"odd\"` (string).\n- If `data` is an odd number, then the function returns a `Promise` object\n  that is **rejected** after 2 seconds with the data `\"even\"` (string).",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 349897792,
+          "name" : "Promisification",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6C1dHUQqmj/i3+JN0xerUPd+o9L2ryI2zdNBYGm2qwzRqvjGQY5ew3rrUqBqPvB0o+4minU5JasouTkdeUWnW29Cp7LMuq2jdCbp5KdVFXgC4I4LU1CMqjcsELA6uErSN5ceOlUKf1ujlA08gU5L9UH7yDjopoE9WEF1oRnwvA8Gk+Elo9YJ1dg0GiAxbRXtJmtOwevLXaWIfjcbUNRZEOG6/p2srbjspVB/RzZI7KsYBJDrwsxDMdH/XR+sq4SyFCmVMo/OLak4DOHw2jqAOkJOAQxNmrNjHVWP5wHiY5Y36oKYbHBJRQYfWGo6qBayBWVgzckPVwX7uhD3KtBEpr43e3gCGV5P1WyvAR7OwjqulJMWio15CDOKM4XpYstC2hOOvJiBPBu7gq0hazi9SCzZzUvHiEbPi8bMMOk8e67md7JRjc8wbsjwqHyP+3ph2oiErUGMgMVtu0KZ7V7dVveHIRZXk+jiV03kHxtRYbdcjXxGKeZUeZmftmMKj2ubG522cLJaHM6YJBst7/leIf+SDntiz2N8hqDuzUyaUC+uaJmtUrz2ART/p2LrJOmgaGMSXC10FWOi7n/vBYvMREmnV2cL+TMscCWYuZX9GLb808iNpCjMouDvByThSi0FSh1fkNUftaA49RbkQS1UgNfD5junSr1GTJm0mP7Uxe+fXQQBGT1h+3sCiPJ4aCkrSSsujQn0RyUvZ0KpfHeXspBWA0GjlJrxPpwleJ5Nzn8EPLUmMygdZFsy+jAnpH2bzhHyGTtzPHv3MIgYZdNEN1SUcDu2AEO+H5AD3WjZ25NuEHK/8FytgWrc61w793Y4g8orgt0QzzPBdQaHYUSBbPcDbguG+F9vp/VyreY7Di8irENQrbaQMXtqgGYtsd8GJT5xcupF76/Xsgu0fIN+qMkmSb280h3NmJci4XFPO584KW+V9WbQOpI2DNMHAlqoIo9IalXz4QfMzB2hD1CCz0hJYPQMreBwNBvZHGaMNfk2bgb8fiVNpCGfV9XygX8MqaK7v6v36uNfPjxf307bl8AVeLW3wk573l19DiZ6fpemW2IsW86S38r8pNDITIJdCx1nEoYYwuSeNXlz5BquQRaxZoRm5/ILSRR0Y2dTTrY+",
+              "is_binary" : false
+            },
+            "input.txt" : {
+              "name" : "input.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "99B9Z5Di+SQtu3jazcB/srR/1rXvufI5+yk3SDxxvRuLzSVA8wB8c70COGN51XNmJiauQISuO5V90I592fqGdz0NCBDuupZSprU5AX2Y/Yzn7WMrj02OSuUw/CAnjIlRad+MY+tbuCzUUiSL3nb2Pw==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Promisification\n\nWhen developing a JavaScript application and using Promises, it is also\ninteresting to do some **\"Promisification\"**, which is the conversion of a \nfunction that accepts a callback into a function that returns a `Promise`. \n\"Promisification\" thus allows to write programs without mixing Promising and \ncallback functions, which makes a program more difficult to read and maintain. \n\n## An example of Promisification\nA useful example is the one that allows to promisifying the `fs` Node.js API.\nThe promisification of the `readFile` function is demonstrated in the task \nprogram. \n\nAs you can see, the `readWithPromises` function wraps the `fs.readFile()` call\ninto a `Promise` that is returned to the caller. The caller can thus use the\nreturns `Promise` object for handling data and errors. \n\n## Support for Promisification\nIn recent versions of Node.js, you can also use the `util.promisify()` \nfunction to make a promisified version of any function. There exists also a \nbuilt-in version of the `fs` library that supports promises (in `fs.promises`).\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1945900707,
+          "name" : "Promise chaining",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 714,
+                  "length" : 102,
+                  "possible_answer" : "WVYNzL3fdXi2ZZ5hIJSto2NxoT/DRO2Ycq3hGHgSooH/q8DPBPvXT0PFg8dbi7+T/sUaSdpLBjjyNoYMyQH+ovApEYWWKq+woImbwCdIbXduqwBC9dMPntRHi7gmtSkDLk0DLETAYHvRyPdR+TpprHnGs5N7WhDqSV4OsNK8InOoAQOD6H+NLA/LA3usYBlh3NMaK83dMe8ffXBkce4VCqB5w2qwZ01ozDKxeVhF7We+4MKAtdAuZoED9xSwYyc24T4e/i5wemBoPgwFxWyYgH6jjFeR6gdOytSHH1bembE=",
+                  "placeholder_text" : "/* Add promise chaining calls (2 x then + 1 x catch) for reading\n      the content of the two files */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "F5CjDtE2Otx28f6NQ8wWiwP6kaRDCBRNYrTQTmc7pHKMXc0gvmZp1hogf0IccMLYSQ3QxjAg0eNBKyxnhwu4wyS7V/uoKpB6YKzMB/vA21vh3IhfURsIUj/BzhZPOBWkRg2Mw7AE/oyi4Fka2cZPxA6MCTGNDlwIvVuEtE/I6L6IruQGMpf6b7Dk+LgpJ09Vxo9FYBfPf5ARSv+GQjgQEpNbAqGsDg9Pu3LTNJeSwSXDCdXOpO0AV6wU96IrrV4A2RhqR4/BkzSbMpT6bPL27Kq1SYZHgYEh1oXhqezAVajiH4sXZHQ1ESTpqm48yBzogYG6XnwXbhS0Le+jrX7E5I2qROzRTUMX3CgusgTnowQS/bvLHQPqUf6yQYRH2pd7r5+6A+KF30ru+wW7bUGfSlHtrPjqZZSyLlcAPby72ejoYoC+P3QVNnRyprEIzWJO8WENfvWLD/bfhw0rjXRUxGLq6hEstlsHzQrXaU2NtdI0MBlvXrHfAMYHLSpDCQT8eoRWdj5Ep/4NRYogcv3/BTg5KaQwmm1srodJONeQI6kshSKZemXYsBg8XIjN7fsR3a7WlJae6wO7cvcvoR8RBx5MANV9sm5GYyUqdogcn56FSlkFjtGxFQMuVw29MAaezAJv7/fxCwGyEJQ1POFramncHqbNV5nKRFHVPW/x2lgdq1IOV7Uyx9ThACB3FlzfbWWg2D+X3mkuIlakL7BsxlBIz7SsHcaPv1fVTVWVPABOzpQ4U/0gKsX+itDyEkncrYdrzLvUJZNI2usK3PRAfJfybBb0W0NPpNREKx0wf4B/3KASM5jM20IrPwmNSv8x6qW5GDLb6BEwTuMARRl7H6/YKg+Dxz6N/nT/9UXf3VBu0dXLmQpP2hMiOji3ohoOGbaixaqXR4ol/EolqZWesIPuwKIMi6Gme7sazXORAdnQLRTP9qamRiBgfbpkKcV9Ccn2SpKWsVx2BK1LSfBvJ0qssYJurWwt3VcISC4tmDRxtJj4s3RF+40yhTPvdzN5aGz9YIwSLXjMzO6jmOVkIJhO051WN/QCEUgoFVwRBd2Lq/mirJu7DtXFCgtez6TPsEytV5+gcDjZA3YbvVfBmQ==",
+              "is_binary" : false
+            },
+            "test/input1.txt" : {
+              "name" : "test/input1.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "lbwgN+Bp2TwO0z7y3pVtow==",
+              "is_binary" : false
+            },
+            "test/input2.txt" : {
+              "name" : "test/input2.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "PoDrRuLMFQZBptbCQBOnnQ==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sdso5Xxl2KKuHMIitHXflI1J/JO5AM9Au7Hgl4MbGbW2ZcNQTmLF8rlyzs75Rjo9HB2TS4ekGDDqtzkbMF59WXT7ycCwtUtEIcO2fMHgQtQkbCgExAGSDnUPmfj+v2pm6u5tJq/F/JEG2pmxZLQoEjWKezL2XmflQbiR2oF+7uw9rE6NilyUeBlg/aIJm5PSMQo3hqQaa4Y/L2LtRvr+WxWHaqGYH9s2fqQQcvBeCYlX+fuMX4CSbgiLkFgt4aZb9E71xE5M/Q4T2wtJyC+6ONCfcrJXLnUVlx5eucvoTDzZqKPLooPWxWu4yhCE/BC9HwS7SkhMi+qXKoe9AG9/Covlj3lnAmZ7MoYg+nO459TvdCRWeViUgd+dli/J0UiR+dmtbiME5RxSANz/a54E/sK295sCTsLYh+nZwRp4LBqJsJOT1gEKbA+lr7R47Qzk5HNgptLVFgCYxxI9BLHj+tGcNiDOezz1CzYvw/DHHv4CR9GcbxK/zzT5qjikDXt7eDwflVN+RLC0CmkTPacFbbo2WFO7hVsh8D/BP6+WB3TFI1cu2F70dftRTNClYJ/fkCiRgycsn0J/alFepwwO1+ZIAMCwyt2Gy7W1Hdl6SZJ8HuDwCP3m4RURq8w6g5Ygmy8ggDeYNSlOr6HHGjxi4THVF51sHx+fNlh9FHnizKHsQm7f0YWwZ6lu6EV7iDTkYgPowJo+yJS/W/QkfGCTvF5vqovmjEngIVSEUZMyuni6BCI6nddcZPMgwn37BzmPrZmNXGDzwF+6hO71Oi03vjV21iKmvq1PIoinnzXiKCa265U3u4b77zvLMq8G912t8XdLrcVrbCltRP6K4J6JIzHSIdfCeV6iXErPnElYIKgNv75/155RfcAGBusQ65XC2Rk9H+Rp2Y/uaIgzyZIjjulpqvF5LDGtDkOdfecsXOHeceWndDSLFyAA2w0BcLXcj",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Promise chaining\n\nAs explained in the previous tasks, the advantages of Promises over the \ntraditional callback functions are multiple:\n\n- Do things naturally in order - execute the function then handles the result\n- `then` can be called as many times as we want (chaining calls).\n- It improves code readability and flexibility.\n\n## What is chaining?\n**Chaining** is a very interesting and powerful feature of promises. \nChaining is possible because the `then/catch/finally` all return a **new** \nPromise object. The Promise object returned by these functions follow some \nrules that are not explained here, but it is important to understand that \nthey do return a Promise object. So it is for instance possible to chain the \n`readWithPromise` calls and to make the code much more readable than the one \nusing callback functions.\n\n## Understand chaining with a simple example\nYou need to complete the code in the task program and run it. Your code \nshould reproduce the same behavior as the code in the [callback hell task \nprogram](course://Asynchronous Programming/The callback hell). \n\n## Chaining for JavaScript in the browser\nChaining promises is very useful for frontend programming as well, e.g. when \nusing the `fetch` API and handling network request and responses.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 822163517,
+          "name" : "async and await",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 174,
+                  "length" : 100,
+                  "possible_answer" : "NjcG2HmmvgfK/am67+XsT4Pvkr2HwM3bvIIFsnRzKUXFKy2tPga9cXmWZPhvOhcS/JySzXi8muAjfGueEHMJWQ==",
+                  "placeholder_text" : "/* Add the definition of the doSomething async function using await when calling doSomethingAsync */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6M3UK8OCW2rjcD9R8Amp5nQ0tJath6/g48nZA9JyXMTjpHU/CQOnMzY4CMcgrjB26DMY3qwFsr8Ni2BAvbcngl+/KTqL04v9qoXIplSqnijTF7A2uZxYHgZtHj27gMJKbAuwahXwbYqpRFFtHL6fRJBD3ig1WeayPC7qRykZhd/Epx/WqdZ3o1W4SCt47vHYw8JWJu3yP9YlcheHL80Jall+VwNB+fmJUqRASQKbG1Qz1e7Snn22hIvKGJ+KU8jsZ1tibmC9f26KI09e8MpqsNMKE2NXRT5WO1j+kmw/4H6UDQKS9Mq3Q07F/AxtqRqsjzyvsbF+/EAYLgWm8XRqQRgaNKQJg9Ev+qk4h5T0KBUYC2gBiUoqZG9+bZtJOZQCByGeG7C3GWRTzz188rgdZCAPtLmlz5XcMEcwrnNwtcFh7r3MQrYjQrPMap3S6zwSMA==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Async/Await\n\nThere is another syntax that makes the use of Promises even simpler. This syntax\nis the **`async`/`await`** syntax.\n\n## `async`\nLet us start with the `async` keyword. This keyword can be placed before\nthe `function` keyword, like in\n\n```\nasync function f() {\n return 1;\n}\n\nf().then(console.log(‘the promise resolved');\n```\n\nWhat `async` means here is that the function `f()` always returns a `Promise`\nobject. Even when the function code itself does not return a `Promise` object -\nlike in the example above -, the returned value is wrapped into a `Promise`\nobject automatically. So it is always possible to use the Promise object\nreturned by a function with the `async` keyword.\n\n## `await`\nThe other related keyword is the `await` keyword. This keyword can be used in\n`async` functions (and **only** in `async` functions) for making sure \nthat a promise resolves before moving to the next statement. \n\nHere is an example of the use of `await`:\n\n```\nasync function f() {\n\n  let promise = new Promise((resolve, reject) => {\n        setTimeout(() => resolve(\"done\"), 1000);\n  });\n\n  let result = await promise; // wait until the promise resolves\n\n  alert(result); // \"done!\"\n}\n\nf();\n```\n\nIn this example, the execution pauses at the `await promise` line and resumes\nonly when the promise settles. In this example, the promise settles after one\nsecond when `resolve()` is called. The execution is truly **suspended** in this\ncase, so that the JavaScript engine can deal with other tasks while the\npromise is not settled.\n\n## `await` use\nIt is important to emphasize that `await` cannot be used in standard functions\nthat are not annotated with the `async` keyword. It can also not be used in\ntop-level code (code outside any function).\n\nIn the task program, you must complete the code for a simple `async/await`\nuse to run a function asynchronously, while waiting for the function to\ncomplete at some point. Your program should print\n\n```\nBefore\nAfter\nI did something\n```\n\non the console and execute calls in the following order:\n\nIn this example, the calls are executed in the following order:\n\n1. `console.log('Before');`\n2. `doSomething()`\n3. `console.log(await doSomethingAsync());`\n4. `new Promise();`\n5. `setTimeout();`\n6. `console.log('After');`\n7. After the timeout expires, the `Promise` is resolved and 'I did \n   something' is printed to the console\n\nSo `() => resolve('I did something')` is executed asynchronously while the\nlog waits for its completion before printing to the console. Observe what is\nprinted on the console if you execute the code shown above and also if you\nremove the `await` keyword.\n\n## Conclusion\nAs a conclusion, we may say that using the `async`/`await` syntax makes the \ncode much simpler to read as compared to promises with chaining and callback \nfunctions. This is demonstrated further in the next task.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 928079635,
+          "name" : "Read data with async and await",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 280,
+                  "length" : 117,
+                  "possible_answer" : "Z11KR9r5bSSSXJ9ueKCaym8vZ6S2A+P9ldA1r3eHr1t08kLcXSCtVOrpz8DhHo49MRKI4aWyPyYrkismaHgV8D3tZ96lJt3XdMgkovFg6CfXJDi4US9Bur4LuKIwp3qh/LqDsC+wJr5IIecs8f2VNGBRL6NlTIv6cdtBKAdh2YKU6JkRYPc5N3cFM8uNx5yW5dGcPG+YB86Na0gpFZy8ilv2PFiMx9P4BKkAvki8xdQ02RWtoVychj3ARUfyeSNCanoOG8nIxMaiTdWolZf/KVT0mQ2gI82v8NA/TtNfg+AMOvcoJQZUO9DGBGs/aKtM1RkPyk0W7VPzJqVB/J8mBRjKxC08MS3T8j5YpuxrMi5BwWo6OKkZG6lDVrTfVglSYdvjZU9J4bht0e5CBRtDVZKkqsEN9qp78WGG1ROnWsHaAi7jZFbaoH/j8O/oagPxNM8UjzFg80+KW36R2A2Lxg==",
+                  "placeholder_text" : "/* Implement promise chaining as documented. In the last then statement you must return a Promise that is resolved */"
+                },
+                {
+                  "offset" : 586,
+                  "length" : 51,
+                  "possible_answer" : "wI65NJXLuJBwJbcR/Xk/czi/GTrJ0k1EgbK0uXzuJMegZkafEHp2NwnjcFM7/olVgJX4AqWmw22GMd82cD4cZ6u9MZyGcdh93FpDSM+ZlLyRIWFm410lkPHgYKk6j3bHpRu0jyXfIU4ZQuaQM+GTrJ59BiPh0fW9Jsv+jaVyJ7V1ukKCYcG3N5eax5/tQMWZNzP53C/88B9h6Ns1S/8TyWSoI6A3AkJ5TLLMs0yUlnMKAoADMMb8kKPldw3YGhPs92ZV+6HJqZR3WnLifILhyjBdJXRt1YfRxg5xYi/FsEu25boZF/cMh6JySW1nUQi29KC+u1BHD8hueLA8aveqIxTfIVtINz7W5ecYN+7MT2eL0bJIm6bTYaPBngNTwEvp0kX/2bmSd5eNxSaeczg9KsHXa5EJjmUHHwi4/tk7uyVjkZEIsp64TfF+bwn2yewFec+broDAQYwtR11UgEqdCok1BoZFBerB7mYUMDhB2Gg=",
+                  "placeholder_text" : "/* Implement the same behavior using async/await */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "F5CjDtE2Otx28f6NQ8wWiwP6kaRDCBRNYrTQTmc7pHKMXc0gvmZp1hogf0IccMLYSQ3QxjAg0eNBKyxnhwu4wyS7V/uoKpB6YKzMB/vA21vh3IhfURsIUj/BzhZPOBWkQpqG4uS/u7OPu5S9XxyS1vPfjFbzQtxhbMBdI2A9mflXh8Q62IigMIKBYQnqsVUiMkD39i65CzCE0f+vtZdNpHze2fAJytxkpgBK7pl63BCavBx0dWGibhzzBOUtypgMj8trW8nn3PnfqJQYorq2MeApys756SeS2MJNAlZNEgpAz3CuGztRAxvSmIDp3FA3GMDKYaTh64mCyHg2MjZc/LRqVNaxSE+C5mkZuFS2RYfpqtJPdBLjh9eo1sY58TphNtKMl+C6T7p2S9CJtPiTxFGDfAFe/i1WZjw27fPUxV3/nGMu/hx8q26PBxwxYmP/9bGQxxHpYBv+rMbflsLKiFwZyZeozdHilL5Zy57EiMYVs+GPAWUCb7yL+OFtbf0kJ+Vt9JCshXPHUWYfSOAAC8AbDM1GIsRpJd+j5893XpIo3+CanLrSVokMk4MYhVsarDXgjsLcZ7gon341NNMtrod3INY7WiYUy29F1fEW4uYjPh1Q8/I1HtFiYWoQu0d95twQXzwGFqQh5NWG3hYVw6CpPTdxb9V743IH+2GDqk0O+0+kF/W+rQuMDf/Bo/rr9bt1a0XwTZQI5olfckiTREq6KL8jSV5G+L4LaVJPWPh/LLMDCbTRyHtT/QVt0OTIJHqkaFEdeMebklu2fdToQDxAzOViHLB3yKYKGDzXhG4XygsLxN2CBrYMLK85kM1eLffl/BUVlx7hC8fN4FO0HyY7jaa02+/NSm9NGPjT5D8=",
+              "is_binary" : false
+            },
+            "users.json" : {
+              "name" : "users.json",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "J0vJvLN4ODNfOb0ePCRQbcsAap2L2a5PNWLb2uhYBSzBbcJled5oh7J+qw36UOs/PjcFWS0tj1A7DIpO/0VKlJPzRjMK0JQZeyZzUxB2qnlVhQu5AMJibA6yhIKMnEsdDZ3RBxX/StIVNT+dbK4JhlpdXjmg1gZYXLslsC3+dJiLhkYkPdNQLG3YpVsjNvNR",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sdso5Xxl2KKuHMIitHXflI1J/JO5AM9Au7Hgl4MbGbW2ZcNQTmLF8rlyzs75Rjo9HB2TS4ekGDDqtzkbMF59WXT7ycCwtUtEIcO2fMHgQtQkbCgExAGSDnUPmfj+v2pm6u5tJq/F/JEG2pmxZLQoEjWKezL2XmflQbiR2oF+7uw9rE6NilyUeBlg/aIJm5PSMQo3hqQaa4Y/L2LtRvr+WxSmEZ2rXurea1mAoWYUsIvCx3MDJpbavnNVp4eIANCm+e2RqA1wRWUlWXwTJQ+8s7OfDsRNlbqRGTYuWhAcc9hRX4x3JTfKVJ9OcWHyGlEZmiGrDFgruUcxKzmdmX9+ro0mYA4lR+2Xwm3WmLEWadW+1wB7K02/eJqCqf0qAdofCn25gPOjxpPq2EF0vwl1TyEauIM4KrvHwPj3DrOWD8Pp+j1F5LBaz1LfN7GkvROjt37EFQw8BLBG1mRmq1zuDHT3BUQwe0rnrWxJd5WssOCsQ8xFUCAuewxZn5nrbFD4h+juD49LQNPmq1sfzfhoAxWnD23ezH516dCTtRHGfalqdkeWWK4xyrTJaDGZpBkA2uHTdXuMmCixJXn6QegySuQt7BmarQksFXAQaU0XOlvQBe0Z3zJ37oiTvtM2OVj0ZLdM6MLS4XkyrV57dqD37VYHm+xG/ILZgesAfiJ/XezwxmcUUAK/xM2xTtrP4G4Csf/2IPCubfp3pNt2jKtSgsy2sl5WJntF3sDVJnI/N4PQc1tDBZQKfdZiwLod5fqujZO81ynr0v2FFODZP5FBHV6brBtaNYr4/RdyMxgLzGX7GxhJexNgNYhqwb1B1HAB9WTTV1b/5Hxdv4JvTP3Isg5W/opP89iHPgfpfd9/4EESc/HthxnAITPEi1J+dHJKd",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Read data using the `async/await` mechanism\n\n## `getFirstUserData` function\nGiven the \"users.json\" file, you must implement the `getFirstUserData` function \nthat return the information about the first user.\n\nThe following operations must be accomplished in the promise chain:\n1. The data is read from the file using `fs.promises.readFile`\n2. The data read from the file is parsed using `JSON.parse()`\n3. The first user is picked from the list of users\n4. The function returns a `Promise` that is resolved with the user info.\n5. In case of error, the function returns a `Promise` that is rejected with \n   the error info. All possible errors must also be handled using a single \n   `catch` statement. \n\n## `getFirstUserDataAsync` function\nOnce you have written the `getFirstUserData` function using promises, write \nthe equivalent function using the `async/await` construction.\n\nThe use of the `await`/`async` syntax makes the code look like more synchronous\ncode. It thus makes it easier to debug since breakpoints can be positioned on\neach line of code in an easier way than with promises.\n\n## Error handling\nNote that in both cases (promises or `await`/`async`), one should use\nthe `reject()` mechanism rather than the `throw new Error(`) mechanism for\ngenerating errors. \n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1958297640,
+          "name" : "Node.js streams",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6C1dHUQqmj/i3+JN0xerUPcBD/g4tefZVpO6QjxgTh5gg/ci91WajeJ0YPJyvIivTIun8fwzV+i+ioA5HO2+u9FZG5grv0ZBEhLmMc8boJIYg0r1WBGI/j7t3iICsY5V5KFZp4enbfDdChXL2gKM3K8nRBFOAwgkuWm03TUFNeaIZslCuGif0Ki0WvjdDpZ2wTBqD7RXlz591TUmDNGlKFFqGeOLao0GJwkdutBEeeaFpIMYvqwj2tVU1fV2RPJ1ztBllaREYpxq6xS+seiF95jfCS4WUFEURQryXCObzvylmWGordsYRsXaFEslVIku2b5I8gl4HWX+MKYnkMh8qWgzW5HWrR01l4wkxC+vmxEjq/sS1Lwq0DhMvrJ6MYfoMlhnVqPvOnChLpn+Odbeai4Q0Vq58YNxpIbOjxCyvU3u+IRZVYnvw9qEdhYOkhCIyF3ibYg+HNSKSiXHU4hH3Ls+rv+T9m6lATP3Tfk0hByELdK1uq24nQfObEf8n5JgVA==",
+              "is_binary" : false
+            },
+            "data.txt" : {
+              "name" : "data.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "99B9Z5Di+SQtu3jazcB/srR/1rXvufI5+yk3SDxxvRuLzSVA8wB8c70COGN51XNmJiauQISuO5V90I592fqGd65Qr+zhp1ZVzG2b9IGR7QbsvWlc41kQAphSy4w4kNko",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Node.js streams\n\nAs we have experimented in the previous sections, Node.js provides ways to\nperform I/O operations in synchronous and asynchronous modes. One of the\nlimitations of the solutions demonstrated in these sections is that data is \nentirely read from file to memory before it can be processed. Of course, it \nis possible to perform read operations in loops and to process the data in \nchunks. However, Node.js also supports the concept of streams, as other\nlanguages like Java do.\n\n## The concept\n\n**Streams** is a concept that was introduced in the Unix operating system, in \nwhich programs can interact with each other passing data through the pipe\noperator ( `|` ). Using Streams, rather than read a file entirely into memory\nand then process it, you read it piece by piece and process it without keeping\nthe entire file content in memory. In Node.js, the [Stream](https://nodejs.\norg/api/stream.html) module provides this functionality and, based on this \nmodule, Node.js provides ways of handling reading/writing files, \ncommunication over networks and other information exchanges using streams in \nan efficient way.\n\n## A simple example\n\nFor demonstrating the concept of streams, we may start from a simple example\nwhere the content of a file is read. Using the concept of `Promises` and\n`async/await,` an function that reads the content of a file is shown in the\ntask program.\n\nWhat happens when executing this code is that the entire file content is loaded\ninto memory (on line 9), before it is delivered to the HTTP client (on line 10).\nThis way of reading and processing data has two major drawbacks:\n\n* It is not memory efficient, since large amounts of data must be loaded in\n  memory before the data can be processed.\n* It is not time efficient, since processing cannot start before the whole data\n  is loaded into memory, eventhough the I/O operation is performed \n  asynchronously.\n\n## Using streams and pipes as an alternative\n\nAn alternative to this concept is to use JavaScript streams. Rewriting the\nexample above using streams is quite straightforward and is also shown in\nthe task program. In this example, instead of waiting until the file content \nis entirely read, we start streaming it to the console as soon as a \nchunk of data is ready to be sent. This is done using the pipe mechanism, \nsimilarly as what one would do using the pipe mechanism of the Unix \noperating system. In this example, the `pipe()` method is called on the \nfile stream. It is important to point out that the return value of the `pipe\n()` method is the destination stream, which is very convenient since it lets \ndevelopers chain multiple pipe() calls like\n\n```\nsrc.pipe(dest1).pipe(dest2);\n```\n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 970377776,
+          "name" : "Readable stream as a consumer",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6C1dHUQqmj/i3+JN0xerUPfCPXx9em+LOJw9WwD/W81iyPeDyuys/J7Qr/T4QPGpbKCu1oIkgKhZWzrBt29TWOucPclNfob+ayFOYQSeSpleC7QnO9dFpTL3U/F8gM17aMjf32gOYqnFZH+5j+xsUF+51Xx3xNXnFTujhfmyT449Rrq5mzBHxuPhXsFJZa9Ju/qwN8el+4UgiQv/FuMGEZyqhjWIGZ/eafvBQwAn2H3gTSVK0xsYcHwoBgAREBNpE76HQGcA7CVG88YLNxm/rkLlCY5/dvlIc3kMQqum4xrlFZdjbxiuBh0x9gdYQ+EAiloiHIp24/UdyGO2rpuz7Jddxx0b1jdSPJ/gbvPn/kVdpw+DFp63+Kjm+6esSUS19VW0RTpZb9dMgEc2CXTLEa75wd9tGTlu6/TfkTo67IFvRtywJPVUuv97mcgPHoHc2l5Miqxh8J4ZoGp5oYZ/nvl42PzcKEdgAP44ntryLb8FDWxp1U89bFPFH5cR44NiAZSp0PSWv0ubzy2l2F9XBHyHZH1a5y1zJaPAYN4ZwheFxqyEqFoXXse4T20Z9nGgvwpXGvM46MxFtL66l42FxvWyGDUoNql2DrQq09NthZPVL45P5pWlweyvwOAjP9ExZr8kkEJhh5bZdhv7+BUkvMznpjoWIPTsmSulQbIkTqyH3dh7iKIb90vltW3cqdkd6HPZR6L0L72OQrNM2E13EGKhGHI8fL4t0UuhYNn4mOa4LV+fSrmyK57RebldtY43bVkqms9YrGbq9X/dbowApdRZ576w+ZhrsplHIbTpSOZ3Pz82OJM9d66ixTQVOT7hUXr1x3btu/1d1C5dMb8wC/B1/+hMBuZKAdJF2dnNn1lriATfLb20lGNobVy2FESAxa31xYgEqhCEErkNX/V/klkz/FW09afQcwuEOi9Bu2Dus4siF9Qi7TdTCnoTcHCrEHTTKid4jjqpXktZaP/opHxl7Brjbuy6tCKBfEe1ULhcQAT2jA3ZsP3WVszluvTbYrcGn3ByntZu63q08os0K1gcHkzFl/21TVqAgyCO6mQGrR0eHIqhTR391Ep68ryfN12ijkT3tjM5DByFwhv/CwX6rwAOhuWCncOl4LOlxb1WK12H+yoOmR3NRHN0rcMtq/O6FCzaAkje5oFdPWa7PlZtJBGXbUj/oaJm0VHXbL8eRV+dv30nqw654N6Te7hX9SSTS0Z7yzNmr+U507+QtM61cjTlmXa+vukXY4qZaGOXkR5Wg+kuTVIqaHhXGmW+ZHRZOGnpRn+6gE5R/rsX+aoBNBz6AW6PLkvlkbryeqj6trFszVwfhu6tASFsdqd/y8B4krZRqW7rlLA5c7FcZlNr4XO+CIPdNrutZj8pBsEU+5y+LWtmEdXz1X5bvDFCFT19hxRkpqQdThZQHaJRb4k=",
+              "is_binary" : false
+            },
+            "data.txt" : {
+              "name" : "data.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "99B9Z5Di+SQtu3jazcB/srR/1rXvufI5+yk3SDxxvRuLzSVA8wB8c70COGN51XNmJiauQISuO5V90I592fqGdzpfrVFUDcUWXxnuDB7KcTLOGRiZQWz++OKytYOJBmuJ",
+              "is_binary" : false
+            },
+            "ToUpperCase.js" : {
+              "name" : "ToUpperCase.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Readable streams \n\n**Readable streams** can operate in one of two modes:\n- flowing: data is read automatically and provided to the application as \n  soon as it enters this mode and continuously.\n- paused: the `stream.read()` method must be called explicitly for reading \n  chunks of data from the source and delivering it to the application.\n\n## Register for events\nEvents will be generated when manipulating a `ReadableStream` object. One \nmay register callback function for different types of events. This can be \ndone by using the `stream.on()` method, for instance for:\n- `data` event: is emitted whenever a chunk of data is read.\n- `end` event: is emitted when all data has been read.\n- `readable` event: is emitted when the stream is in paused mode and when it \n  is ready for reading.\n- `pipe` event: is emitted when the stream is in flowing mode and has started \n  to pipe data.\n\nThis list is not exhaustive and one should look at the documentation \n[Readable Stream] (https://nodejs.org/api/stream.html#readable-streams) for \na complete description. \n\n## Flowing mode\nFlowing mode is started automatically, when: \n- a `'data'` event handler is added to the readable stream.\n- the `stream.pipe()` method is called for sending the data to a writable \n  stream.\n- the `stream.resume()` method is called.\n\n## Paused mode\nFor switching back to the paused mode, one can:\n- call the `stream.pause()` method, if there is no pipe destination.\n- calling the `stream.unpipe()` method, for stopping piping to a destination.\n\nIn any case, a mechanism for consuming data must be provided to the readable \nstream, otherwise it will not generate any data. Also, usually one mode of \nconsuming data should be chosen and mixing between the two modes is not very \ncommon.\n\n## Exercise\nIn the task program, examples of using readable streams in different ways \nare given.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1732487188,
+          "name" : "Writable streams as a producer",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 544,
+                  "length" : 36,
+                  "possible_answer" : "lGlFUXHt5rKmQUQ0pk1uRrRUAOFEYtVIKy3BSFcGHU2r3HS/FjUixK1jml3zsLnNxaq6uXI9KDeRl7VfZn2+fX7qguU1bPlx82PI076pRhyaFhGpRbDCnErxexolyk/BruXksUZl+/I2qVdW/To0d8fpfzQaf9lxF90+wZDAuZ8=",
+                  "placeholder_text" : "/* write the 'data' event handler */"
+                },
+                {
+                  "offset" : 627,
+                  "length" : 74,
+                  "possible_answer" : "krgY+BhfmDXHvLHNqXawnngv7K7w6IjVVP5oY0cd0E0thqKmiQFtzt6z+IYwa8ZRieXbZxXOcYVeFw/b8EJY5ftmRMLHqmGs9KJdM0rDb2k=",
+                  "placeholder_text" : "/* write the 'end' event handler (must call end() on the writableStream */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "F5CjDtE2Otx28f6NQ8wWiwP6kaRDCBRNYrTQTmc7pHKMXc0gvmZp1hogf0IccMLYSQ3QxjAg0eNBKyxnhwu4wyS7V/uoKpB6YKzMB/vA21tK58mPU1mWgk2cALbI9rNtBcGjJ0Nr8C+xPcqDiHxEDAhcKfA/3XarKn+jtK27eu4JxZdhWEgNYFS2xZ8rDSWoxcQ/lI6ErN3GpJs8glXygSFMS0QmN01HZJ96DHJA+NjvRm+WUe3SgWsQEie2LzwOd55Yfd5R6cjd1IMYFf/s3GTVnPFb9Giv9aUOAFbBj7w6Os64D9Dk2eWVp3P9PM3JTgd3fLx97Mljx1n0ZMf/sQ5A2ZJmCS/13JWJZ3IYOnTYmt6ZvPvQZttIMqETQY7xawrC3q7yhd55O+VTYSrFUpaHbvSVZ4j8eghN2R0k0vEfFeKoeDYD5WkVkwUtORUZa9r08JkVw8lH+NaJ2Q3pXrQsdZoIvsKwAmgHqXF+YbLyH0i/b6Al/5MJdvqBCZU+ACtVvLNfxAJP/AbJFNxdAwUhGGiUgpapTgsPhejN+mFzH6H/Tb7o5SfQFl4+Nx3bJOWfFEdng5+jLej4kKfK6E0eY+4imYEtTGZq1CHIU+1ZBhs37wllHGKBM7f3fgyitd4K3c6DgYtyO8uWABEXLjBcOcyYXdfMT13fnKQlihcqEmFHcHQsr0p53Kw90KhR+puTcAMN/kYiHTkdLLSiWnXD6T7zdNNaIvyO+A/sBrGjY8D1dooqZcAEjfzbuaq2C4OeYktS0T7pT4usONb3rRBKW54p3IWNe0Pidc6F3dB/cnuLu7ayGHjvAdLyRXv26ItgKb7pyocU4TE65SL5k9vSZoCFvyhv1GFZiJp4eN9ire1+B94X6vmPC3eYQrMTAFOjD/vkAxAAYeDVICnU3UXr+s8N4kWZHoXB307O7ZzPXg6tkE+YlkklaWdHVI3jxEuFS+QcsGUXDbYkLK4Z0yHtozbgWktNFeAeMK40PcZQfW/ZqLbCKFvBWFsW5+HqpFCwpYdQT89fSMruPCE1qw==",
+              "is_binary" : false
+            },
+            "data.txt" : {
+              "name" : "data.txt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "99B9Z5Di+SQtu3jazcB/srR/1rXvufI5+yk3SDxxvRuLzSVA8wB8c70COGN51XNmJiauQISuO5V90I592fqGd1hUqba1Zp61dQpRct6t0Wj1WVcZttBy43kcDGFLQKxq",
+              "is_binary" : false
+            },
+            "example.js" : {
+              "name" : "example.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6C1dHUQqmj/i3+JN0xerUPfCPXx9em+LOJw9WwD/W81iyPeDyuys/J7Qr/T4QPGpbFvHIAeeCRgr6OZPWQXu49Fq4tjD4qS/R4HMPKPq+0vxHZIJ2oNHsyXdud9F3QW77hKm1Vp+o58Fcpz9qZ6zxdiWaM/eMeAXuhIi0InalnDfUdts9Zso1jCsQdQUM+/OazXoSsk7ODY0tIMRhurxGcML3WCLJRNsMwHLBfVZIXofywuBjKxMfT9aoI7SJlqIbaR8ZJmnTMnOyNlYWP6K17m2NWsFcsv3XJskK4OY9W8ft2Ni4Db/iR15yKiPOMVZMNa+NsXhLmB9nvSH7Q+oLltW3hl4wRTOt+hAdeAwA3VFyshVY8ctiUdUp49uwKQq1PGEDOFNLi1I8lowVJbUdrqo8pnl6plbh0PsF8SjHSwgOyX1q+Y7ioZZonyDAmdBUy8yz1/mrfF95bqMy9T9/kQysGzC40pMIQcFL9KSZegmdNtIscgY7QhnoHgEnqK3bNcTmkA4HByPVrjI+fw0TiW4XMyOM432GrbUnvybhgT/",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/WwtSb7F0lL/0rJx8Yk8zhaRRZz45oLW0XD16+UsPu3Z7fb80H1vc/Zui7lonFW4Wox0IJgN1EfpN81tn5Ve+0OYXT81uzSN5E7iEKBk6tHoCZwstPHKnzhmd7DnBcrruv8mhg/d/FDC8y9GW0Zmtmy1vBcauIKdm7UDnSEjIyCltSfVbmEpM8oB6UYEbowkDOftzNQUlUzfW0ZyOPv7/2nrbEbW1eC1bAfXlyZpgx0/F6Tuw5rYCbU5Vb391Aq0L0OCzaW9Co4BQnyrgzQPMTVWfHmEtOcuZqoJQx8McYHiwQQHYm02tEiMk8LrFnilFu4YGliII+rBmJk4YysI3cNnIuxBywdBcJ7mgBcFpfzUzQbqCS0Af+ZgHl4CiYibWqifs/b3d9oNlsvVlawTB5sj+0fgFx2EMar1yPS4DaBmySU9kusFzxyIkbKHQLoI6LcRocStVwwTFCZS3XuAubS5137P3FwoEWz0geAcuiNYJBN3k7kBqkDeDKMUITZhvgt+1kvJLhtb7rqCylIfHvms+S3B5on7hcTCtPP/tB74Wl/Lyb2rP5WLKcJOpACDYjQ4hIeqnLcb/2e3/65sezq027406cRzbASckjk9hOr4J0yNG4iv39zycUoVJ0He1Fw2vd5Cyo5W935IKEmFCQZBg/D0EkAKDTTRzOJl5uyZOf3k5I8n2Eye72S31kAKgM1YES+KotcHC143bQqwkoBniCicFnAcSOFZRfK6/UvMeCqUgPxKfvhFpYjwKYmL9plddc/KJNCKTni1sAW8GQ3jmCUzGKqpk8VUphZnBOvKCervKdzuV2+i/GydrgbM0ilcc9jCnBj1clMBH8gEnIe8cyFF98OYEg1I08YPJwYp57bdHQ/PnBMnboozapAkJJg5J2uYBFoI6UygMJMM3yM4/Fb9XimeM1Zgsjl31eBxWMxULQrfXjTeQYGJM17JSEnh7AFd5xuj9NbYOqZeP6ZyZ93GG3vMP4OhrKr/gHvtMzAI6cFPBJW1ld7UQYar52BNddmsiXpip1oicpeWKZX+hRDYsZqkJBylQA4M5P4cAkYzDs5S1K5nbGRy5aQDQ2Jp/jDlb/Gi1nAV8rFhk4=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Writable streams\n\n**Writable streams** act as destinations to which data is sent. The basic \nconcept behind all writable streams is illustrated below:\n\n```\nconst fs = require('fs');\nconst file = fs.createWriteStream('example.txt');\nmyStream.write('some data');\nmyStream.write('some more data');\nmyStream.end('done writing data');\n```\n\nAll writable streams implement the `stream.Writable` class, for which many \nevent data handlers may be added with the `stream.on()`. Among existing events, \nit is important to point out: \n\n- `close`: emitted when the stream and all of its underlying resources has \n  been closed. After `'close'`, no more event will be emitted by the stream.\n- `error`: emitted in case of error.\n- `finish`: emitted after the `stream.end()` method has been called.\n\n## An example\nA very common use of writable streams is to act as a pipe destination as \nshown in the task program. You may run/debug this example by choosing \n\"Run/Debug example.js\" (Right-click on the file itself).\n\n## Exercise\nBased on the previous examples, you must write a function that reads a file \nand writes the uppercase version to another file. ",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1845890204,
+          "name" : "Create your own stream class",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "F5CjDtE2Otx28f6NQ8wWiwP6kaRDCBRNYrTQTmc7pHKMXc0gvmZp1hogf0IccMLYSQ3QxjAg0eNBKyxnhwu4w9S1mEguiXMyAFk2jTBBGKzjCDBLr8VGF90Z19dWWxxyRWson86WGCGMWhPs20JR5Z8HDY26n2diilA8met0KKxSRFmzN4lGuLZWVu9oomRE8kQIFgvA5gIHnZyHghp/N/wAI8nHSW2cPaythvOOaZWkeHC6PGrvdqKMOBNA9ctNLGJBW33hz8Y82im+1xZZ/WqyvtXclTdHhr+EAPbZEiTbdgCu5sWM1uYVWpuXd3McBox+SX801kvaTI80YctVGzJNx7OATRxHlZHczmsbokgLC/8kXbmiJGyqObXYwNkM8zPDjGEDNBMIcpGJGiwYhBGfg4fz5XshXkCD0r96viHOrsDPMT6BCDhm8B/Z04R2hfkkkopkfRaY9/StcNFkraNLtdlDO5wbdTJYbHAmluSxxKHoGdPdZhOl9UVNUpmTbkw2gjXHP+K7W8W4yyUCV4TBXG1E+5t8SifZTehtRj3p1PPNsDqDPd5yrXcnKzzISM3l/so4SjWoZAylA30Gk0SZs7W4RzQNsiguDrZ+HWM=",
+              "is_binary" : false
+            },
+            "vigenere.js" : {
+              "name" : "vigenere.js",
+              "placeholders" : [
+                {
+                  "offset" : 600,
+                  "length" : 42,
+                  "possible_answer" : "9DriSPie/Xo/Fi/dKvNHmx8buvIIRuW5qCqVuEa80iQCF6Hn0E5tyVqYfZf/uk5YC8uiRWVqsqWWVqpmErOSpbjchBFWtjSxO5liFs2fFh9v9VrJnDAymn13Rhk5Hnx6kCIH08LPElgQ8kc4EJJev9/plQ4KrrJ+RUIX4n7I9uBeQ+UZ+qMBg9ocyiyaS6zycHMx1ar6pRq1F11muOVwg0RwDVy2OxFrvoHBNj8kN4trbe0ZBqBHV6Y0VIWsRkoFAu1LedeuCg51crJv/MfrE/YM9soL/gggekOkZKLjPCOiPDIV84iaSY1FNcNUx+q0TYhjHpXZbt+oWDbpSJK5CT80Pmq36h3DpLJUcqAcK9MzbYejvOnvFzoLxFhRaKweMBFOGjTQhjHqJLeRE9140Ao94YhG/GxO5jYckcvzC/cZgi/W6toFQkgJBr07baS8",
+                  "placeholder_text" : "/* Add code for encoding each character */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "eTwP4kS2yX0ynHR4053r6MEFvdZ68hidY6kuvr4CL7Cx8wxDZ/oIZEt0TexJAnFdaWObLaPRweK3eSq9B90gbtgB3/oce6VqOKJQJct26pfPsMg57q3Q7SnFWX1nfY+/Fxq2YP467yNQgZcV+/z3uxhpKLcDC7B7Mm4br3NfxotUK7cetuS5EVp8FbFd73ngROhc6pSlrd3UF4jKvnOhxCszUhXH2LC83BRsZmVqvsic/J3vRuvm30iEC2VTglRBvUnwEqXr92+ctRihPqojs5AUcsP5S0f+dpInQywDuiBhhKHTNG5nDkcpzcE5gk7XzCAqGwWigFdmPVetfHvWWvRmqC/Kl/Le+4ubTcFRCZqVCW+V9qiEfTL9GRSWKJYwyWjvflNb6sG75M9rahv/rt0oYGbym48jRvWLFQIvT3SKF0Ug5b0znDvY86Kx34i4FuTPkPmfy9QdQKyunrsWr2h30O5oL6OHylY59cu2sEPrkmOcOHPyVPjMOFHQ4vs+20cqVE+bws1ApMoxsuHs93/5hAbaFwh0iOaCP28ipZFn+48YYRzKcqgeli06nsJfPH8eOS5RtWMjFxGbK/EbouY+VvifR5V6Q85F0PgiyPEUkNdOf0pH5xeSiIPy23O0ucSzT6BuUq64ywewhzkwM91XnYUrZt+apxGg/whJbrLWM9vBRZ3z1cinxVCEKI+r6z4fOFfPO2d49+UknN/GDkVuONuP0RHEPWuG7mT2+jDG7/gojo4FqAiOvQNMhVLLVQCUE261ACRjsb+p65jEQQIUdd1YQGJeGsEVGmtr9O1A6HPLWKoCm0onXChBzWL+D0NSNDxiQ17G6N8xMCXMBIp2SvW/d5uY/SQx0TqeWHjM0usF3oGcMo9MCa4224WP/s4nxvRHarkqLw+V17LcAgLTH5HLg3YwnPZVuYh35Gij1e9F7/NcUea2D57k5Uy8inlO+WcHA3Y7DW36fv6AJ2hrj3HfVWhP9Qm0a28NWlbuGKKLZhIbrfEbfKdt9NGt",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/WwtSb7F0lL/0rJx8Yk8zhaRRZz45oLW0XD16+UsPu3Z7fb80H1vc/Zui7lonFW4Wox0IJgN1EfpN81tn5Ve+0OYXT81uzSN5E7iEKBk6tHoCZwstPHKnzhmd7DnBcrruv8mhg/d/FDC8y9GW0Zmtmy1vBcauIKdm7UDnSEjIyCltSfVbmEpM8oB6UYEbowkDOftzNQUlUzfW0ZyOPv7/2nrbEbW1eC1bAfXlyZpgx0/F6Tuw5rYCbU5Vb391Aq0L0OCzaW9Co4BQnyrgzQPMTVWfHmEtOcuZqoJQx8McYHFYqITwHMCop/LOJw6XHnIzA4eW+NSLj5mnlwWFsGVBtGvchuiGlbvuBsoXt5HabAMzYbfQ67jMKeb6R9G+T6Qt0pjE2WCovNtmGlcLrq0eLu68j/bhdJPn36z5h3rMsZsobp5FPV8bBlVUzm6/kj3coH4bdEecAKiDouxRJ7FXeFsiRX78zzYjyysPKbktqXuhDLeKOFw6ccW0iWTSEdHjMbfQcWjF1QNdA2JqVp0gKzfeIIUaxCtkxqxnnycBj1LqRfwzct8AR77LQjzPLYz4DeuRie8efm/480ZzDCVUswejVC1OwS7UHznCV13Xhe8lIQ4GlKA6xfNQQRvsKIsHOD4hvMZ8VKaUKQVtf5HoUKanus1GUwA09kO8PzcRQB1mzD/B8IZ4QMotJks7ChIIUMXhYfwrv5HfhTp7iQQGkm6XXA/bFHWCktUWM5rbaHGam9NEMXakflzXUkneG0fv7ScodWprumz52U+PfSHXl5kzWLaqNhFPh1Ox648FhfTvkFgpInd78br5We0pwU3rleYRgMELWhu93RGEP9aK2yJKU2V2uOjRYq1El7Gj2hQYMo4jAdQLARbdQVThPrawq4n9VPj0q7NeNDxphvKcgP0/iPLNnJrdMwdNIeTJCF22EbwFJvqC9mx3/xYnGJ7Tjc7/XZGZqRGz21BrsS3HzOz7cYo/0LUEk1sWgSVC/G3xLrbKYlzQbkhO92a+LiBM78Ryp+PeyUV9UVRMe/UE4egLyhwH85SgbjPtasdl/EKP5emwjwP4OWZSZvM6QopQjSNfkZvskzW3KFYwkWdPs=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Create your own Stream class\n\nThe Node.js API makes it possible for developers to implement their own \nstream classes, by extending one of the four basic stream classes:\n- `stream.Writable`\n- `stream.Readable`\n- `stream.Duplex`\n- `stream.Transform`\n\n## Extending existing classes\n\nWhen extending these classes, the developer must then implement specific \nmethods, depending on each classe, as shown in the table below:\n\n| Use-case                                      | Class     | Method(s) to implement                  |\n|:----------------------------------------------|:----------|:----------------------------------------|\n| Reading only                                  | Readable  | _read()                                 |\n| Writing only                                  | Writable  | _write(), _writev(), _final()           |\n| Reading and writing                           | Duplex    | \t_read(), _write(), _writev(), _final() |\n| Operate on written data, then read the result | Transform | _transform(),                           |\n| _flush(), _final()                            |           |                                         |\n\nExplaining how each specific class may be extended is beyond the scope of \nthis task. The task program demonstrates the implementation of a `Transform` \nstream, which are of particular interest in the scope of this lecture. \n\n## Transform streams\n`Transform` streams are `Duplex` streams, so they can both read and write \ndata by implementing both the `Readable` and `Writable` classes. In addition,\nwith `Transform` streams the stream output is computed (in the `_transform` \nmethod) from the stream input. Examples of `Transform` streams are streams \nthat compress or encrypt the input.\n\nWhen implementing a custom `Transform` stream class, one must implement the \n`Transform._transform()` method and may also implement the `Transform._flush\n()` method. This is demonstrated in the task program for a custom \n`Transform` class that implements a very basic encoding.\n\n## Exercice\n\nIn this exercice, you must complete the `_transform` method of the \n`Vigenere` class.\n\n## Object mode\nit is important to point out that all streams created by the Node.js APIs \noperate exclusively on strings and `Buffer` (or `Uint8Array`) objects. It is \npossible, however, for stream implementations to work with other types of \nJavaScript values (with the exception of `null`, which serves a special \npurpose within streams). Such streams are considered to operate in \"object mode\".\n\nStream instances are switched into object mode using the `objectMode` option \nwhen the stream is created. Attempting to switch an existing stream into \nobject mode is not safe.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1615524670,
+      "title" : "Regular Expressions",
+      "task_list" : [
+        {
+          "id" : 2133493336,
+          "name" : "Introduction",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "RbvEHK7d77SjY9xok4DWnA9egLPPzdIgSIC3S25li6Gervs4Aht3pzFAr4WkjTQyrLChrAkYHZrzP1ioyzqUInmbTHU06DJfdmhlb6zz504+DsvgOh8TJK0SIKfIWEGuBrttd4l1l7+CI/L/rQBp62mRivZQHh3t9t98DInw72thvJHBZig1/gxiqd7rtZDO/fric64PygghjNsvRlo+977VlhTD/oZ17Fwmcrr66hDST52HR49h6CUqVx9Ov9s7SMJujsQ4T+lN/Zey8vYSZ08gxZhv8CHE8CYG4Upg+rWgwvSmXhInCsPXVaLIwwLdE9MFoK+bw2wkQyON8YD62B+eMTn6E0gDaHKjEVe0jLdWXay1HXpkh+b8qWN5EUeufj5b/8OA1lmXum2Hv8TK7Jr1f6GzBpphkmB0IDgPz8bZdaiwZFO0KHaHXkl9XRuVrdEIokN2pon8jQQPlGiZdw4Fo/naajy5ePOYlfbdquJMGW9TdXcGfe27ui+5LreVIUunFhEekZCaq7IEcrznYwoesw5etgo57qeb9qRAg4YWymEgGWSLt0cqMpFaVJj+s5FwSg9JLj4BmootDu+nP8ej9xmQ14l9l7ghxx3jleM/QxPwp+CmeB6wXZ7xsNj7VX4BnxWNvQqvoud1e3iApLZNRStCPJxROjQ5mt8NznsAdbnifI8R6wPV+IyPfviYVJUuUzbKAc3henlgmeJjf2qS9JdBmNanOzHCoZMdV9YdVVBM3Pq8a5Gv5aysrJAbYA/NkD2l4GrsbTvfI3yQNdJB76vF9Fv+luaFPZGprJpX6M2p1lnmyCHsQ4QP6BdnLHOL4eceG7NkkZyvH09ExSKOelh/U4ACGffPJfHIgmQ=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Regular expressions\n\n**Regular expressions** are very important when programming in JavaScript, in \nparticular for Node.js applications.\n\nRegular expressions are patterns that allows to search and replace text. In \n_Node.js_, they are for instance used when formulating mounting points for \nroutes or middlewares.\n\n## Creating Regular Expressions\n\nIn JavaScript, regular expressions are `RegExp` objects. They can be \ncreated using two different syntax, as shown below for an expression \nrepresenting a \"two digit\" number:\n\n```\n// construct as a string with a format\nconst twoDigitRegExp = /[0–9]{2}/;\n```\nor \n```\n// Construct as a new RegExp object\nvar twoDigitRegExp = new RegExp('[0–9]{2}');\n```\n\nWith the first syntax, using the slahes `'/.../'` tells JavaScript that it \nneeds to create a regular expression object.\n\n## Range and quantifier\n\nThe regular expressions above use a range `[0-9]` and a quantifier `{2}`. \nThe range specifies that we are looking for a character between `0` and `9` \nand the quantifier specifies that we are looking for two such characters. \nMore details will be given in a next task on ranges and quantifiers.\n\n## Regular Expression and Strings\n\nRegular expression can be used with string methods for matching and \nreplacing expressions.\n\n### `String.match()`\nMatching an expression is done with the String `String.match()` method that \nfinds all matches of the regular expression in a string. When no match is found, \nthe method returns `null`. Matching can be made using different flags in the \nregular expression.\n\n### `String.replace()`\nReplacing matches found in a string with a regular expression with a \nreplacement string can be made with the `String.replace()` method.\n\n### `RegExp.test()`\nTesting that there is at least one match with a regular expression can be\nmade with the `RegExp.test()` method.\n\nThe use of all methods is demonstrated in the task program.\n\n## Regular Expression Flags\n\nRegular expressions can also include flags, using:\n```\n// construct as a string with a format\nconst twoDigitRegExp = /[0–9]{2}/g;\n```\nor\n```\n// Construct as a new RegExp object\nvar twoDigitRegExp = new RegExp('[0–9]{2}', 'g');\n```\nThere are six different flags, among which:\n\n-`'i'`: the search/match is case-insensitive.\n\n-`'g'`: the search/match is made on the entire string, otherwise only the \nfirst match is returned.\n\n\n\n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1889686727,
+          "name" : "Character classes",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 129,
+                  "length" : 70,
+                  "possible_answer" : "2eBpd3LDb9OJfwhffMmp61vWWZD5yY1aColDsHsVv06nCxBL9R3Q2afi5ub/O/OgljgfGj8mVlRvBKr0Y9xqtzKlTd9M6wahOMkaCmgMg3xVcCxmMWcgryGpGPxvMDq8UyULTcYsf1bEtdBx5wLzKEyCQjZeU10oy6ShqljmQMWwJWiFvU3Ce5PNPVcMNevsNST8rEM0IQetBuVWFYHiyA==",
+                  "placeholder_text" : "/* Write the function for matching phone numbers like 079 999 99 99 */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "4b/vQvdorbH5ecqBAlULFVzDE319UsNVs3mgVmVSrKfnvTSvRQzU0eaUoFlBtrzHubOAq6g9IlUV9/CXAYwmuinIbOmx9ulmY7tRbOF4r5EwfUcBcR/qkqOuaL7T3blVYkdodB5NNkwzMWeNt2qoMnqLTbs67nDTOsKcQ5FRVEiazxh7tyLuerQs/FvUJn6xnHQge8lgCy7Y1aI3wc66MUx7Z3y+UNqjHPr6pUqkE4VOsY7u3mlCRTj5WJU3pVD12LtcQpbTcOGzuUAjzUtxug==",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStW4rY85QrYwI6vTxUpkapODXrmIN6H7Gmeo2gOt/oq7J5ZbDrjpm21dfm2qwvw2PWDsLAEInFEAxdmbHkifq22hZiONcr0i7xVuL8CzFKPzz2Xmi3VxNxdEf8C3FcwHThRWn++Q1qWrwioIdx+ntZltLvoy/LjM0Ks7aDf8ZKaD6o+sJBAF7D65So4uDcXlgug==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Character classes\n\nA character class is a special notation that allows to match any symbol from \na certain set.\n\nThere are several character classes supported for regular expressions:\n- the \"digit\" class: written as `\\d` and corresponding to any single digit.\n- the \"space\" class: written as `\\s` and corresponding to any space symbol \n  including spaces, tabs `\\t`, newlines `\\n` and few other rare \n  characters, such as `\\v`, `\\f` and `\\r`.\n- the \"word\" class: written as `\\w` and corresponding to any “wordly” \n  character: either a letter of Latin alphabet or a digit or an underscore `'_'`. \n  Non-Latin letters (like cyrillic or hindi) do not belong to `\\w`.\n- For every character class there exists an “inverse class”, denoted with \n  the same letter, but uppercased. For instance `\\D` denotes all \"non-digit\" \n  characters (all characters except any \"digit\").\n- A dot `'.'` is a special character class that matches “any character except \n  a newline”.\n\nFor instance `\\d\\s\\w` means one “digit” followed by one “space character” \nfollowed by one “wordly character”, such as `'a'`. Or `\\D\\w` means one \n\"non-digit\" followed by one \"wordly\" character.\n\nIn the task program, you must develop a function that returns true when its \nargument matches a Swiss phone number, written as `'079 999 99 99'`.\n\n## **Important**\n\nWhen using the constructor function, the normal string escape rules\n(preceding special characters with \\'\\\\' when included in a string) are \nnecessary. This means that `const regExp = /\\w/;` must be written as `const \nregExp = new RegExp('\\\\w');` for instance.  \n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 369834529,
+          "name" : "Sets and ranges",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 345,
+                  "length" : 56,
+                  "possible_answer" : "SIlnksvrxUDqPhykt9aHi9n6bt9wQbV64nhwDbQvr9uStoNDMihbJHtpcOrhLNZMuLVn3PAdhiqyHrMUsKVS4XGKRFpQuFJfabYxtk8J3Wg=",
+                  "placeholder_text" : "/* Write the function for matching times as specified */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DG5AWcPEBBFh8Ml+HKqEUy86BvULaEoS/tKPqp8TETo4AyuUWlnuacxxTSSMnorer1u8zFTwhM9TSwJNx1bhxEfjiKf+QyZFwSFYwvXTBEK5OpCepfMmAGPjuyW2SEoWy87MIlk9lqxKq05+Z8D2LLtXq/7WlHESDU7gVOdrwy7Egw0+mfN7d+okEwfcBVD2ZlDtTsNXM36tRP3WlTyS8N4cGEAyskJ4k+ajZySsp4DQWV0g7k5ubKbh2n1XLwg0ZqSuSmNt4x/Gfzvxefh02nJFIMp6+bjkcUZjTuW+QWNy3CPUYla/0ACxXFCJPFlVsCoGnLg69WYeMulZ1I9oehLd61BF4fRNHDOJkXKWggkSjnFXHTNx47o8+J+4DCPylm1EF7SnkSDfoMF9s8tUWQP4pyCBbyoYW4KaW2PM7bYasugbkQDx4ZDdhXnE8Dcsrlxm5tsSayS0vc00VoFRB1ZOifvQuath1A3P6GJ9kFOan/rD/KhNzsVT4hW69AbBvaSgEqKmgbzwvmHJH95HP0USvEztMmRexje2m1ELHY4=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStWgCkQJSls80zfw0TGZuhuEp06yXaCgR4IriWCbm3il0JwKrkX+VlWPHMrtBYiKBda5ZFfhCfOnmLgQ26NnwXM+twnLH8QmS/lzyV38n17CmcYVwvLaMZJxI6bcSb/1E2S88wDGzn+Ggc2tB1BryZp3gy//526k0bAPf1tgVVIuwNnes4lUU9nZyju7l1t8+4asc4WnVsXXu220AeToVld+WQ/4BEyZeIoCjwlOHYAapsaqU6zb9Ax8pLsRNARunuJsfX6VEEinh3ulhE5+7EJqxB4WiDtPJYSWPyuGqgSBvXjJQKfPJN4HAd6GiuZt4eg==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Sets\n\nSeveral characters or character classes inside square brackets `[...]` mean \nthat matching of the regular expression is dones for any character among \nthose given within `[...]`. For instance, `[abc]` means that a match is true \nfor any of the `'a'`, `'b'` or `'c'` characters, with exactly one character \nin the match. This is usually called a _set_. \n\nSets can be used in regular expression along with any regular character or \ncharacter class.\n\n# Ranges\n\nSquare brackets `[...]` may also contain character ranges, like in `[a-z]` \n(any character from `'a'` to `'z'`) or `[0-5]` (any digit from `0` to `5`). \nRanges can also be combined like in `[a-z0-5]`.\n\nFrom this perspective, some character classes are shorthands for some \ncharacter sets:\n- `\\d` is the same as `[0-9]`.\n- `\\w` is the same as `[a-zA-Z0-9]`.\n- `\\s` is the same as `[\\t\\n\\v\\f\\r]`.\n\n## Excluding Ranges\n\nIt is also possible to define excluding ranges with the `[^...]` notation. \nExcluding ranges match any character _except_ the given ones. For instance,\n- `[^helo]` means any character except `'h'`, `'e'`, `'l'` or `'o'`.\n- `[^\\s]` means any non-space character, identical to `[\\S]`.\n\n## Escaping in `[...]`\n\nUsually for finding exactly a special character, it is required to escape it.\nFor instance, for finding a `'.'`, it must be escaped in the regular \nexpression with `\\.`. The same applies with backslash for instance, with `\\\\`.\n\nWithin square brackets, however, most special characters can be matched \nwithout escaping them, e.g. `.`, `+`, `(` or `)` do not need to be escaped.\n\nIn the task program, you need to develop a function that matches time values \nthat can be expressed in the format `hours:minutes` or `hours-minutes`. Both hours \nand minutes have 2 digits, like in `09:00` or `21-30`.",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1711947013,
+          "name" : "Quantifiers",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 261,
+                  "length" : 72,
+                  "possible_answer" : "SIlnksvrxUDqPhykt9aHi46+oLWt+FzwFbSTSkeB5zEMOIBS08W/tLLlfRk2XGv2IYOwyeKBKqExb7ro8Sto+A==",
+                  "placeholder_text" : "/* Write the function for matching floating point values as specified */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DG5AWcPEBBFh8Ml+HKqEU/0K6YTVNVFkV2RERi/USzDgfcxX+XX+FlJbgLNUfLnQl33fIEO76ZUL+FHOazpw5IpEgqRmhinEOctNgZMN0AlCVLkTy9odjz8ocBvl1ximYSqT0MEJ0wllatrb47xItFrDhjBtW/sRKi+jLf5IIBCZ4z6cZiPVreWnDbz3H7fXAcg8YaCNVYNkLUQ5eluXo4BUezzI4mytf/YJ1axd/J6WO+rkz9Y/4KTC1IKKMXQBs3w/1hmVBmHALymsC4pK8uMQmHMw4NfOY1Bw+TST5mn3Vfhy2S++r8SqYI1Xi6J5syZDDBULyv7GX6NHeCxT4CzPxbheZATnCYt+g/k0fAEJ6RWdhQorqP2iGgCOL5Ez3s9KCwVjhHNUDkTi1i1Ex1ZbzObtYv8XQQg7hiAjq3MQSD/0/hHVbs1ssj0VFi7yr8dfHmWuyHUNIJVDW6jcAkJci8dInt7wtRWjxoDMfPhYDyGXMTRx56Rv0Vi6OOl2ZLWBsKggdIAFGgrVEmpgp3DLZqqq1p1yyr58QOcCWy7H0wGDSsKuxI/9VEJ1nsdTKfEMYfZJbyC1EMoYiiHJUH4CbYg4SPU//tDr7LvwgAHsndljGIWclruULIB+zC1yIzrwM5dInxU4n9Cwmk1fqicHyhYwFnlPaVGyGxp1oOOff9dSiuORRGwsu9JXwpyJEmSdL/Ksc8yws66Nr/XJi74cuexFljcv6ixfrE0bK7jFxyFRmKjMFXb5ThJK38EhTxJzhQQhgNpq7sO262jdx4xKgzoINZg5fLxXDz8CXLXFFf4IQJK5ngLJKPheeAsAkkUx0xgTYjB62m0sbqqMh9VdUGDkKPkG9BrwoRw6HbGzK5l4lCwY72b3iAx/RfbaIvOLa6sMpPMHpC85l5CXxFQBVXSk0eHeJZD9tX9KA0SDPqChs8akRhLc+Se5vmFhfPojPhIdHbmrPRVlwtOiX2kxQuEjKU+cYpaC68LETdojOkBNbjlkRsChXoLjLLdY",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStWgCkQJSls80zfw0TGZuhuEp06yXaCgR4IriWCbm3il0JwKrkX+VlWPHMrtBYiKBda5ZFfhCfOnmLgQ26NnwXM+twnLH8QmS/lzyV38n17CmDWfaIGgH/KsK4eWdcdCm5CWtFp+JP3mRCo2m3WFv/oia6nNO1bYKl/owQXtlckibIfJCgx8eFWq8uwox1uS8Z4dgaAkOcLBQpv55393KsUe+U6lGi3rmWkawECm1dcQwfpLTS8zFUltN7P3AwoJcq8+fx+g4b9wEZWCRA00MaDdzHAjpi0wK2LJU6RgV40N848reff97v0+8U09M+rTV1UgIQFEvluMAux6T1F4Nli4gRjm9PLiSOnQFR0i9XJ81qU+2I+H2nGgg6TUon+TEP2gMUtGNqJeO6if3Q+N3GKzv0taSKED/UVrNLmcmlvJHo5e44puN1eVymeQJvGLkMR4n6U2FDOBqrfPRz03Vtx8d9vK6BQpUF8KITUqCZ5G1eCwp7Cj7d4hIEe/dnjpyTc1afvRhUXJhNaq46YX0x1PL583oY1fMJrQpJoem214nXMTyrqBxTbgilK/Bx/lN/xZvmApD+r+Mr8/E/RulnGGJdAVtjgk96Ldr/48Zp8k+16Q1TDCBvfxVqW+sjVcidbs7vPdVHz3zHRbCGtRi7ekPwMIZx7fyMh+pqyypCZNLyHDxmeRDz2edgQVHD6VtQaE2fNESEGNryLo1Vu3HiRFAsPqvPxB9vGAUlVqOwdjlfLOccqOcCxe7kIDOIPxM6sHf30UikTnbyl4KxgsGupheKfD8lkqEWg6QP28pkpXzX4RXbRKIFh2X67HoxfJCTbtZMxIGd0R+9ZVuy81pnFE=",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Quantifiers\n\nIn the introduction, we demonstrated the use of a simple quantifier `{2}` for \nmatching two-digit numbers:\n\n```\nconst twoDigitRegExp = /[0–9]{2}/;\n```\n\nIn general, when we need to specify how many times a character needs to be \nmatched, we can append a _quantifier_ to a character, character class or \ncharacter set. \n\nThe simplest quantifier is a number in curly braces `{n}`, which specifies \nthe exact count. There are also more advanced forms, like: \n- a range, specified as `{n1, n2}` that matches between `n1` and `n2` times.\n- `+`, that means one or more, identical to `{1,}`.\n- `?`, that means zero or one, identical to `{0,1}`.\n- `*`, that means zero or more, identical to `{0,}`\n\nIn the task program, you must develop a few functions that use quantifiers.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1303998426,
+          "name" : "Capturing groups",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [
+                {
+                  "offset" : 437,
+                  "length" : 67,
+                  "possible_answer" : "SIlnksvrxUDqPhykt9aHi0aysTYB+F390YJo2wcZzwzt13SboXrwUVPuNUg6/2fq73O1G4d5BGjbhcz+jGRPhNQRt7aZzKfFHfIP5WZF2uHngBQkD0ShaRYVUgTrUTIy2/JKdq1st5B4bLYOhkYrCE1vauTXrfJk5cYLfnbELr/DMI/yo6fF94M4KBtEK3vjLpQ64CdVHuQHw+2b9g+3uNgKxwfxXcsZ0J+rqJaBTTVTROhB8z5GWw+OHIMG4tAsJn5fmQq6vBZ2ObRox++A5Gydx4nS1QvfHR1NtlBzcrCLT47sjdXzvO5TZUHMO/JWZXqZBeE5Gn2A3SJ2ceGkpRb24t2ZXm/0U/xaPNleM83n2y1MjZNHe84etld22L1vTK7W1S1ec50XqUTv/lu8wp0VURYaN/KuRjKIbJ1UhILWvo8WCMxIEXCNaEP0R645hto4MszUyC0TAtWS4XmYEDcpXjjZGeqwoSdxMr+KOb+C3FcBg//BoCKkwu6UC5XrCBmCxxxKwhmHzHJREuldYLhhOajswj4MLdZIJLihQDNXW6Jd4bLa3MpA2zP1ToFEBnZ41lkhmO76b380rSKx4ihpxsCyWSveQvnRdMo25Kk34oqSN8x40VoEOKi9/9ca",
+                  "placeholder_text" : "/* Implement the function for delivering the result as specified */"
+                }
+              ],
+              "is_visible" : true,
+              "text" : "DG5AWcPEBBFh8Ml+HKqEU+Xgt1JoJUrOJSPHEh8YSxfnQlRonB0OSuojk6nG2bsu6me080wUGp3A6JvTISatRBrSuw+pCLmPQi7uG54vDRYc/UjzyOTtKLveCWP2dJOmsGy2cJiu8zpawN+Cvs5hFMg2utj/Bs+2tVxD8AiFjJiGWA0UqFzkvY2F7R6pzHWUPKYTkXKTZZC/Q7P624vfQwQQnc2sAIVWLGq9FXNLeK1/7KTCvwzhV7Eiouw2Ojn/Dc9K8qrNAvyO96aU6FzppJ/EJpAA2W4A6sk/0nwCk3oBrrDuy/kqhHEHayfFO1fv0TjNzS6HffNfFOcZpAloQoSvIZvRPx2Nj1BdjJroi8V48ZorpCYVHfsbsiMYyIJK+4E5SRGcTIPvsWrI5d8E61wA3MB12cwsyvUsFYwyktSEpyKy54J5hyvX1GOJno5yFP6ESc9EpwB/BX+2C10grDBuS0+64+3mlVZdkRVIoJ9PL1DWlrd8s6SbICwHMX8MdtqhuVkGSbvYNew4Oz+qNljZKOIjQUvWmQkdQdT3uuc2S3FdeHBzpSAHjRZfYYJNebEafnQoc79lPC4wWwBRxZ17DJmTePCOcq/Vi3tAIfVQP1h+KHqMmsTRWnA4KW2oKIizhaGRmmBz6/7LvHcQYTED2xtYxuWXpimz1Mgs6j0=",
+              "is_binary" : false
+            },
+            "test/test.js" : {
+              "name" : "test/test.js",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JLzv/Xt662f9Wz+LNKyjxeQ+CUUMBal3E/FAQ4j37EdHyRa89SOiDTIXsb+N4Bkz8QtIRILCT68u6yVsnYVL+fPJRBJg2JHVd3SZe4lOgAGbDbgXbwNm4+yGYeu+vt9Y03iPJpURDRPxfiFp429zj/CGOccod9SRdbm0Et6Ueh3E9UgXxJ4lnpj3PgJYBN/sfR5o9TM++GJTkXXteFCF2v4BHcC/54fEWCUE14mQEqz6gBZgg1Rti5wzqX+M6qRY6bgrGXbKo9dqjwaUVdklGAL3JEsa490rJxuNzX+33or61gcXywGCbYGpW7TC3pNbSMn4Zldzjz/gVeprt1CC+uHhfO0gQSAdK3RdO9ysT8svXv6RMsPy6Y96grpeAOgeinNY8loYsgkPaVD9bjG5QWzn4skKmmC2wI2P5NtM6ESQ5FofDdEZGerfAAFwNhSCP5QIbo36rJUdtZK86rkStWgCkQJSls80zfw0TGZuhuEp06yXaCgR4IriWCbm3il0JwKrkX+VlWPHMrtBYiKBda5ZFfhCfOnmLgQ26NnwXM93qi1wZyDDRhB5nUUBJXzEHIdfUa2WClsvvz2/mcWeVNcYVef6YbYvo8EzCyE9VllffA9av1B6R+zpRTYce5FKZTpaUul1UxCFW4Ul3QQqPE6CmOL+koaUlRC05PIU0QXfRxd3vkXOtFUJCh+O6EYfulC2RnkCnqNlZ0dHUHVyBemHJhUfujZGziGYW+CUx3oL+JHtYAtyVIPpFCKOMGptAJDTp68T2uvJSr1QgfdwdT53DGiKBkrkRpXQ0fAr00h1VfftuTMi+XHg9A2dSmlDIpzmQQ2Ip8s97s4hg4XZLuqV2LptIWL12j4tEu6Ja1RTIkogiybXWIhzW5EAnh7j0aohUEsHR8m4dkja7ymzUTKskNGTh9OZ3lXLptfgVFJZODShmlPOSrndQ0c45aUT955ITE2FwmebG/vq2RXF14gLS6EFyUB78b23n0dI2IVtNq6dPaEfK4s9u5HAngIAegMtxNMSvXIYYIh4VQNtlbMHMuCuA2dZqQfd/0ngy+lotkPf3cdc1dvrbi0PgxGLnu2/U+GaSU1W0e2Qg6TG3QFt86o9g3avxOe2UVYE/BhAqUSLIjErSDX7BmVmhL7gOPwD/t00kpBfpiuYzoEjeMtzhLMFZxPGHQr2TEIOOrXnxCYetX1el83tpgGuOEGQoJclDfenaLc/2aj4lSEtKw==",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Capturing groups\n\nA part of a pattern can be enclosed in parentheses `(...)`. This is called a \ncapturing group. \n\nCapturing groups have two effects:\n-  They allow to get a part of the match as a separate item in the result \n   array of the `match()` call.\n- If we apply to a quantifier to a capturing group (after the parentheses), it \n  applies to the capturing group as a whole.\n\nApplying quantifiers to a capturing group can be demonstrated as follows. If \nwe write a regular expression as `/ah+`, then it matches the letter `'a'` \nfollowing by one or more `'h'`. If we apply the same quantifier to the \ncapturing group `(ah)` with `(ah)+`, then it matches `ah`, `ahah`, `ahahah` \nand so on.\n\n## Example: Capturing groups for simple paths\n\nThe need for matching paths names is very common. In application, very \noften the different parts of a path name needs to be captured. Let us \nstart with a simplified version of path parts, that do contain only wordly \ncharacters, like `/users/name/orderid`. Identifying the different \nparts of the paths as `name` or `oderid` is very useful.\n\nThis can be easily accomplished using a regular expression with capturing \ngroups:\n```\nconst regExp = /users\\/([\\w]+)\\/([\\w]+)/g;\n```\nEach part of the path is made of repeated word characters, \nfollowed by a `'/'`. Each part is captured in a separate group, that can \nthus be captured separately. So `\"users/john/order2 users/mary/order3\".match\n(regExp)` returns `[ 'users/john/order2', 'users/mary/order3' ]`.\n\n## Getting more information on matches\n\nAs you can see from the example above, the `match()` method does not return \nthe content for the capturing groups. It only returns the array of matches, \nbut without any details about each match. However, we often need the content \nof the capturing groups, like in the path example.\n\nFor this purpose, we need to use the `matchAll()` method, rather than the \n`match()` method. The `matchAll()` differs from the `match()` method as \nfollows: \n- it does not return an array of matches but rather an iterable object.\n- when the `g` flag is present, it returns every match as an array with groups.\n- if no match is found, it returns an empty iterable object rather than `null`.\n\nThe use of the `matchAll()` method is demonstrated below for the domain example:\n```\nconst str = \"users/john/order2 users/mary/order3\";\nlet results = str.matchAll(regExp);\nfor (const result of results) {\n  console.log(result);\n}\n```\nRunning the following example would produce the following results:\n```\n[                                              \n  'users/john/order2',                         \n  'john',                                      \n  'order2',                                    \n  index: 0,                                    \n  input: 'users/john/order2 users/mary/order3',\n  groups: undefined                            \n]                                              \n[                                              \n  'users/mary/order3',                         \n  'mary',                                      \n  'order3',                                    \n  index: 18,                                   \n  input: 'users/john/order2 users/mary/order3',\n  groups: undefined                            \n]         \n```\n\nFrom this output, you can observe that:\n- there are two matches.\n- the first match is at index `0` and the second at index `18` of the input.\n- both matches capture the different parts of the path, e.g. `'john'` and \n  `'order2'`.\n\n## Named groups\n\nRemembering groups by their name would be much easier than by their \nnumber/index in the regular expression. It is in fact possible by giving \nnames to parentheses/capturing groups. This can be done by adding a `?\n<name>` immediately after the opening parenthesis, like in \n```\nconst regExp = /users\\/(?<user>[\\w]+)\\/(?<orderid>[\\w]+)/g;\n```\nIf you do so, you may then get the capturing groups as properties in the \nresults returned by the `matchAll()` method\n```\n[                                                                     \n'users/john/order2',                                                \n'john',                                                             \n'order2',                                                           \nindex: 0,                                                           \ninput: 'users/john/order2 users/mary/order3',                       \ngroups: [Object: null prototype] { user: 'john', orderid: 'order2' }\n]                                                                     \n[                                                                     \n'users/mary/order3',                                                \n'mary',                                                             \n'order3',                                                           \nindex: 18,                                                          \ninput: 'users/john/order2 users/mary/order3',                       \ngroups: [Object: null prototype] { user: 'mary', orderid: 'order3' }\n]  \n```\nThis means that you may for instance use `groups.user` for each result \nobtained from `matchAll()`.\n\nIn the task program, you are asked to develop regular expressions using \ncapturing groups for different use cases.\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 794762950,
+          "name" : "Other important concepts",
+          "files" : {
+            "task.js" : {
+              "name" : "task.js",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "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",
+              "is_binary" : false
+            }
+          },
+          "description_text" : "# Greedy and lazy quantifiers\n\nIt is important to understand that when a regular expression is matched with \nquantifiers, there are essentially two ways of matching the expression:\n- _greedy_: match as many characters as possible.\n- _lazy_: match as few characters as possible.\n\nAn example showing the difference between the two modes is given in the task \nprogram.\n\n# Anchors: string start and end\n\nThe caret `^` and dollar `$` characters have a special meaning in a regular \nexpression and act as anchors. \n\nThe caret `^` matches at the beginning of the text, while the dollar `$` \nmatches at the end of the text.\n\nAn example using anchors is given in the task program.\n\n# Alternation (OR)\n\nIn regular expression, it is also possible to use `|` that acts as an \"OR\" \nfor regular expressions.\n\nAn example using `|` is given in the task program.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "id" : 22620,
+  "generated_edu_id" : "JavaScript Course_Serge Ayer_JavaScript",
+  "additional_files" : [
+    {
+      "name" : "package.json",
+      "is_visible" : true,
+      "text" : "ZnCOpGSgTW61VzpJOz8/23v9gX5GIdHT+iMRkl6JQAIf9UubKgH9D0XMfoCvbZCAayeDnT7SGGBTZI5moDn3A9jiHfku66u5c4GGh/yzRk2gjoh588ksRvBSZ9ImDBC1GHYtJAnQPuikCxUfcBYT3T5xAVkrGFfMgLwq4rxRYbWbitZdnjrhdh/2ov5WPimD",
+      "is_binary" : false
+    }
+  ],
+  "version" : 17,
+  "edu_plugin_version" : "2023.9-2023.2-696"
+}

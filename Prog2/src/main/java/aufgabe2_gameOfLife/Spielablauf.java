@@ -11,7 +11,7 @@ public class Spielablauf {
     public void simuliereGenerationen(int anzahlGeneration){
         generation.zeichnen();
         for (int index = 0; index < anzahlGeneration; index++) {
-            generation.naechsteGeneration();
+            generation.erstelleNaechsteGeneration();
             System.out.println("");
             generation.zeichnen();
         }

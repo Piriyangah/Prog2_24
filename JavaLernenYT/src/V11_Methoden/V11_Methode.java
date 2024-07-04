@@ -1,3 +1,5 @@
+package V11_Methoden;
+
 import java.net.StandardSocketOptions;
 /*
  * Methoden: - sind Funktionen
@@ -7,6 +9,13 @@ import java.net.StandardSocketOptions;
  */
 public class V11_Methode {
     public static void main(String[] args) {
+        System.out.format("%n%nVideo 11 - Methoden in Java %n");
+        // Methode: ein Bestandteil von einer Klasse in der man Code schreiben kann
+        // Ausgeführt wird nur der Code der in Main steht
+        // Code von anderen Methode, dann muss die Methode in Main aufgerufen werden
+
+        // shift+F6 kann man Methodenname für alle Anwendungen verändern
+
         briefKopf();
         System.out.println("........... Briefinhalt............");
 
